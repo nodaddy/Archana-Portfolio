@@ -1,0 +1,53 @@
+#rapido { 
+    padding-top: 25vh;
+    background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3ED0F65C-8235-4544-9C9A-FE45D427E6F0.svg');
+    background-position: center;
+    background-size: unset; 
+    background-repeat: no-repeat; 
+    background-position-y: -20vw;  
+}
+
+.rapidoH {
+    font-family: Palatino-Roman;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #15204e; 
+}
+
+.rapidoHp {
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #585757;
+    text-align: left;
+}
+
+  
+
+@media only screen and (max-width: 600px) {
+    #rapido {
+        padding-left: 20px;
+        padding-Right: 20px;
+        background-position-y: -80vh;     
+    }
+    #bnwimg {
+        margin-left: auto !important;
+        margin-top: 30px !important;
+        width:85%
+    }
+    
+  .showOnMobile {
+    display: block !important;
+  }
+  .showOnDesktop {
+    display: none;
+  }
+   }

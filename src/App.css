@@ -1,0 +1,62 @@
+.App {
+  
+}
+
+#footer {  
+  padding-top: 12vh; 
+  color: #585757;
+  bottom: 0px;
+  height:25vh;
+  background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg');
+}
+
+#footer_white {  
+  background-color: transparent;
+  padding-top: 12vh; 
+  color: #585757;
+  bottom: 0px;
+  height:25vh; }
+ 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer_left {
+    text-align: center !important;
+  }
+  #footer_right {
+    text-align: center !important;
+  }
+ }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

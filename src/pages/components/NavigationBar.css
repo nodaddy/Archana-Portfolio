@@ -1,0 +1,10 @@
+#navbar {
+   padding-top: 20px; 
+   padding-bottom: 15px; 
+   margin: 0px;
+   position: fixed;
+   top:0;
+   width: 100vw;
+   z-index: 999;
+   height: auto;
+}
