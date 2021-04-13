@@ -1,3 +1,4 @@
+import {useEffect} from 'react';
 import './Rapido.css';
 import {Row, Col} from 'antd'; 
 
@@ -5,6 +6,11 @@ const rapidoImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/859CF4D
 const rapidoLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C3D8B4C-0F52-4937-90C7-E2AE414818D9.png";
 
 export default function Rapido(){
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <div align="center" id="rapido">
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
@@ -23,36 +29,38 @@ export default function Rapido(){
                 <Col align="left" lg={{span:7}} xs={{span:24}}>
                     <img style={{width:'160px', marginBottom:'34px'}} src={rapidoLogo}/>
                     <br/>
-                    <h3 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>AREA</b></h3>
+                    <h4 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>AREA</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'17px', color: '#585757'}}>
                         Research, Design (UX/UI, Prototyping), 
                         Voice Integration, Interaction
                     </p> 
-                    <h3 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>MY ROLE</b></h3>
+                    <h4 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>MY ROLE</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'17px', color: '#585757'}}>
                         Responsible for Redesign, Discovery and Ideation, User Research, Interaction Design 
                         and Prototype 
                     </p> 
-                    <h3 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>TEAM</b></h3>
+                    <h4 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>TEAM</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'17px', color: '#585757'}}>
                     Guru Prasad, Archana Das, Kratika Jain 
                     <br/>
                     <br/>
                     </p>
                 </Col>
-                <Col lg={{span:1}} xs={{span:24}}></Col>
-                <Col align="left" lg={{span:12}} xs={{span:24}}>
-                    <h1 className="rapidoH">
-                    Re-designing a better booking experience for India's Largest Bike Taxi Aggregator
-                    </h1>
-                    <p className="rapidoHp">
-                        Rapido is an Indian online bike taxi aggregator and logistics service provider based in India. Founded in 2015, the company operates in over 75 cities across the country. The first-of-its-kind bike taxi service provider took Bangalore by storm when it entered the market.
-                        <br/>
-                        <br/>
-                        I was a part of an ambitious project at Redd where I got the opportunity to redesign the Rapido’s booking experience for the fastest growing startup in India. An experimental design for the performance of a voice-based interface that enables users to book rides easily. The project was executed in conjunction with our partners at Slang Labs. 
-                    </p>
-                </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
+                <Col align="left" lg={{span:11}} xs={{span:24}}>
+                    <div className="rapidoH">
+                    Re-designing a better booking experience for India's Largest Bike Taxi Aggregator
+                    </div>
+                    <br/>
+                    <br/>
+                    <div className="rapidoHp">
+                    Rapido is an Indian online bike taxi aggregator and logistics service provider based in India. Founded in 2015, the company operates in over 75 cities across the country. The first-of-its-kind bike taxi service provider took Bangalore by storm when it entered the market.
+                    <br/>
+                    <br/>
+                    I was a part of an ambitious project at Redd where I got the opportunity to redesign the Rapido’s booking experience for the fastest growing startup in India. An experimental design for the performance of a voice-based interface that enables users to book rides easily. The project was executed in conjunction with our partners at Slang Labs. 
+                    </div>
+                </Col>
+                <Col align="left" lg={{span:2}} xs={{span:24}}></Col>
             </Row>
             <Row>
                 <Col span={24}>

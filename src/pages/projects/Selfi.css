@@ -1,0 +1,48 @@
+#selfi { 
+    padding-top: 25vh;
+    background-image: url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/56F3088F-0DA6-4C2E-9881-56AEB824A9D4.svg");
+    background-position: top, top;
+    background-size: contain, unset; 
+    background-repeat: no-repeat, no-repeat; 
+    background-position-y: -60vh;     
+}
+
+.selfiH {
+    font-family: Palatino-Roman;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #15204e; 
+}
+
+.selfiHp {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #585757;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .selfiM {
+        padding-left: 20px;
+        padding-Right: 20px;   
+        background-position-y: -80vh;     
+    }
+    .noBackgroundInMobile {
+        background: transparent !important; 
+    }  
+    .showInDesktop {
+        display: none !important;
+    }
+    .showInMobile {
+        display: block !important;
+    }
+}

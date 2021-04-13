@@ -10,6 +10,10 @@ import {
 import About from './pages/about/About';
 import ContentProtection from './pages/content_protection';
 import Rapido from './pages/projects/Rapido';
+import Innaz from './pages/projects/Innaz';
+import Aid from './pages/projects/AidPortfolio';
+import Ving from './pages/projects/Ving';
+import Selfi from './pages/projects/Selfi';
 
 function Footer(props){
   return (
@@ -79,6 +83,39 @@ function App() {
             <Footer id="footer"/>
             </>
           </Route>
+
+          <Route path="/innaz">
+            <>
+            <NavigationBar currentComponent="work" bgColor="#f5e5d9"/>
+            <Innaz/>
+            <Footer id="footer"/>
+            </>
+          </Route>
+
+          <Route path="/aid">
+            <>
+            <NavigationBar currentComponent="work" bgColor="#e2e2e2"/>
+            <Aid/>
+            <Footer id="footer"/>
+            </>
+          </Route>
+
+          <Route path="/ving">
+            <>
+            <NavigationBar currentComponent="work" bgColor="#d2e0f2"/>
+            <Ving/>
+            <Footer id="footer"/>
+            </>
+          </Route>
+
+          <Route path="/selfi">
+            <>
+            <NavigationBar currentComponent="work" bgColor="#f0edea"/>
+              <Selfi/>
+            <Footer id="footer"/>
+            </>
+          </Route>
+
 
         </Switch> 
       </BrowserRouter>

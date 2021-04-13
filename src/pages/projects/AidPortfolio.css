@@ -1,0 +1,56 @@
+#aid { 
+    padding-top: 25vh;
+    background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/9FB09D9D-CCEC-49CD-82F9-D394BE5DC7A4.svg');
+    background-position: center;
+    background-size: unset; 
+    background-repeat: no-repeat; 
+    background-position-y: -20vw;  
+}
+
+.aidH {
+    font-family: Palatino-Roman;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #15204e; 
+    margin-bottom:30px;
+}
+
+.aidHp {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #585757;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #aid {
+        padding-left: 20px;
+        padding-Right: 20px;
+        background-position-y: -60vh;     
+    } 
+    .showOnDesktop {
+        display: none;
+      }
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #cd2046; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }

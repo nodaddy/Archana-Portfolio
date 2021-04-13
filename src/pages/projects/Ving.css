@@ -1,0 +1,51 @@
+#ving { 
+    padding-top: 25vh;
+    background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/79E13BAF-494A-45FA-B75F-A1B739A8603F.svg'),url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/12C3131B-EE0F-4746-8EEC-384E70428488.svg");
+    background-position: top, top;
+    background-size: contain, unset; 
+    background-repeat: no-repeat, no-repeat; 
+}
+
+.vingH {
+    font-family: Palatino-Roman;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #15204e; 
+}
+
+.vingHp {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #585757;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .vingM {
+        padding-left: 20px;
+        padding-Right: 20px;   
+        background-position-y: -80vh;     
+    }
+    .noBackgroundInMobile {
+        background: transparent !important; 
+    }
+    #row2 {
+        background: none !important;
+        background-position: right !important;
+    } 
+    .showInDesktop {
+        display: none !important;
+    }
+    .showInMobile {
+        display: block !important;
+    }
+}
