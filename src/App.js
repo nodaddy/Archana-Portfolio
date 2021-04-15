@@ -14,6 +14,7 @@ import Innaz from './pages/projects/Innaz';
 import Aid from './pages/projects/AidPortfolio';
 import Ving from './pages/projects/Ving';
 import Selfi from './pages/projects/Selfi';
+import ProjectsContainer from './pages/home/components/ProjectsContainer';
 
 function Footer(props){
   return (
@@ -64,6 +65,7 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#efe7e2"/> 
             <Home/>
+            <ProjectsContainer/>
             <Footer id="footer"/>
             </>
           </Route>

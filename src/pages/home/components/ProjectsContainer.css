@@ -1,13 +1,13 @@
 #projectsContainer {
-    margin-top: 350px;
+    margin-top: 50px;
 }
 
-#projectCard :hover {
+.projectCard :hover {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    #projectCard {
-        width: 100% !important;
+@media only screen and (max-width: 880px) {
+    .projectCardImg {
+        width: 97% !important;
     }
   }
