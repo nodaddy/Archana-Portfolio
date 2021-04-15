@@ -58,7 +58,7 @@ export function ProjectCard(props){
             position:'relative', 
             marginBottom:'30px',  
             }}> 
-            <img align="center" src={props.image} style={{width:'80%'}}/>
+            <img align="center" src={props.image} style={{width:'95%'}}/>
               
               
             <br/><br/>
