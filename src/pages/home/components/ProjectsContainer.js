@@ -1,5 +1,6 @@
 import './ProjectsContainer.css';
 import {NavLink} from 'react-router-dom';
+import {Row, Col} from 'antd';
 
 const projects = [
     {
@@ -49,28 +50,28 @@ const projects = [
 export function ProjectCard(props){
     return (
         
-        <div 
+        <div  
         align="center"
         id="projectCard"
-        style={{ 
-            textAlign:'left',
+        style={{  
             position:'relative', 
-            marginBottom:'30px',
-            margin:'auto'
+            marginBottom:'30px',  
             }}> 
-            <img align="center" src={props.image} style={{width:'100%'}}/>
-            <h1 style={{position:'absolute', top:'20px', left:'35px', marginBottom:'30px'}}>
+            <img align="center" src={props.image} style={{width:'80%'}}/>
+            <h2 align="left" style={{position:'absolute', top:'35px', left:'95px', marginBottom:'30px'}}>
              {props.title} 
              <br/> 
              
-            <NavLink to={props.route} align="center" style={{fontSize:'18px',backgroundColor:'', opacity:'1', borderRadius:'5px', paddingTop:'0px',marginTop:'20px'}}>
-                {props.isPrivate == null ? "View Projects" : props.isPrivate == true ? "Enter Password" : "View Case Study" }
-                <span style={{position:'relative', top:'3px', marginLeft:'10px'}}>
+            <NavLink to={props.route} align="center" style={{fontSize:'18px',backgroundColor:'', opacity:'1', borderRadius:'5px', paddingTop:'0px', marginTop:'20px', textAlign:'left'}}>
+                {props.isPrivate == null ? "View Projects" : props.isPrivate == true ? <h4>Enter Password <span style={{position:'relative', top:'3px', marginLeft:'10px'}}>
                     &#10141;
-                </span>
+                </span></h4> : <h4>View Case Study <span style={{position:'relative', top:'3px', marginLeft:'10px'}}>
+                    &#10141;
+                </span></h4>}
+                
             </NavLink>
              
-            </h1>
+            </h2>
             
             <br/><br/>
             <br/><br/>
@@ -81,18 +82,49 @@ export function ProjectCard(props){
 
 export default function ProjectsContainer(){
     return (
-        <div id="projectsContainer" align="center">
-            {
-            projects.map((project)=>{
-                return (
-                    <ProjectCard image={project.image}
-                    title={project.title}
-                    isPrivate={project.isPrivate}
-                    route={project.route}
+        
+        <div id="projectsContainer">
+            <Row>
+                <Col xs={{span:24}} lg={{span:12}} align="center">
+                <ProjectCard image={projects[0].image}
+                    title={projects[0].title}
+                    isPrivate={projects[0].isPrivate}
+                    route={projects[0].route}
             />
-                )
-            })
-            }
+                </Col>
+                <Col xs={{span:24}} lg={{span:12}} align="center">
+                <ProjectCard image={projects[1].image}
+                    title={projects[1].title}
+                    isPrivate={projects[1].isPrivate}
+                    route={projects[1].route}
+            />
+                </Col><Col xs={{span:24}} lg={{span:12}} align="center">
+                <ProjectCard image={projects[2].image}
+                    title={projects[2].title}
+                    isPrivate={projects[2].isPrivate}
+                    route={projects[2].route}
+            />
+                </Col><Col xs={{span:24}} lg={{span:12}} align="center">
+                <ProjectCard image={projects[3].image}
+                    title={projects[3].title}
+                    isPrivate={projects[3].isPrivate}
+                    route={projects[3].route}
+            />
+                </Col><Col xs={{span:24}} lg={{span:12}} align="center">
+                <ProjectCard image={projects[4].image}
+                    title={projects[4].title}
+                    isPrivate={projects[4].isPrivate}
+                    route={projects[4].route}
+            />
+                </Col><Col xs={{span:24}} lg={{span:12}} align="center">
+                <ProjectCard image={projects[5].image}
+                    title={projects[5].title}
+                    isPrivate={projects[5].isPrivate}
+                    route={projects[5].route}
+            />
+                </Col>
+            </Row>
+             
             
               
         </div>

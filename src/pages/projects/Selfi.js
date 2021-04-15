@@ -225,10 +225,10 @@ export default function Selfi(props){
             <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
             <Row style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
-                             <Col span={10} align="left">
-                                <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A6868F65-16C7-4EDC-9C5C-1DB2B5F0B648.svg"></img>
+                             <Col span={8} align="left">
+                                <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A6868F65-16C7-4EDC-9C5C-1DB2B5F0B648.svg"></img>
                              </Col>
-                             <Col span={12}  align="left">
+                             <Col span={14}  align="left">
                                 <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/78458AF2-232F-464A-B555-BBEF69D4FFDD.svg"/>
                                 <div style={{marginTop:'10px', marginBottom:'15px', color:'#ff6b63'}}>DEFINE/ SYNTHESIZE</div>
                                  

@@ -1,7 +1,4 @@
 #projectsContainer {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: left;
     margin-top: 350px;
 }
 
