@@ -5,7 +5,17 @@ import {Row, Col} from 'antd';
 import animation1 from './../../animation_screens/animation1.mp4';
 import aidFinalProto from './../../animation_screens/aidFinalProto.mp4';
 
-const AidImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/6EBCF7C7-9F05-43F5-A8C3-CEAA95447141.png";
+import aid1 from './../../assets/aid/aid1.png';
+import aid2 from './../../assets/aid/aid2.png';
+import aid3 from './../../assets/aid/aid3.png';
+import ourIdeation1 from './../../assets/aid/ourIdeation1.png';
+import ourIdeation2 from './../../assets/aid/ourIdeation2.png';
+import ourIdeation3 from './../../assets/aid/ourIdeation3.png';
+import ourIdeation4 from './../../assets/aid/ourIdeation4.png';
+import wireframing1 from './../../assets/aid/wireframing1.png';
+import wireframing2 from './../../assets/aid/wireframing2.png';
+
+//const AidImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/6EBCF7C7-9F05-43F5-A8C3-CEAA95447141.png";
 const AidLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3C7BAF27-C0BA-473E-B852-57560A74049C.png";
 
 export default function Aid(){
@@ -76,13 +86,13 @@ export default function Aid(){
                 background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4A5ADF3B-4C72-420D-8ADE-4773C08A66B8.svg')"}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:12}} xs={{span:12}}>
-                <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/583D82D4-EFD6-40BD-9010-B27DD6FF5A88.png"/>
+                <img style={{width:'80%'}} src={aid1}/>
                 <br/>
                 <br/>
                 <h3 style={{color:'#796b6d', fontFamily:'Raleway'}}>Desktop view</h3>
             </Col>
             <Col lg={{span:8}} xs={{span:12}}>
-                <img style={{width:'52%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7FE61140-2588-490D-8F45-80C2D9134DE8.png"/>
+                <img style={{width:'52%'}} src={aid2}/>
                 <br/>
                 <h3 style={{color:'#796b6d', fontFamily:'Raleway'}}>Mobile view</h3>
             </Col>
@@ -145,7 +155,7 @@ export default function Aid(){
                     <br/>
                     <br/>
                     <h1 align="right" style={{fontFamily:'Shorelines Script Bold'}}>Our Inspiration</h1>
-                    <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/DD3D5113-D755-4E99-8D2E-0D77B0FFFBEC.png"/>
+                    <img style={{width:'90%'}} src={aid3}/>
                     <p style={{textAlign:'center', marginTop:'20px'}} className="aidHp">Jonathan Barnbook’s eclectic ideation</p>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
@@ -162,19 +172,19 @@ export default function Aid(){
                     <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>our ideation</h1>
                     <Row>
                         <Col xs={{span:12}} lg={{span:12}}>
-                            <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/1720EF28-6C70-4663-86A4-F2F4D91662F3.png"/>
+                            <img style={{width:'90%'}} src={ourIdeation1}/>
                         </Col>
                         <Col xs={{span:12}} lg={{span:12}}>
-                            <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/674C9FF8-375C-4154-ADCD-339B81D95F5C.png"/>
+                            <img style={{width:'90%'}} src={ourIdeation2}/>
                         </Col>
                     </Row>
                     <br/>
                     <Row>
                         <Col xs={{span:12}} lg={{span:12}}>
-                            <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/36651C94-23C7-41AC-B3D3-D2AA6E4E31B3.png"/>
+                            <img style={{width:'90%'}} src={ourIdeation3}/>
                         </Col>
                         <Col xs={{span:12}} lg={{span:12}}>
-                            <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/337F1093-6CE0-4830-8F2A-5EE10C24AA4C.png"/>
+                            <img style={{width:'90%'}} src={ourIdeation4}/>
                         </Col>
                     </Row>
                     <br/>
@@ -189,12 +199,12 @@ export default function Aid(){
                     <br/> 
                     <Row>
                         <Col xs={{span:24}} lg={{span:12}}>
-                            <img style={{width:'90%', marginTop:'-25px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A7D04486-D8D0-4DF1-A1BE-57B8A56E270E.svg"/>
+                            <img style={{width:'80%', marginTop:'-25px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A7D04486-D8D0-4DF1-A1BE-57B8A56E270E.svg"/>
                             <br/>
                             <br/>
                         </Col>
                         <Col xs={{span:24}} lg={{span:12}}>
-                            <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A821A58B-4E3E-4508-BDDB-AF2FBA816889.png"/>
+                            <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A821A58B-4E3E-4508-BDDB-AF2FBA816889.png"/>
                             <br/>
                             <br/>
                             <p className="aidHp" style={{width:'90%'}}>
@@ -206,12 +216,12 @@ export default function Aid(){
                     <br/>
                     <Row>
                         <Col xs={{span:12}} lg={{span:12}}>
-                            <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7F9C991C-1A5F-462C-AA24-03C64CFFA023.svg"/>
+                            <img style={{width:'68%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7F9C991C-1A5F-462C-AA24-03C64CFFA023.svg"/>
                         </Col>
                         <Col xs={{span:12}} lg={{span:12}}>
                             <br/>
                             <br/>
-                            <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3E88C675-7F0B-49F1-8B82-19D0CEBAEF28.svg"/>
+                            <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3E88C675-7F0B-49F1-8B82-19D0CEBAEF28.svg"/>
                         </Col>
                     </Row>
                     <br/>
@@ -229,10 +239,10 @@ export default function Aid(){
                     <br/>
                     <Row>
                         <Col xs={{span:24}} lg={{span:12}}>
-                            <img style={{width:'69%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/305D7E09-BED0-47F7-8B75-27E4123C6FE5.png"/>
+                            <img style={{width:'69%'}} src={wireframing1}/>
                         </Col>
                         <Col className="showOnDesktop" xs={{span:0}} lg={{span:12}}> 
-                            <img style={{width:'62%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/CA897448-3AE2-4355-97C1-9F20D684E6D3.png"/>
+                            <img style={{width:'62%'}} src={wireframing2}/>
                         </Col>
                     </Row>
                     <br/>

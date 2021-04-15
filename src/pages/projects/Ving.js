@@ -3,7 +3,21 @@ import './Ving.css';
 import {Row, Col} from 'antd'; 
 import vingBottom from './../../assets/vingBottom.png'
 
-const VingImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A808044-50B4-473F-875D-DBDD3C8A5CC8.png";
+import ving1 from './../../assets/ving/ving1.png'
+import mybookings from './../../assets/ving/mybookings.png'
+import neighbourhood from './../../assets/ving/neighbourhood.png'
+import organiser from './../../assets/ving/organiser.png'
+import alert from './../../assets/ving/alert.png'
+import redd from './../../assets/ving/red.png'
+import chooseplan from './../../assets/ving/chooseplan.png'
+import billing from './../../assets/ving/billing.png'
+import reminderbooking from './../../assets/ving/reminderbooking.png'
+import laptop from './../../assets/ving/laptop.png'
+import mobile1 from './../../assets/ving/mobile1.png'
+import mobile2 from './../../assets/ving/mobile2.png'
+
+
+//const VingImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A808044-50B4-473F-875D-DBDD3C8A5CC8.png";
 const VingLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/C4A85488-4893-4EB3-9D36-0064AF877B08.png";
 
 export default function Ving(){
@@ -19,7 +33,7 @@ export default function Ving(){
             <Row className="vingM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <img style={{width:'100%'}} src={VingImg}></img>
+                    <img style={{width:'100%'}} src={ving1}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
@@ -86,7 +100,7 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:1}} xs={{span:24}}></Col>
                 <Col align="right" lg={{span:13}} xs={{span:24}}>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0D8F4BF9-54E2-4B72-B8BA-EAE41426FE30.png"/>
+                    <img style={{width:'100%'}} src={mybookings}/>
                 </Col> 
             </Row>
             <br/>
@@ -101,7 +115,7 @@ export default function Ving(){
                 backgroundRepeat:'no-repeat'
             }}>
                 <Col span={24}>
-                    <img style={{width:'85%', marginBottom:'140px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/CABA41D4-D377-4D91-A45F-9B02CCFC1341.png"/>
+                    <img style={{width:'85%', marginBottom:'140px'}} src={neighbourhood}/>
                 </Col>
             </Row>
             <Row className="showInMobile" style={{
@@ -191,7 +205,7 @@ export default function Ving(){
             backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:20}} xs={{span:24}}>
-                <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/88F633ED-0929-469D-B931-1FCD4399BC9C.png"/>
+                <img style={{width:'60%'}} src={organiser}/>
             </Col>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
@@ -258,10 +272,10 @@ export default function Ving(){
                 }}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:11}} xs={{span:24}}>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3D15274A-E558-441C-BC09-645896432B69.png"/>
+                    <img style={{width:'100%'}} src={redd}/>
                 </Col> 
                 <Col lg={{span:11}} xs={{span:24}} align="right">
-                <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D93EC526-2FDA-4115-B525-954E295EA6E4.png"/>
+                <img style={{width:'85%'}} src={alert}/>
                 </Col> 
             </Row>
             <br/>
@@ -285,15 +299,15 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:10}} xs={{span:24}}>
                     <br/> 
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/C81A5D65-B318-43E1-BE39-CC7B9440D266.png"/>
+                    <img style={{width:'100%'}} src={billing}/>
                     <br/> 
                     <br/> 
                     <div className="showInMobile vingHp" style={{display:'none'}}>
                     Choose from several payment options. As a VING member, you are charged once a month on the date you have signed up. You have the freedom to change your plan or cancel online at any time.
                     </div>
                     <br/>
-                    <img className="showInDesktop" style={{width:'100%', marginLeft:'50px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/35108815-B84D-4EF9-966C-8D4662350650.png"/>
-                    <img className="showInMobile" style={{width:'100%', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/35108815-B84D-4EF9-966C-8D4662350650.png"/>
+                    <img className="showInDesktop" style={{width:'100%', marginLeft:'50px'}} src={chooseplan}/>
+                    <img className="showInMobile" style={{width:'100%', display:'none'}} src={chooseplan}/>
                 </Col>
                 <Col lg={{span:3}} xs={{span:24}}></Col>
                 <Col lg={{span:7}} xs={{span:0}} style={{paddingTop:'200px', textAlign:'left'}}>
@@ -353,7 +367,7 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:10}} xs={{span:24}}>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7DBC1A59-97E9-42CC-9C0A-0F9511367C00.png"/>
+                    <img style={{width:'100%'}} src={reminderbooking}/>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
@@ -374,16 +388,16 @@ export default function Ving(){
                 marginBottom:'50px', 
             }}>
                 <Col lg={{span:12}} xs={{span:12}}>
-                    <img style={{width:'100%', marginTop:'-50px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/30D2DF3D-9784-4ADB-92C0-A2F76B1B3CC6.png"/>
+                    <img style={{width:'100%', marginTop:'-50px'}} src={laptop}/>
                 </Col>
                 <Col lg={{span:6}} xs={{span:6}} align="left">
-                <img style={{width:'70%', marginTop:'-50px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/61198B35-9751-4F01-BC7A-27896461158C.png"/>
+                <img style={{width:'70%', marginTop:'-50px'}} src={mobile1}/>
                 </Col>
                 <Col lg={{span:6}} xs={{span:0}} align="left" style={{marginTop:'-150px', marginLeft:'-20px'}}>
-                <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BFD65DA4-E8BF-4F62-86BF-60F8325C2205.png"/>
+                <img style={{width:'80%'}} src={mobile2}/>
                 </Col>
                 <Col lg={{span:0}} xs={{span:6}} align="left" style={{marginTop:'-70px', marginLeft:'-20px'}}>
-                <img style={{width:'75%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BFD65DA4-E8BF-4F62-86BF-60F8325C2205.png"/>
+                <img style={{width:'75%'}} src={mobile2}/>
                 </Col>
             </Row>
         </div>

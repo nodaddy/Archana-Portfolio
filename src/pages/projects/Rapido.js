@@ -1,6 +1,11 @@
 import {useEffect} from 'react';
 import './Rapido.css';
 import {Row, Col} from 'antd'; 
+import rapido1 from './../../assets/rapido/rapido1.png'
+import rapido2 from './../../assets/rapido/rapido2.png'
+import rapido3 from './../../assets/rapido/rapido3.png'
+import rapido4 from './../../assets/rapido/rapido4.png'
+import rapido5 from './../../assets/rapido/rapido5.png'
 
 const rapidoImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/859CF4DD-8B17-416A-8296-3FB76E60035A.png";
 const rapidoLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C3D8B4C-0F52-4937-90C7-E2AE414818D9.png";
@@ -257,7 +262,7 @@ export default function Rapido(){
                         color: '#585757'
                     }}><b>Booking a Ride</b></h2>
                     <br/>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/C79BC347-F59E-4638-92DB-9F9959E68778.png">
+                    <img style={{width:'100%'}} src={rapido1}>
                     </img>
                     <br/>
                     <br/>
@@ -331,10 +336,10 @@ export default function Rapido(){
                     </h2>
                     <Row >
                         <Col lg={{span:16}} xs={{span:24}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/FE75F299-B3A7-4785-81F2-64835ABA4AD8.png"></img>
+                            <img style={{width:'80%'}} src={rapido2}></img>
                         </Col>
                         <Col lg={{span:8}} xs={{span:24}}>
-                            <img id="bnwimg" style={{marginLeft:'-150px', marginTop:'100px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/CCC21B53-BDC9-4888-B989-9BE76B0B7C0A.png"/>
+                            <img id="bnwimg" style={{marginLeft:'-170px', marginTop:'100px', width:'100%'}} src={rapido3}/>
                         </Col>
                     </Row>
                     <br/>
@@ -436,7 +441,7 @@ export default function Rapido(){
             <Row>
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col lg={{span:8}} xs={{span:24}}>
-                <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D3C51DA3-6DA9-4AAF-82C2-36364992E81D.png"/>
+                <img style={{width:'60%'}} src={rapido4}/>
             </Col> 
             <Col lg={{span:12}} xs={{span:24}}>
             <br/>
@@ -470,10 +475,10 @@ export default function Rapido(){
             <Row>
             <Col lg={{span:2}} xs={{span:24}}></Col>  
             <Col className="showOnMobile" style={{display:'none'}} lg={{span:8}} xs={{span:24}}>
-                <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/33F10BD7-71C0-4285-A0D9-C05E0BAA3F7A.png"/>
+                <img style={{width:'60%'}} src={rapido5}/>
             </Col>
             <Col lg={{span:12}} xs={{span:24}} style={{paddingTop:'50px'}}> 
-                <h2 align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Indicators for Driver</h2>
+                <h2 align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Commands</h2>
                 <p align="left" className="rapidoHb" style={{fontSize:'17px'}}>
                     Would you like to ACCEPT or DECLINE?
                     <br/>
@@ -491,7 +496,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <h2 align="left" className="showOnMobile" style={{display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>Voice Indicators for Driver</b></h2>
+            <h2 align="left" className="showOnMobile" style={{display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>En route/ Reaching Destination</b></h2>
             <Row>
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col lg={{span:8}} xs={{span:24}}>
