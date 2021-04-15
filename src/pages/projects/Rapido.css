@@ -2,7 +2,7 @@
     padding-top: 25vh;
     background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3ED0F65C-8235-4544-9C9A-FE45D427E6F0.svg');
     background-position: center;
-    background-size: unset; 
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position-y: -20vw;  
 }

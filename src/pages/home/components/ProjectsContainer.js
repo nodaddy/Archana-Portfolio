@@ -1,12 +1,13 @@
 import './ProjectsContainer.css';
 import {NavLink} from 'react-router-dom';
 import {Row, Col} from 'antd';
+import group29 from './../../../assets/group-29.svg';
 
 const projects = [
     {
         id:1,
         title: 'Rapido’s Booking Experience',
-        image: 'https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/F66D9C84-6C43-42BA-8290-A7408B4B96E5.svg',
+        image: group29,
         isPrivate: false,
         route:"/rapido"
     },
@@ -58,23 +59,8 @@ export function ProjectCard(props){
             marginBottom:'30px',  
             }}> 
             <img align="center" src={props.image} style={{width:'80%'}}/>
-            <h2 align="left" style={{position:'absolute', top:'35px', left:'95px', marginBottom:'30px'}}>
-             {props.title} 
-             <br/> 
-             
-            <NavLink to={props.route} align="center" style={{fontSize:'18px',backgroundColor:'', opacity:'1', borderRadius:'5px', paddingTop:'0px', marginTop:'20px', textAlign:'left'}}>
-                {props.isPrivate == null ? "View Projects" : props.isPrivate == true ? <h4>Enter Password <span style={{position:'relative', top:'3px', marginLeft:'10px'}}>
-                    &#10141;
-                </span></h4> : <h4>View Case Study <span style={{position:'relative', top:'3px', marginLeft:'10px'}}>
-                    &#10141;
-                </span></h4>}
-                
-            </NavLink>
-             
-            </h2>
-            
-            <br/><br/>
-            <br/><br/>
+              
+              
             <br/><br/>
         </div>
     )

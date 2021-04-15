@@ -2,9 +2,9 @@
     padding-top: 25vh;
     background-image: url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/56F3088F-0DA6-4C2E-9881-56AEB824A9D4.svg");
     background-position: top, top;
-    background-size: contain, unset; 
+    background-size: cover; 
     background-repeat: no-repeat, no-repeat; 
-    background-position-y: -60vh;     
+    background-position-y: -600vh;     
 }
 
 .selfiH {

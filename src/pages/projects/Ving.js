@@ -381,7 +381,7 @@ export default function Ving(){
             
             <Row style={{
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2CAF893D-6FDD-414B-914C-F4086E71DEE8.svg")',
-                backgroundSize:'unset',
+                backgroundSize:'cover',
                 backgroundRepeat:'no-repeat',
                 backgroundPositionY:'-130px',
                 backgroundPositionX:'-35px',
