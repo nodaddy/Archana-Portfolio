@@ -5,10 +5,10 @@
     font-family: Palatino-Roman; 
     color: #796b6d;
     background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BAA6C00D-05CF-4C28-8831-59E04D89969B.svg');
-    background-position: center;
+    background-position: bottom;
     background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position-y: -20vw; 
+    background-repeat: no-repeat;
+    background-position-y: -2050px; 
 }
 
 #homeAbout {
