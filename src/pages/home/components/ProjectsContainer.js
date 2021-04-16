@@ -100,9 +100,7 @@ export default function ProjectsContainer(){
             }}
              className="projectCardImg"   align="center"  src={projects[0].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
-            onMouseOut={()=>{
-                setZero(false);
-            }}  
+              
              className="projectCardImg" align="center" style={{width:'65%', marginBottom:'30px'}} src={projects[0].flip}/> 
       </ReactCardFlip>
       <br/><br/>
@@ -122,9 +120,7 @@ export default function ProjectsContainer(){
             }}
              className="projectCardImg"   align="center"  src={projects[1].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
-            onMouseOut={()=>{
-                setOne(false);
-            }}  
+              
              className="projectCardImg" align="center" style={{width:'65%', marginBottom:'30px'}} src={projects[1].flip}/> 
       </ReactCardFlip>
       <br/><br/>
@@ -144,9 +140,7 @@ export default function ProjectsContainer(){
             }}
              className="projectCardImg"   align="center"  src={projects[2].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
-            onMouseOut={()=>{
-                setTwo(false);
-            }}  
+             
              className="projectCardImg" align="center" style={{width:'65%', marginBottom:'30px'}} src={projects[2].flip}/> 
       </ReactCardFlip>
       <br/><br/>
@@ -167,9 +161,7 @@ export default function ProjectsContainer(){
             }}
              className="projectCardImg"   align="center"  src={projects[3].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
-            onMouseOut={()=>{
-                setThree(false);
-            }}  
+             
              className="projectCardImg" align="center" style={{width:'65%', marginBottom:'30px'}} src={projects[3].flip}/> 
       </ReactCardFlip>
       <br/><br/>
@@ -190,9 +182,7 @@ export default function ProjectsContainer(){
             }}
              className="projectCardImg"   align="center"  src={projects[4].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
-            onMouseOut={()=>{
-                setFour(false);
-            }}  
+              
              className="projectCardImg" align="center" style={{width:'65%', marginBottom:'30px'}} src={projects[4].flip}/> 
       </ReactCardFlip>
       <br/><br/>
@@ -213,9 +203,7 @@ export default function ProjectsContainer(){
             }}
              className="projectCardImg"   align="center"  src={projects[5].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
-            onMouseOut={()=>{
-                setFive(false);
-            }}  
+            
              className="projectCardImg" align="center" style={{width:'65%', marginBottom:'30px'}} src={projects[5].flip}/> 
       </ReactCardFlip>
       <br/><br/>
