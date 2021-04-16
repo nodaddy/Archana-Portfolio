@@ -49,8 +49,8 @@ export default function NavigationBar(props){
             setModalVisible(false);
           }}
            to="/">
-                <h2 style={{fontFamily:'Palatino-Roman'}} >
-                     Home
+                <h2 style={{fontFamily:'Palatino-Roman', fontWeight: props.currentComponent == "work" ? '900' : '500'}} >
+                     Work
                 </h2>
                 </NavLink>
                 <br/> 
@@ -59,7 +59,7 @@ export default function NavigationBar(props){
             setModalVisible(false);
           }}
          to="/about">
-                <h2 style={{fontFamily:'Palatino-Roman'}} >
+                <h2 style={{fontFamily:'Palatino-Roman', fontWeight: props.currentComponent == "about" ? '900' : '500'}} >
                      About 
                 </h2>
                 </NavLink>
