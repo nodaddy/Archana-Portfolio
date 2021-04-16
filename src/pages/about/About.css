@@ -1,15 +1,13 @@
 #about {
     padding-top:25vh;
     padding-bottom: 20vh; 
-    /* background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BAA6C00D-05CF-4C28-8831-59E04D89969B.svg');
-    background-position: center;
-    background-size: unset; 
-    background-repeat: no-repeat; 
-    background-position-y: 60vh;   */
-    background-color: #f6ede7;
+     background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/033864E6-A360-43CB-AB78-1D5046C99414.svg');
+     background-position: center bottom;
+     background-size: 400vw; 
+     background-repeat: no-repeat;    
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
    #profilePicture {
        width: 65% !important;  
    }

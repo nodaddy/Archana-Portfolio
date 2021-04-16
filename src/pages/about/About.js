@@ -12,7 +12,9 @@ export default function About(props){
                 /> 
             </Col>
             <Col lg={{span:12}} xs={{span:24}} style={{paddingLeft:'30px', paddingRight:'30px'}} align="center"> 
-            <h1 align="center" style={{color: '#796b6d', fontFamily: 'Roman'}}>Hey there! It's me Archana Das</h1>
+            <img align="left" style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/140DE156-B4F2-4FD7-A541-D69545AB2AAC.png"/>
+            <br/>
+            <br/>
             <p align="left" style={{fontFamily:'Raleway',fontSize: '18px', color:'#796b6d'}}>
             Finally we meet :p thanks for stopping by. I’m a Visual Experience Designer who enjoys creating memorable online experiences. I strive to create simple, original, and impactful user experiences for brands and services. I take on projects of all sizes; from web design, to branding and product design. I’ve led the visual design and creative direction of products, teams, and design systems at <b>Redd Experience Design, Bengaluru</b>. Currently I am working as freelance designer based in Guwahati, Assam.
             <br/>

@@ -88,9 +88,15 @@ export default function ProjectsContainer(){
                 <Col xs={{span:24}} lg={{span:12}} align="center">
                 <NavLink to={projects[0].route}>
                 <ReactCardFlip isFlipped={zero} flipDirection="horizontal">  
+            
             <img
              onMouseEnter={()=>{  
                 setZero(true) ;
+                setOne(false);
+                setTwo(false);
+                setThree(false);
+                setFour(false);
+                setFive(false);
             }}
              className="projectCardImg"   align="center"  src={projects[0].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
@@ -107,7 +113,12 @@ export default function ProjectsContainer(){
                 <ReactCardFlip isFlipped={one} flipDirection="horizontal">  
             <img
              onMouseEnter={()=>{  
-                setOne(true) ;
+                setZero(false) ;
+                setOne(true);
+                setTwo(false);
+                setThree(false);
+                setFour(false);
+                setFive(false);
             }}
              className="projectCardImg"   align="center"  src={projects[1].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
@@ -124,7 +135,12 @@ export default function ProjectsContainer(){
                 <ReactCardFlip isFlipped={two} flipDirection="horizontal">  
             <img
              onMouseEnter={()=>{  
-                setTwo(true) ;
+                setZero(false) ;
+                setOne(false);
+                setTwo(true);
+                setThree(false);
+                setFour(false);
+                setFive(false);
             }}
              className="projectCardImg"   align="center"  src={projects[2].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
@@ -142,7 +158,12 @@ export default function ProjectsContainer(){
                 <ReactCardFlip isFlipped={three} flipDirection="horizontal">  
             <img
              onMouseEnter={()=>{  
-                setThree(true) ;
+                setZero(false) ;
+                setOne(false);
+                setTwo(false);
+                setThree(true);
+                setFour(false);
+                setFive(false);
             }}
              className="projectCardImg"   align="center"  src={projects[3].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
@@ -160,7 +181,12 @@ export default function ProjectsContainer(){
                 <ReactCardFlip isFlipped={four} flipDirection="horizontal">  
             <img
              onMouseEnter={()=>{  
-                setFour(true) ;
+                setZero(false) ;
+                setOne(false);
+                setTwo(false);
+                setThree(false);
+                setFour(true);
+                setFive(false);
             }}
              className="projectCardImg"   align="center"  src={projects[4].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
@@ -178,7 +204,12 @@ export default function ProjectsContainer(){
                 <ReactCardFlip  isFlipped={five} flipDirection="horizontal">  
             <img
              onMouseEnter={()=>{  
-                setFive(true) ;
+                setZero(false) ;
+                setOne(false);
+                setTwo(false);
+                setThree(false);
+                setFour(false);
+                setFive(true);
             }}
              className="projectCardImg"   align="center"  src={projects[5].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
