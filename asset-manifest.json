@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/archanaPortfolio/static/css/main.53f3a4ff.chunk.css",
-    "main.js": "/archanaPortfolio/static/js/main.8f08af99.chunk.js",
-    "main.js.map": "/archanaPortfolio/static/js/main.8f08af99.chunk.js.map",
+    "main.js": "/archanaPortfolio/static/js/main.18ad12d7.chunk.js",
+    "main.js.map": "/archanaPortfolio/static/js/main.18ad12d7.chunk.js.map",
     "runtime-main.js": "/archanaPortfolio/static/js/runtime-main.6e339485.js",
     "runtime-main.js.map": "/archanaPortfolio/static/js/runtime-main.6e339485.js.map",
     "static/css/2.a5497ee8.chunk.css": "/archanaPortfolio/static/css/2.a5497ee8.chunk.css",
@@ -87,6 +87,6 @@
     "static/css/2.a5497ee8.chunk.css",
     "static/js/2.dab69b73.chunk.js",
     "static/css/main.53f3a4ff.chunk.css",
-    "static/js/main.8f08af99.chunk.js"
+    "static/js/main.18ad12d7.chunk.js"
   ]
 }
