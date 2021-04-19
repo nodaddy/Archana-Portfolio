@@ -11,7 +11,7 @@ export default function NavigationBar(props){
         <Row id="navbar" style={{backgroundColor:props.bgColor}}> 
             <Col span={2}></Col>
             <Col span={3}> 
-                    <NavLink to="/">
+                    <NavLink to="/archanaPortfolio">
                     <img
                     style={{width:'50px'}}
                     src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/708D202C-EFBC-4A32-94AF-1FBC448FFFDB.svg"/>
@@ -48,7 +48,7 @@ export default function NavigationBar(props){
             onClick={()=>{
             setModalVisible(false);
           }}
-           to="/">
+           to="/archanaPortfolio">
                 <h2 style={{fontFamily:'Palatino-Roman', fontWeight: props.currentComponent == "work" ? '900' : '500'}} >
                      Work
                 </h2>
