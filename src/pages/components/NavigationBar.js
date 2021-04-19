@@ -18,7 +18,7 @@ export default function NavigationBar(props){
                </NavLink>
             </Col>
             <Col span={17} align="right">
-                <NavLink className="showInDesktop" to="/">
+                <NavLink className="showInDesktop" to="/archanaPortfolio">
                 <span style={{ borderBottom: props.currentComponent == "work" ? '2px solid #15204e' : '0px', marginRight:'40px', fontSize:'16px', color:'#796b6d', position:'absolute',right:'50px', top:'5px'}}>
                     Work 
                 </span>
