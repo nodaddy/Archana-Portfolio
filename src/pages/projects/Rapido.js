@@ -543,7 +543,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f6fbff', paddingTop:'20px', paddingLeft:'10px', paddingRight:'10px'}}>
+            <Row style={{backgroundColor:'#f6fbff', paddingTop:'60px', paddingLeft:'10px', paddingRight:'10px', paddingBottom:'60px', marginBottom:'-60px'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col align="left" lg={{span:8}} xs={{span:24}}>
                     <h3 style={{color:'#f6d70f', fontFamily:'Raleway'}}><b>UPDATE</b></h3>

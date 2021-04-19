@@ -15,16 +15,19 @@ import Aid from './pages/projects/AidPortfolio';
 import Ving from './pages/projects/Ving';
 import Selfi from './pages/projects/Selfi';
 import ProjectsContainer from './pages/home/components/ProjectsContainer';
+import Branding from './pages/projects/Branding';
+
+import whiteFooter from './assets/group-28.svg';
 
 function Footer(props){
   return (
-    <footer id={props.id}> 
-    <Row>
-  <Col align="center" xs={{span:24}} lg={{span:2}}></Col>
-  <Col id="footer_left" style={{textAlign:'left'}} xs={{span:24}} lg={{span:10}}>
-    <span style={{ fontSize:'18px' ,color: '#585757', }}>archanadesign.com</span>
+  <footer id={props.id} style={{ zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover'}}> 
+  <Row>
+  <Col align="center" xs={{span:24}} sm={{span:24}} lg={{span:2}} md={{span:2}}></Col>
+  <Col id="footer_left" style={{textAlign:'left'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+    <span style={{ fontSize:'18px', color: '#585757'}}>archanadesign.com</span>
   </Col>
-  <Col id="footer_right" style={{textAlign:'right'}} xs={{span:24}} lg={{span:10}}>
+  <Col id="footer_right" style={{textAlign:'right'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
     <h2 style={{ color: '#585757'}}>
       <NavLink to="/">
           <span style={{fontSize:'18px', color:'#796b6d', fontWeight:'normal'}}>
@@ -47,7 +50,7 @@ function Footer(props){
       </h2>
 
     </Col>
-  <Col align="center" xs={{span:24}} lg={{span:2}}></Col>
+  <Col align="center" xs={{span:24}} sm={{span:24}} lg={{span:2}} md={{span:2}}></Col>
 
 </Row>
 </footer>
@@ -66,7 +69,10 @@ function App() {
             <NavigationBar currentComponent="work" bgColor="#efe7e2"/> 
             <Home/>
             <ProjectsContainer/>
-            <Footer id="footer"/>
+            <Footer 
+            id="footer"
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
+            />
             </>
           </Route>
 
@@ -74,7 +80,9 @@ function App() {
             <>
             <NavigationBar currentComponent="about" bgColor="#f6ede7"/>
             <About/>
-            <Footer id="footer_white"/>
+            <Footer
+            image={whiteFooter}
+            id="footer_white"/>
             </>
           </Route>
 
@@ -82,7 +90,10 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#d5e7ea"/>
             <Rapido/>
-            <Footer id="footer"/>
+            <Footer 
+            id="footer"
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
+            />
             </>
           </Route>
 
@@ -90,7 +101,9 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#f5e5d9"/>
             <Innaz/>
-            <Footer id="footer"/>
+            <Footer
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B204A745-3354-4D30-BF37-E0EC403A1E8A.svg"
+            id="footer"/>
             </>
           </Route>
 
@@ -98,7 +111,9 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#e2e2e2"/>
             <Aid/>
-            <Footer id="footer"/>
+            <Footer
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/478D9978-A5E1-431E-8952-63131AB75896.svg"
+            id="footer"/>
             </>
           </Route>
 
@@ -106,7 +121,9 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#d2e0f2"/>
             <Ving/>
-            <Footer id="footer"/>
+            <Footer
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/50DAB86D-270B-45FC-A44E-FED54CE7E292.svg"
+            id="footer"/>
             </>
           </Route>
 
@@ -114,10 +131,19 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#f0edea"/>
               <Selfi/>
-            <Footer id="footer"/>
+            <Footer 
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/F913939B-3895-4826-85E1-F9A721C9E117.svg"
+            id="footer"/>
             </>
           </Route>
 
+          <Route path="/branding_illustrations">
+            <>
+            <NavigationBar currentComponent="work" bgColor="#e2efe7"/>
+              <Branding/>
+            <Footer id="footer"/>
+            </>
+          </Route>
 
         </Switch> 
       </BrowserRouter>

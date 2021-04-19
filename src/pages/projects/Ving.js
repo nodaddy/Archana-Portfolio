@@ -1,6 +1,6 @@
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import './Ving.css';
-import {Row, Col} from 'antd'; 
+import {Row, Col, Input} from 'antd'; 
 import vingBottom from './../../assets/vingBottom.png'
 
 import ving1 from './../../assets/ving/ving1.png'
@@ -16,18 +16,22 @@ import laptop from './../../assets/ving/laptop.png'
 import mobile1 from './../../assets/ving/mobile1.png'
 import mobile2 from './../../assets/ving/mobile2.png'
 
+export const lockIcon = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/373D7483-4A00-449A-96E4-6899204BBE2D.svg";
 
 //const VingImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A808044-50B4-473F-875D-DBDD3C8A5CC8.png";
 const VingLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/C4A85488-4893-4EB3-9D36-0064AF877B08.png";
 
 export default function Ving(){
 
+
+    const [hasAccess, setHasAccess] = useState(false);
+
     useEffect(()=>{
         window.scrollTo(0, 0);
     }, [])
 
     return (
-        <div align="center" id="ving">
+        hasAccess ?   <div align="center" id="ving">
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
             <h1 style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px'}}>Perfecting the booking experience</h1>
             <Row className="vingM">
@@ -401,5 +405,27 @@ export default function Ving(){
                 </Col>
             </Row>
         </div>
+        :
+        <>
+        <div style={{paddingTop:'150px', backgroundColor:'#f5f5f5', height:'100vh'}} align="center">
+            <img src={lockIcon} style={{width:'39px'}}/>
+            <br/>
+            <h3 style={{color:'#5e5a5a', fontFamily:'Raleway', marginTop:'32px', marginBottom:'32px'}}>
+                <b>
+                    To comply with my non-disclosure agreement. 
+                <br/>
+                This content is protected. 
+                </b>
+            </h3>
+            <p style={{marginBottom:'89px', color:'#5e5a5a', fontFamily:'Raleway'}}>To view please enter password.</p>
+            <Input type="password"
+            onChange={(e)=>{
+                if(e.target.value == "password"){
+                    setHasAccess(true);
+                }
+            }}
+            placeholder="Enter Password" style={{fontSize:'15px', width:'230px'}}></Input>
+        </div>
+    </>
     )
 }

@@ -5,9 +5,7 @@
 #footer {  
   padding-top: 12vh; 
   color: #585757;
-  bottom: 0px;
-  height:25vh;
-  background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg');
+  bottom: 0px;  
 }
 
 #footer_white {  
@@ -15,7 +13,8 @@
   padding-top: 12vh; 
   color: #585757;
   bottom: 0px;
-  height:25vh; }
+  height:25vh; 
+}
  
 .App-logo {
   height: 40vmin;

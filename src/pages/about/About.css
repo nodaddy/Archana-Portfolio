@@ -1,18 +1,16 @@
 #about {
     padding-top:25vh;
     padding-bottom: 20vh; 
-     background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/033864E6-A360-43CB-AB78-1D5046C99414.svg');
-     background-position: center bottom;
-     background-size: 400vw; 
-     background-repeat: no-repeat;    
+    /* background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/033864E6-A360-43CB-AB78-1D5046C99414.svg'); */
+    background-position: center bottom;
+    background-size: 400vw; 
+    background-repeat: no-repeat;   
+    background-color: #f6ede7;  
 }
 
 @media only screen and (max-width: 1000px) {
    #profilePicture {
        width: 65% !important;  
    }
-   #about { 
-    background-color: #f6ede7;
-  }
   }
  

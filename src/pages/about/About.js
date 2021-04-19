@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 export default function About(props){
     return(
-        <Row id="about">
+        <Row id="about" style={{paddingBottom:'300px', marginBottom:'-200px'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:8}} xs={{span:24}} align="center"> 
                 <img id="profilePicture" src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4F39997D-E260-41AE-85EC-2AF3AFED18E9.png"
@@ -15,7 +15,7 @@ export default function About(props){
             <img align="left" style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/140DE156-B4F2-4FD7-A541-D69545AB2AAC.png"/>
             <br/>
             <br/>
-            <p align="left" style={{fontFamily:'Raleway',fontSize: '18px', color:'#796b6d'}}>
+            <p align="left" style={{fontFamily:'Raleway', fontSize: '18px', color:'#796b6d'}}>
             Finally we meet :p thanks for stopping by. I’m a Visual Experience Designer who enjoys creating memorable online experiences. I strive to create simple, original, and impactful user experiences for brands and services. I take on projects of all sizes; from web design, to branding and product design. I’ve led the visual design and creative direction of products, teams, and design systems at <b>Redd Experience Design, Bengaluru</b>. Currently I am working as freelance designer based in Guwahati, Assam.
             <br/>
             <br/>

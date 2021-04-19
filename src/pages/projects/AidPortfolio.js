@@ -267,7 +267,7 @@ export default function Aid(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f1f1f1', padding:'15px', paddingTop:'60px'}}>
+            <Row style={{backgroundColor:'#f1f1f1', padding:'15px', paddingTop:'60px', paddingBottom:'60px', marginBottom:'-50px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:6}} xs={{span:24}}>
                     <p style={{fontFamily:'Raleway'}}>UPDATE</p>
