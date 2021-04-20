@@ -66,7 +66,7 @@ function App() {
 
           <Route exact path="/">
             <>
-            <NavigationBar currentComponent="work" bgColor="red"/> 
+            <NavigationBar currentComponent="work" bgColor="#efe7e2"/> 
             <Home/>
             <ProjectsContainer/>
             <Footer 
