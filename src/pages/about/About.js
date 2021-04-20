@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 export default function About(props){
     return(
-        <Row id="about" style={{paddingBottom:'200px', marginBottom:'-100px'}}>
+        <Row id="about" style={{paddingBottom:'100px', marginBottom:'-50px'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:8}} xs={{span:24}} align="center"> 
                 <img id="profilePicture" src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4F39997D-E260-41AE-85EC-2AF3AFED18E9.png"
