@@ -64,7 +64,7 @@ function App() {
       <br/>
         <Switch>
 
-          <Route exact path="/archanaPortfolio">
+          <Route exact path="/">
             <>
             <NavigationBar currentComponent="work" bgColor="#efe7e2"/> 
             <Home/>

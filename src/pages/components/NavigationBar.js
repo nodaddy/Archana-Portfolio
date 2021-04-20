@@ -11,14 +11,14 @@ export default function NavigationBar(props){
         <Row id="navbar" style={{backgroundColor:props.bgColor}}> 
             <Col span={2}></Col>
             <Col span={3}> 
-                    <NavLink to="/archanaPortfolio">
+                    <NavLink to="/">
                     <img
                     style={{width:'50px'}}
                     src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/708D202C-EFBC-4A32-94AF-1FBC448FFFDB.svg"/>
                </NavLink>
             </Col>
             <Col span={17} align="right">
-                <NavLink className="showInDesktop" to="/archanaPortfolio">
+                <NavLink className="showInDesktop" to="/">
                 <span style={{ borderBottom: props.currentComponent == "work" ? '2px solid #15204e' : '0px', marginRight:'40px', fontSize:'16px', color:'#796b6d', position:'absolute',right:'50px', top:'5px'}}>
                     Work 
                 </span>
@@ -48,7 +48,7 @@ export default function NavigationBar(props){
             onClick={()=>{
             setModalVisible(false);
           }}
-           to="/archanaPortfolio">
+           to="/">
                 <h2 style={{fontFamily:'Palatino-Roman', fontWeight: props.currentComponent == "work" ? '900' : '500'}} >
                      Work
                 </h2>
