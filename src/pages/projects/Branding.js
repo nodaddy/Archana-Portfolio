@@ -30,7 +30,7 @@ export default function Branding(props){
     const [six, setSix] = useState(false);
 
     return (
-        <div style={{backgroundColor:'#e2efe7', paddingBottom:'30px', marginBottom:'-100px'}}> 
+        <div style={{backgroundColor:'#e2efe7', paddingBottom:'30px', marginBottom:'-30px'}}> 
         <Row style={{ textAlign:'center', paddingTop:'25vh'}}>
             <Col xs={{span:24}} md={{span:24}} lg={{span:24}}>
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration  - 2018-2020</h4>

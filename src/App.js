@@ -21,7 +21,22 @@ import whiteFooter from './assets/group-28.svg';
 
 function Footer(props){
   return (
-  <footer id={props.id} style={{ zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover'}}> 
+  <footer id={props.id} style={{paddingTop:'70px', paddingBottom:'30px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover'}}> 
+  {props.nextLink ? <Row>
+    <Col span={24} align="center">
+      <NavLink to={`${props.nextLink}`} style={{color:'#585757', fontSize:'13px', fontFamily:'Raleway'}}>
+      <span style={{marginRight:'6px'}}>NEXT PROJECT</span> <span style={{fontSize:'20px'}}>»</span> 
+      </NavLink>
+      <br/>
+      <NavLink to={`${props.nextLink}`}>
+      <h2 style={{color:'#585757', fontFamily:'Palatino'}}>{props.nextLinkText}</h2>
+      </NavLink>
+    </Col>
+  </Row>
+  :
+  null
+  }
+  <br/>
   <Row>
   <Col align="center" xs={{span:24}} sm={{span:24}} lg={{span:2}} md={{span:2}}></Col>
   <Col id="footer_left" style={{textAlign:'left'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
@@ -93,6 +108,8 @@ function App() {
             <Footer 
             id="footer"
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
+            nextLink="/selfi"
+            nextLinkText="Breast-Self Examination App"
             />
             </>
           </Route>
@@ -103,7 +120,10 @@ function App() {
             <Innaz/>
             <Footer
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B204A745-3354-4D30-BF37-E0EC403A1E8A.svg"
-            id="footer"/>
+            id="footer"
+            nextLink="/branding_illustrations"
+            nextLinkText="Branding + Illustrations"
+            />
             </>
           </Route>
 
@@ -113,7 +133,10 @@ function App() {
             <Aid/>
             <Footer
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/478D9978-A5E1-431E-8952-63131AB75896.svg"
-            id="footer"/>
+            id="footer"
+            nextLink="/ving"
+            nextLinkText="VING Meeting Room Software"
+            />
             </>
           </Route>
 
@@ -123,7 +146,10 @@ function App() {
             <Ving/>
             <Footer
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/50DAB86D-270B-45FC-A44E-FED54CE7E292.svg"
-            id="footer"/>
+            id="footer"
+            nextLink="/innaz"
+            nextLinkText="Website Rebranding"
+            />
             </>
           </Route>
 
@@ -133,7 +159,10 @@ function App() {
               <Selfi/>
             <Footer 
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/F913939B-3895-4826-85E1-F9A721C9E117.svg"
-            id="footer"/>
+            id="footer"
+            nextLink="/aid"
+            nextLinkText="Website Design for a Design University"
+            />
             </>
           </Route>
 

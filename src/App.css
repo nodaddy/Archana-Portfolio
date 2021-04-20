@@ -8,12 +8,15 @@
   bottom: 0px;  
 }
 
-#footer_white {  
-  background-color: transparent;
+#footer_white {   
+  background-repeat: no-repeat !important;
+  background-position: left top !important;
+  background-size: cover !important;
+  background-size: 140vw !important;
+  background-position-x: -100px !important; 
   padding-top: 12vh; 
   color: #585757;
-  bottom: 0px;
-  height:25vh; 
+  bottom: 0px ; 
 }
  
 .App-logo {
