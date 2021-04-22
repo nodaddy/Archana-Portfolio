@@ -110,13 +110,17 @@ export default function ProjectsContainer(){
                 <NavLink to={projects[1].route}>
                 <ReactCardFlip isFlipped={one} flipDirection="horizontal">  
             <img
-             onMouseEnter={()=>{  
-                setZero(false) ;
+             onMouseEnter={()=>{
                 setOne(true);
-                setTwo(false);
-                setThree(false);
-                setFour(false);
-                setFive(false);
+                 setTimeout(()=>{
+                    
+                    setZero(false);
+                    
+                    setTwo(false);
+                    setThree(false);
+                    setFour(false);
+                    setFive(false);
+                 }, 1000)
             }}
              className="projectCardImg"   align="center"  src={projects[1].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img
