@@ -21,7 +21,7 @@ import whiteFooter from './assets/group-28.svg';
 
 function Footer(props){
   return (
-  <footer id={props.id} style={{paddingTop:'70px', paddingBottom:'30px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'-30px'}}> 
+  <footer id={props.id} style={{paddingTop:'70px', paddingBottom:'30px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'-1px'}}> 
   {props.nextLink ? <Row>
     <Col span={24} align="center">
       <NavLink to={`${props.nextLink}`} style={{color:'#585757', fontSize:'13px', fontFamily:'Raleway'}}>
