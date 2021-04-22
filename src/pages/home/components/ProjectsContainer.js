@@ -111,11 +111,9 @@ export default function ProjectsContainer(){
                 <ReactCardFlip isFlipped={one} flipDirection="horizontal">  
             <img
              onMouseEnter={()=>{
-                setOne(true);
                  setTimeout(()=>{
-                    
                     setZero(false);
-                    
+                    setOne(true);
                     setTwo(false);
                     setThree(false);
                     setFour(false);
