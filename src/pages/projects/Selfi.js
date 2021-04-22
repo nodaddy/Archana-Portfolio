@@ -5,7 +5,19 @@ import selfiMockup from './../../assets/selfi/selfiMockup.png';
 import selfiForm from './../../assets/selfi/selfiForm.png';
 import selfieIa from './../../assets/selfi/selfieIa.png';
 import phaseNegative from './../../assets/selfi/phaseNegative.png';
+import elleMap from './../../assets/selfi/elleMap.png';
+import theInfo from './../../assets/selfi/theInfo.png';
+import weDesigned0 from './../../assets/selfi/weDesigned0.png';
+import na0 from './../../assets/selfi/na0.png';
+import na1 from './../../assets/selfi/na1.png';
+import na2 from './../../assets/selfi/na2.png';
+import g_61 from './../../assets/selfi/group-61.svg';
+import p1 from './../../assets/selfi/p1.png';
+import p2 from './../../assets/selfi/p2.png';
+import circleAtBack from './../../assets/selfi/circleAtBack.png';
+
 import ContentProtection from '../content_protection';
+
 const selfiImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D8473546-2CE0-4561-B5C7-EE6F90ACA4FA.svg";
 const selfiLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C3D8B4C-0F52-4937-90C7-E2AE414818D9.png";
 export const lockIcon = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/373D7483-4A00-449A-96E4-6899204BBE2D.svg";
@@ -15,7 +27,7 @@ export default function Selfi(props){
     const [hasAccess, setHasAccess] = useState(false);
 
     useEffect(()=>{
-        window.scrollTo(0, 0);
+        //window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -227,23 +239,362 @@ export default function Selfi(props){
                     </Col>
                     <Col lg={{span:2}} xs={{span:24}}></Col>
                     </Row>
-                    <Row style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
-                                    <Col span={8} align="left">
+                    <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
+                                    <Col xs={{span:24}} lg={{span:8}} align="left">
                                         <img style={{width:'90%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A6868F65-16C7-4EDC-9C5C-1DB2B5F0B648.svg"></img>
+                                        <br/>
+                                        <br/>
                                     </Col>
-                                    <Col span={14}  align="left">
+                                    <Col xs={{span:24}} lg={{span:14}} style={{textAlign:'center'}}>
                                         <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/78458AF2-232F-464A-B555-BBEF69D4FFDD.svg"/>
                                         <div style={{marginTop:'10px', marginBottom:'15px', color:'#ff6b63'}}>DEFINE/ SYNTHESIZE</div>
-                                        
+                                
                                         <div className="selfiH">
                                         What we planned
                                         </div> 
+                                        <br/>
                                         <div className="selfiHp">
                                         Drawing from our two important questions, we generated ideas for solutions. Some of these included the ability to send referral codes to your friend for discount, making a subscription model, getting notifications when your next appointments is or scheduling an appointment, having in app mental health counsellor, a breast cancer survivor community for sharing experience  and gamification of in-app actions. We bundled these ideas in various ways to get a feel for how the most promising ones could fit within an educate-and-motivate framework.
                                         </div>
                                     </Col>
-                                    <Col span={2} align="left"></Col>
+                                    <Col lg={{span:24}} lg={{span:2}} align="left"></Col>
                     </Row>
+                    <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}> 
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+
+                        <Col lg={{span:20}} xs={{span:24}} align="center">
+                            <div className="selfiHp" style={{textAlign:'center'}}>
+                                We started started ideating with Experience Maps of different sex and age groups ranging from age 23- 50 years, which allowed us to visualize how our solutions would play out in real life scenarios and understand how specific features would fit within the app’s lifecycle.The Experience Map helped us in bringing down our user group to 3 primary user types 
+                            </div>
+                        </Col> 
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+
+                    </Row>
+                    <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}> 
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+
+                        <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
+
+                            <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>01</h1>
+                            <h3 style={{fontFamily:'Palatino-Roman'}}>The Primary User</h3>
+                            <div className="selfiHp" style={{textAlign:'center'}}>
+                             Elle has dense breasts and while during her mammograms checkups she endures pain and is looking for other painfree alterantives
+                             </div>
+                        </Col> 
+                        <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
+                            <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>02</h1>
+                            <h3 style={{fontFamily:'Palatino-Roman'}}>The Survivor</h3>
+                            <div className="selfiHp" style={{textAlign:'center'}}>
+                               Miranda is a Survivor and has a family history of breast cancer, hence she is looking for other convenient methods for regulary checking her 
+                                breast health
+                            </div>
+                        </Col> 
+                        <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
+                            <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>03</h1>
+                            <h3 style={{fontFamily:'Palatino-Roman'}}>The Well- Wisher</h3>
+                            <div className="selfiHp" style={{textAlign:'center'}}>
+                                John is a dotting husband who after hearing about the importance of breast health from his colleagues and to help her maintain breast wellness.
+                                He plans to gift her the fussfree
+                                SELFI device.   
+                            </div>
+                        </Col> 
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+                    </Row>
+                    <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+                        <Col lg={{span:20}} xs={{span:24}}>
+                            <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>Elle’ s  experience  map…</h1>
+                            <img style={{width:'90%'}} src={elleMap}/>
+                          
+                        </Col>
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+                    </Row>
+                    <Row style={{backgroundColor:'#faf7f4', paddingTop:'35px', paddingBottom:'30px'}}>
+                        <Col lg={{span:5}} xs={{span:24}}></Col>
+                        <Col lg={{span:14}} xs={{span:24}}> 
+                            <div className="selfiHp" style={{textAlign:'center'}}>
+                                We worked on Elle’s Scenario Map to further gain persepctive of a First Time User to a Regular User and worked 
+                                on the features for the 1st phase of the application 
+                            </div>
+                        </Col>
+                        <Col lg={{span:5}} xs={{span:24}}></Col>
+                    </Row>
+                    <br/>
+                    <Row className="selfiM" style={{paddingBottom:'30px',  paddingTop:'30px'}}>
+                        <Col xs={{span:24}} lg={{span:2}}></Col>
+                        <Col xs={{span:24}} lg={{span:20}}>
+                            <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/734A34E9-A0FD-4E89-80CE-1E13BD5E88DA.svg"/>
+                            <br/>
+                            <br/>
+                            <div style={{fontFamily:'Raleway', color:'#ff6b63'}}>DESIGN/ PROTOTYPE</div>
+                            <br/>
+                            <br/>
+                            <div className="selfiH">
+                                What we designed
+                            </div>
+                            <br/>
+                            <div className="selfiHp">
+                            Based on our Insights and Experience Maps, we were able to create the Information Architecture for the app to get closer to the eventual formation of the app, reveal holes in the initial flows and interactions, and derive more realistic feedback.
+                            </div>
+                            <br/>
+                            <br/>
+                            <Row className="selfiM"> 
+                                <Col xs={{span:24}} lg={{span:12}} align="left">
+                                    <img style={{width:'100%'}} src={weDesigned0}/>
+                                </Col>
+                                <Col xs={{span:24}} lg={{span:1}} align="left"></Col> 
+                                <Col xs={{span:24}} lg={{span:11}} align="left">
+                                    <br/>
+                                    <br/>
+                                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>We called in a few  people  to  help us with card sorting sthe  features  for  the  app</h1>
+                                    <img className="showInDesktop" style={{width:'30%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/131A8F93-E6B1-4EFC-AE5E-8415C858BD8F.svg"/>
+                                </Col> 
+                            </Row>
+                        </Col>
+                        <Col xs={{span:24}} lg={{span:2}}></Col>
+                    </Row>
+
+                    <Row className="selfiM"> 
+                                <Col xs={{span:24}} lg={{span:24}}>
+                                <h1 align="center" style={{fontFamily:'Shorelines Script Bold'}}>
+                                the  inforamtion  architecture  that  we  created
+                                </h1>
+                                <br/>
+                                <img style={{width:'100%'}} src={theInfo}/>
+                                <br/>
+                                <div className="selfiHp" style={{textAlign:'center', padding:'15px'}}>
+                                The Information Architecture emerged through two rounds of user testing and heuristic evaluation 
+                                <br/>
+                                with feedback that we  incorporated into low-fidelity wireframes
+                                </div>
+                                <br/>
+                                <Row>
+                                    <Col span={8}>
+                                        <img style={{width:'70%'}} src={na0}></img>
+                                    </Col>
+                                    <Col span={8}>
+                                        <img style={{width:'84%'}} src={na1}></img>
+                                    </Col>
+                                    <Col span={8}>
+                                        <img style={{width:'80%'}} src={na2}></img>
+                                    </Col> 
+                                </Row>
+                                <br/>
+                                <div className="selfiHp" style={{textAlign:'center'}}>
+                                Snippets of the Key Screens that we worked on to set your medical history and 
+                                keep a track of your
+                                <br/> 
+                                scans and upcoming appointments   
+                                </div>
+                                </Col> 
+                        </Row>
+                        <br/>
+                        <br/>
+                        <Row className="selfiM" style={{background:'#faf7f4', paddingTop:'30px', paddingBottom:'30px'}}>
+                            <Col xs={{span:24}} lg={{span:'2'}}></Col>
+                            <Col xs={{span:24}} lg={{span:'20'}}>
+                            <Col xs={{span:24}} lg={{span:'2'}}></Col>
+                                <div className="selfiH" style={{textAlign:'center'}}>
+                                Perfecting the Grid Map for Scanning
+                                </div>
+                                <br/>
+                                <div className="selfiHp" style={{textAlign:'center'}}>
+                                    All Breasts are beautiful and unique and they all come in a wide range of shapes and sizes. No two people 
+                                    have breasts that look exactly the same. We had to work around 12 different breast types and sizes to figure out the
+                                    perfect Grid Map to scan all types of breast areas.
+                                </div> 
+                                <br/>
+                                <Row>
+                                    <Col xs={{span:24}} lg={{span:24}}> 
+                                        <img style={{width:'100%'}} src={"https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/5842D75B-BBE8-4422-9994-EF7BEE4CFE26.png"}/>
+                                        <br/>
+                                        <br/>
+                                        <div className="selfiHp" style={{textAlign:'center'}}>
+                                        Before beginning with the Visual Protyping. We had to crack the Scanning Process, so we got in touch with someone who made bras from scratch, and learned about sizing and used that information. We accurately measured the length and width of every cup size, of 2-3 different brands (that we picked keeping in mind the diversity of bra cups), and using an average of those measurements, create a grid that caters to every cup size separately.
+                                        </div>
+                                        <br/>
+                                        <br/>
+                                        <Row>
+                                            <Col xs={{span:24}} lg={{span:12}}>
+                                                <div className='selfiHp'>
+                                                    We worked around this method which involves a very loose mathematical formula based on how band size and cup size are calculated. In the image on the right, the underbust circumference is represented by B and the bust circumference is represented by A. The underbust circumference (B) represents the band size, while difference between the bust and underbust circumferences (A-B) is converted into a cup size. If we assume that the diameter of the sensor is S , then,
+                                                    <br/>
+                                                   <img className="showInMobile" style={{width:'80%', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
+                                                    <br/>
+                                                    <br/>
+                                                    <b>No. of columns: A/4S</b>
+                                                    <br/>
+                                                    <br/>
+                                                    The number of rows is heavily approximated by starting with the assumption that the grid would mostly have more rows than columns. With this assumption, the number of rows in the grid has to be equal to (if not more than) the number of columns. The additional rows needed can be ascertained by dividing the cup size by the sensor size. So,
+                                                    <br/>
+                                                    <br/>
+                                                    <b>No. of rows: A/4S+(A-B)/S </b>
+                                                    <br/>
+                                                    <br/>
+                                                    Example: 
+                                                    If their bra size is 32B
+                                                    Underbust circumference (B): 32in
+                                                    Bust circumference (A): 34in
+                                                    Assuming that the sensor is 2 inches in diameter,
+                                                    No. of columns: 34/8= 5
+                                                    No. of rows: 5+ 2/2= 6
+                                                </div>
+                                            </Col>
+                                            <Col xs={{span:24}} lg={{span:12}} align="center">
+                                            <br/>
+                                                <img className="showInDesktop" style={{width:'70%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
+                                                <br/>
+                                                <br/>
+                                                <br/>
+                                                <img style={{width:'50%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/5E56D502-1FF1-442E-84F7-24C6834704E5.svg"/>
+                                                <br/>
+                                                <br/>
+                                                <div style={{textAlign:'center'}} className="selfiHp">Grid for a size 32B Bra</div>
+                                            </Col>
+                                        </Row>
+                                        <br/>
+                                        <br/>
+                                        <Row>
+                                            <Col span={24}>
+                                                <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3CC5C840-03E9-40BC-82F7-FBBB9BC88140.svg"/>
+                                                <br/>
+                                                <br/>
+                                                <div style={{textAlign:'center'}} className="selfiHp">
+                                                    We went ahead with 5 columns and 6 rows approach for the Grid Map which worked the best all breast shapes 
+                                                    making sure no area of the breast gets missed out while placing the puck/sensor on the grids by the user during Scanning. 
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row> 
+                            </Col>
+                            <Col xs={{span:24}} lg={{span:'2'}}></Col>
+                        </Row>
+                        <br/>
+                        <br/>
+                        <Row>
+                            <Col lg={{span:2}} xs={{span:24}}></Col>
+                            <Col lg={{span:20}} xs={{span:24}}>
+                            <h1 align="center" style={{fontFamily:'Shorelines Script Bold'}}>Prototyping  a  better  solution</h1>
+                            <br/>
+                            <div className="selfiHp" style={{textAlign:'center'}}>
+                                To further develop the SELFI app, we revamped the key features and worked on the visual design
+                                <br/>
+                                with illustrations to convey a better story
+                            </div>
+                            </Col>
+                            <Col lg={{span:2}} xs={{span:24}}></Col>
+                        </Row>
+                        <br/>
+                        <br/>
+                        <Row className="selfiM">
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+                        <Col lg={{span:9}} xs={{span:24}}>
+                            <img style={{width:'100%'}} src={circleAtBack}/>
+                        </Col>
+                        <Col lg={{span:1}} xs={{span:24}}></Col>
+                        <Col lg={{span:10}} xs={{span:24}}>
+                            <div style={{textAlign:'left'}} className="selfiH">
+                            Manage your Profile settings and Scanning Timeline
+                            </div>
+                            <br/>
+                            <div className="selfiHp">
+                                With only a couple of clicks sort your profile settings
+                                and update your medical history for clinicians to refer to. Watch a timelapse of your overall scanning
+                                results through out the year to keep up with your
+                                breast health.
+                            </div>
+                            <br/>
+                            <Row>
+                                <Col span={12}>
+                                    <img style={{width:'80%'}} src={p1}/>
+                                </Col>
+                                <Col span={12}>
+                                <img style={{width:'80%'}} src={p2}/>
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col lg={{span:2}} xs={{span:24}}></Col>
+                        </Row>
+                        <br/>
+                        <br/>
+                        <Row>
+                        <Col lg={{span:4}} xs={{span:24}}></Col>
+                        <Col lg={{span:7}} xs={{span:24}}>
+                            <div style={{textAlign:'left'}} className="selfiH">Easy to follow Scanning Steps</div>
+                            <br/>
+                            <div className="selfiHp">
+                            The non-invasive scanning method makes the scanning process for Users less intimidating. After connecting your app with the device. The Users will be able to select their breast type and size which will redirect them to the Grid Map for the Scanning Process. 
+                            </div>
+                        </Col>
+                        <Col lg={{span:13}} xs={{span:24}}
+                         align="center"
+                         style={{
+                            background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B0FB0763-0D8B-4B63-8CDF-9A7E6B64DF58.svg')",
+                            backgroundRepeat:'no-repeat',
+                            backgroundSize: 'contain',
+                            backgroundSize: '85%',
+                            backgroundPosition: 'right top'
+                        }}
+                        >
+                        <img style={{width:'50%'}} src={selfiMockup}/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        </Col> 
+                        </Row>
+                        <Row
+                        style={{
+                            background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2B5A4B28-CF1A-40B4-A846-92ACD65A1825.svg')",
+                            backgroundRepeat:'no-repeat',
+                            backgroundSize: 'cover', 
+                            backgroundPosition: 'center top',
+                            paddingTop:'150px',
+                            marginBottom:'-100px',
+                            paddingBottom:'150px'
+                        }}
+                        >
+                            <Col span={2}></Col>
+                            <Col span={20}>
+                            <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/56E20561-C0AC-43DA-923F-0CE1EB575BF6.svg"/>
+                            <br/>
+                            <br/>
+                            <div style={{fontFamily:'Raleway', color:'#ff6b63'}}>OUTCOME</div>
+                            <br/>
+                            <br/>
+                            <div className="selfiHp" style={{textAlign:'center'}}>                                
+                                Selfi was a really exciting and fun project for me to work on as it provided real value for me as a women and being able to work and create something for breast wellness, it involved a ton of research, detailed interactions and planning which
+                                helped me understand a Users perspective and ultimately aim for better solutions . However, shifting priorities and changing roadmaps have delayed the launch of this App. Still, I learned some important takeaways from this project related to product and business processes.
+                                <br/>
+                                <br/>
+                                <br/>
+                                <div style={{textAlign:'left'}}>
+                                <b>How to adapt to changing requirements</b>
+                                <br/>
+                                <br/>
+                                New timelines, resourcing issues, and reprioritization meant the scope of the project was constantly changing. I had to adapt to those changes and still deliver the best design in time within the given timeframe.
+                                <br/>
+                                <br/>
+                                <b>Always fight for good UX</b>
+                                <br/>
+                                <br/>
+                                We as a team had to work under very strict technical constraints, but still fought for what we believed is essential to having a good user experience.
+                                <br/>
+                                <br/>
+                                <b>Don’t overpromise and underdeliver</b>
+                                <br/>
+                                <br/>
+                                I learned how to define a true MVP vs. something that is simply not usable and therefore not shippable.
+                            </div>
+                            </div>
+                            </Col>
+                            <Col span={2}></Col>
+                        </Row>
+                        <br/>
+                        <br/>
+
+
                 </div>
                 :
                 <>

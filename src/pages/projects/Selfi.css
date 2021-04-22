@@ -16,6 +16,7 @@
     line-height: 1.36;
     letter-spacing: normal;
     color: #15204e; 
+    text-align: center;
 }
 
 .selfiHp {
@@ -30,7 +31,7 @@
     text-align: left;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .selfiM {
         padding-left: 20px;
         padding-Right: 20px;   
