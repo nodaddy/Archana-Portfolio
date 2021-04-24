@@ -39,15 +39,14 @@ export default function Rapido(){
             <div id="rapidoMainH" style={{fontFamily:'Palatino-Roman', fontSize:'36px', color:'#796b6d', marginBottom:'80px'}}>
                 Perfecting the booking experience
             </div>
-            <Row>
+            <Row style={{marginBottom:'110px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <img style={{width:'100%'}} src={rapidoImg}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row> 
-            <br/>
-            <br/>
+            
             <Row>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:7}} xs={{span:24}}>
@@ -88,7 +87,7 @@ export default function Rapido(){
             </Row>
             <Row>
                 <Col span={24}>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/62460D29-468A-44BA-A9CC-4BEBDBF23D3A.svg"/>
+                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
                 </Col>
             </Row>
             <br/>

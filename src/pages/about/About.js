@@ -7,15 +7,19 @@ import resume from "./../../assets/resume/resume.pdf";
 
 export default function About(props){
     return(
-        <Row id="about" style={{paddingBottom:'100px', marginBottom:'-50px'}}>
+        <Row id="about" style={{paddingBottom:'100px', marginBottom:'-30px'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:8}} xs={{span:24}} align="center"> 
                 <img id="profilePicture" src={pp}
                 style={{width:'100%', marginBottom:'10vh'}}
                 /> 
             </Col>
-            <Col lg={{span:12}} xs={{span:24}} style={{paddingLeft:'30px', paddingRight:'30px'}} align="center"> 
-            <img align="left" style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/140DE156-B4F2-4FD7-A541-D69545AB2AAC.png"/>
+            <Col lg={{span:1}} xs={{span:24}}></Col>
+            <Col lg={{span:11}} xs={{span:24}} style={{paddingLeft:'30px', paddingRight:'30px'}} align="center"> 
+            <div>
+            <img align="left" style={{width:'80%', display:'block'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/140DE156-B4F2-4FD7-A541-D69545AB2AAC.png"/>
+            <br/>
+            </div>
             <br/>
             <br/>
             <p align="left" style={{fontFamily:'Raleway', fontSize: '18px', color:'#796b6d'}}>

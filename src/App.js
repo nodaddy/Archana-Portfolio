@@ -24,7 +24,7 @@ import { linkedIn, behance } from './links';
 
 function Footer(props){
   return (
-  <footer id={props.id} style={{paddingTop:'70px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'-1px'}}> 
+  <footer className="footer" id={props.id} style={{paddingTop:'70px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'3px'}}> 
   {props.nextLink ? <Row>
     <Col span={24} align="center">
       <NavLink to={`${props.nextLink}`} style={{color:'#585757', fontSize:'13px', fontFamily:'Raleway'}}>
@@ -42,10 +42,10 @@ function Footer(props){
   <br/>
   <Row>
   <Col align="center" xs={{span:24}} sm={{span:24}} lg={{span:2}} md={{span:2}}></Col>
-  <Col id="footer_left" style={{borderRight:'2px solid silver', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
-    <span style={{paddingBottom:'30px', fontSize:'18px', color: '#585757'}}>archanadesign.com</span>
+  <Col id="footer_left" style={{borderRight:props.section?'2px solid silver':'0px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+    <span style={{paddingBottom:'35px', fontSize:'18px', color: '#585757'}}>archanadesign.com</span>
   </Col>
-  <Col id="footer_right" style={{paddingBottom:'30px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+  <Col id="footer_right" style={{paddingBottom:'40px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
     <h2 style={{ color: '#585757'}}>
       <a href={behance}>
           <span style={{fontSize:'18px', color:'#796b6d', fontWeight:'normal'}}>
@@ -88,6 +88,7 @@ function App() {
             <Home/>
             <ProjectsContainer/>
             <Footer 
+            section={false}
             id="footer"
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
             />
@@ -99,6 +100,7 @@ function App() {
             <NavigationBar currentComponent="about" bgColor="#f6ede7"/>
             <About/>
             <Footer
+            section={false}
             image={whiteFooter}
             id="footer_white"/>
             </>
@@ -109,6 +111,7 @@ function App() {
             <NavigationBar currentComponent="work" bgColor="#d5e7ea"/>
             <Rapido/>
             <Footer 
+            section={true}
             id="footer"
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
             nextLink="/selfi"
@@ -122,6 +125,7 @@ function App() {
             <NavigationBar currentComponent="work" bgColor="#f5e5d9"/>
             <Innaz/>
             <Footer
+            section={true}
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B204A745-3354-4D30-BF37-E0EC403A1E8A.svg"
             id="footer"
             nextLink="/branding_illustrations"
@@ -135,6 +139,7 @@ function App() {
             <NavigationBar currentComponent="work" bgColor="#e2e2e2"/>
             <Aid/>
             <Footer
+            section={true}
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/478D9978-A5E1-431E-8952-63131AB75896.svg"
             id="footer"
             nextLink="/ving"
@@ -148,6 +153,7 @@ function App() {
             <NavigationBar currentComponent="work" bgColor="#d2e0f2"/>
             <Ving/>
             <Footer
+            section={true}
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/50DAB86D-270B-45FC-A44E-FED54CE7E292.svg"
             id="footer"
             nextLink="/innaz"
@@ -161,6 +167,7 @@ function App() {
             <NavigationBar currentComponent="work" bgColor="#f0edea"/>
               <Selfi/>
             <Footer 
+            section={true}
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/F913939B-3895-4826-85E1-F9A721C9E117.svg"
             id="footer"
             nextLink="/aid"
@@ -168,15 +175,15 @@ function App() {
             />
             </>
           </Route>
-
           <Route path="/branding_illustrations">
             <>
             <NavigationBar currentComponent="work" bgColor="#e2efe7"/>
               <Branding/>
-            <Footer id="footer"/>
+            <Footer 
+            section={false}
+            id="footer"/>
             </>
           </Route>
-
         </Switch> 
       </BrowserRouter>
     </div>
@@ -184,3 +191,8 @@ function App() {
 }
 
 export default App;
+
+/*
+ * No footer in the password field
+ *
+*/

@@ -20,12 +20,12 @@ export default function NavigationBar(props){
             </Col>
             <Col span={17} align="right">
                 <NavLink className="showInDesktop" to="/">
-                <span style={{fontFamily:'Palatino-Regular', fontWeight: props.currentComponent == "work" ? '700' : '', marginRight:'80px', fontSize:'22px', color:'#796b6d', position:'absolute',right:'50px', top:'10px'}}>
+                <span style={{fontFamily:'Palatino-Regular', color: props.currentComponent == "work" ? '#484848' : '#796b6d', marginRight:'50px', fontSize:'22px', position:'absolute',right:'50px', top:'10px'}}>
                     Work 
                 </span>
                 </NavLink>
                 <NavLink className="showInDesktop" to="/about">
-                <span style={{fontFamily:'Palatino-Regular', fontWeight: props.currentComponent == "about" ? '700' : '', fontSize:'22px', color:'#796b6d', position:'absolute', right:'14px', top:'10px'}} >
+                <span style={{fontFamily:'Palatino-Regular', color: props.currentComponent == "about" ? '#484848' : '#796b6d', fontSize:'22px', position:'absolute', right:'14px', top:'10px'}} >
                      About 
                 </span>
                 </NavLink>

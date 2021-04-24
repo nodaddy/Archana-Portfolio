@@ -609,7 +609,7 @@ export default function Selfi(props){
                 </div>
                 :
                 <>
-            <div style={{paddingTop:'150px', backgroundColor:'#f5f5f5', height:'100vh'}} align="center">
+            <div style={{paddingTop:'150px', backgroundColor:'white', height:'100vh'}} align="center">
                 <img src={lockIcon} style={{width:'39px'}}/>
                 <br/>
                 <h3 style={{color:'#5e5a5a', fontFamily:'Raleway', marginTop:'32px', marginBottom:'32px'}}>
