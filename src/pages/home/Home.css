@@ -2,7 +2,7 @@
     height:95vh;
     padding-left:20px;
     padding-right:20px;
-    padding-top: 25vh;
+    padding-top: 28vh;
     padding-bottom:35vh;
     font-family: Palatino-Roman; 
     color: #796b6d; 
@@ -27,7 +27,7 @@
     .home-title {
         font-size: 21px !important;
         margin-bottom: 24px !important;
-        font-family: "Palatino-Roman" !important;
+        font-family: "PalatinoETW01-Roman" !important;
     }
     #home-about {
         font-size: 14px !important;
