@@ -1,15 +1,18 @@
 #aid { 
     padding-top: 25vh;
     background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/9FB09D9D-CCEC-49CD-82F9-D394BE5DC7A4.svg');
-    background-position: center;
+    background-position: left top;
     background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position-y: -20vw;  
+    background-size: 115vw; 
+    background-repeat: no-repeat;   
+    background-position-y: -140px;
+    background-position-x: -50px;     
+
 }
 
 .aidH {
     font-family: Palatino-Roman;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -21,7 +24,7 @@
 
 .aidHp {
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -32,10 +35,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #aid {
+    #aidMainH {
+        font-size: 24px !important;
+    }
+    .aidM {
         padding-left: 20px;
-        padding-Right: 20px;
-        background-position-y: -60vh;     
+        padding-Right: 20px;  
+    } 
+    #aid {
+        background-size: 115vh;     
     } 
     .showOnDesktop {
         display: none;

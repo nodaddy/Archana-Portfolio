@@ -17,11 +17,14 @@ import Selfi from './pages/projects/Selfi';
 import ProjectsContainer from './pages/home/components/ProjectsContainer';
 import Branding from './pages/projects/Branding';
 
+import resume from "./../src/assets/resume/resume.pdf";
+
 import whiteFooter from './assets/group-28.svg';
+import { linkedIn, behance } from './links';
 
 function Footer(props){
   return (
-  <footer id={props.id} style={{paddingTop:'70px', paddingBottom:'30px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'-1px'}}> 
+  <footer id={props.id} style={{paddingTop:'70px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'-1px'}}> 
   {props.nextLink ? <Row>
     <Col span={24} align="center">
       <NavLink to={`${props.nextLink}`} style={{color:'#585757', fontSize:'13px', fontFamily:'Raleway'}}>
@@ -39,29 +42,29 @@ function Footer(props){
   <br/>
   <Row>
   <Col align="center" xs={{span:24}} sm={{span:24}} lg={{span:2}} md={{span:2}}></Col>
-  <Col id="footer_left" style={{textAlign:'left'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
-    <span style={{ fontSize:'18px', color: '#585757'}}>archanadesign.com</span>
+  <Col id="footer_left" style={{borderRight:'2px solid silver', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+    <span style={{paddingBottom:'30px', fontSize:'18px', color: '#585757'}}>archanadesign.com</span>
   </Col>
-  <Col id="footer_right" style={{textAlign:'right'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+  <Col id="footer_right" style={{paddingBottom:'30px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
     <h2 style={{ color: '#585757'}}>
-      <NavLink to="/">
+      <a href={behance}>
           <span style={{fontSize:'18px', color:'#796b6d', fontWeight:'normal'}}>
               behance
           </span>
-      </NavLink>
+      </a>
       <span style={{marginRight:'10px', marginLeft:'10px'}}>.</span> 
-      <a target="_linkedIn" href="https://www.linkedin.com">
+      <a target="_linkedIn" href={linkedIn}>
       <span style={{fontSize:'18px', color:'#796b6d', fontWeight:'normal'}}>
               linkedIn
           </span>
       </a>
       <span style={{marginRight:'10px', marginLeft:'10px'}}>.</span> 
       
-      <NavLink to="/">
+      <a target="_blank" href={resume}>
           <span style={{fontSize:'18px', color:'#796b6d', fontWeight:'normal'}}>
               resume
           </span>
-      </NavLink>
+      </a>
       </h2>
 
     </Col>

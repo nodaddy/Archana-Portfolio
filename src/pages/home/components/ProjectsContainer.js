@@ -7,6 +7,7 @@ import group30 from './../../../assets/group-30.svg';
 import group31 from './../../../assets/group-31.png';
 import group32 from './../../../assets/group-32.jpg';
 import group33 from './../../../assets/group-33.svg';
+
 import rapidoBack from './../../../assets/rapidoBack.svg';
 import selfiBack from './../../../assets/selfiBack.svg';
 import aidBack from './../../../assets/aidBack.svg';
@@ -110,15 +111,13 @@ export default function ProjectsContainer(){
                 <NavLink to={projects[1].route}>
                 <ReactCardFlip isFlipped={one} flipDirection="horizontal">  
             <img
-             onMouseEnter={()=>{
-                 setTimeout(()=>{
+             onMouseEnter={()=>{ 
                     setZero(false);
                     setOne(true);
                     setTwo(false);
                     setThree(false);
                     setFour(false);
-                    setFive(false);
-                 }, 1000)
+                    setFive(false); 
             }}
              className="projectCardImg"   align="center"  src={projects[1].image}  style={{width:'65%', marginBottom:'30px'}}/>
             <img

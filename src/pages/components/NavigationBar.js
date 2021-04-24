@@ -13,18 +13,19 @@ export default function NavigationBar(props){
             <Col span={3}> 
                     <NavLink to="/">
                     <img
-                    style={{width:'50px'}}
+                    id="logo"
+                    style={{width:'70px'}}
                     src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/708D202C-EFBC-4A32-94AF-1FBC448FFFDB.svg"/>
                </NavLink>
             </Col>
             <Col span={17} align="right">
                 <NavLink className="showInDesktop" to="/">
-                <span style={{ fontWeight: props.currentComponent == "work" ? '700' : '', marginRight:'40px', fontSize:'16px', color:'#796b6d', position:'absolute',right:'50px', top:'7px'}}>
+                <span style={{fontFamily:'Palatino-Regular', fontWeight: props.currentComponent == "work" ? '700' : '', marginRight:'80px', fontSize:'22px', color:'#796b6d', position:'absolute',right:'50px', top:'10px'}}>
                     Work 
                 </span>
                 </NavLink>
                 <NavLink className="showInDesktop" to="/about">
-                <span style={{ fontWeight: props.currentComponent == "about" ? '700' : '', fontSize:'16px', color:'#796b6d', position:'absolute', right:'14px', top:'7px'}} >
+                <span style={{fontFamily:'Palatino-Regular', fontWeight: props.currentComponent == "about" ? '700' : '', fontSize:'22px', color:'#796b6d', position:'absolute', right:'14px', top:'10px'}} >
                      About 
                 </span>
                 </NavLink>
@@ -49,7 +50,7 @@ export default function NavigationBar(props){
             setModalVisible(false);
           }}
            to="/">
-                <h2 style={{fontFamily:'Palatino-Roman', fontWeight: props.currentComponent == "work" ? '900' : '500'}} >
+                <h2 style={{fontFamily:'Palatino-Regular', fontWeight: props.currentComponent == "work" ? '900' : '500'}} >
                      Work
                 </h2>
                 </NavLink>
@@ -59,7 +60,7 @@ export default function NavigationBar(props){
             setModalVisible(false);
           }}
          to="/about">
-                <h2 style={{fontFamily:'Palatino-Roman', fontWeight: props.currentComponent == "about" ? '900' : '500'}} >
+                <h2 style={{fontFamily:'Palatino-Bold', fontWeight: props.currentComponent == "about" ? '900' : '500'}} >
                      About 
                 </h2>
                 </NavLink>

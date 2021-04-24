@@ -1,15 +1,17 @@
 #selfi { 
     padding-top: 25vh;
     background-image: url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/56F3088F-0DA6-4C2E-9881-56AEB824A9D4.svg");
-    background-position: top, top;
+    background-position: left top;
     background-size: cover; 
-    background-repeat: no-repeat, no-repeat; 
-    background-position-y: -600vh;     
+    background-size: 110vw; 
+    background-repeat: no-repeat;   
+    background-position-y: -250px;     
+    background-position-x: -50px;     
 }
 
 .selfiH {
     font-family: Palatino-Roman;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -21,7 +23,7 @@
 
 .selfiHp {
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -31,7 +33,13 @@
     text-align: left;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
+    #aidLogoI {
+        width: 110px !important;
+    }
+    #selfi {     
+        background-size: 145vh; 
+    }
     .selfiM {
         padding-left: 20px;
         padding-Right: 20px;   
@@ -58,5 +66,5 @@ ul {
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    margin-left: 0px; /* Also needed for space (tweak if needed) */
   }

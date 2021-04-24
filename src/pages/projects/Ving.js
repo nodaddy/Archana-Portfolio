@@ -33,7 +33,10 @@ export default function Ving(){
     return (
         hasAccess ?   <div align="center" id="ving">
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
-            <h1 style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px'}}>Perfecting the booking experience</h1>
+            <div id="vingMainH" style={{width:'80%', fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'10px', fontSize:'48px'}}>
+            Creating a Software for 
+            Booking rooms online
+            </div>
             <Row className="vingM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
@@ -41,15 +44,11 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
-            <br/>
-            <br/>
-            <Row className="vingM" id="row2" style={{ marginTop:'-600px', paddingTop:'700px', backgroundSize:'contain', background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/90976B30-E373-443D-A590-204AD34B8039.svg")',backgroundPosition:'right', backgroundRepeat:'no-repeat'}}>
+            <br/> 
+            <Row className="vingM" id="row2" style={{ marginTop:'-600px', paddingTop:'620px', backgroundSize:'contain', background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/90976B30-E373-443D-A590-204AD34B8039.svg")',backgroundPosition:'right', backgroundRepeat:'no-repeat'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col align="left" lg={{span:8}} xs={{span:24}}> 
-                <img style={{width:'55%'}} src={VingLogo}/>
-                <br/>
-                <br/>
-                <br/>
+                <img id="vingLogo" style={{width:'270px'}} src={VingLogo}/> 
                 <div className="vingH">
                 Online Meeting Room Booking System
                 </div>
@@ -61,13 +60,14 @@ export default function Ving(){
                 <br/>
                 <h4 style={{fontFamily:'Raleway', color:'#7791ff'}}><b>AREA</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'16px', color: '#585757'}}>
-                        Research, Design (UX/UI, Prototyping), 
-                        Voice Integration, Interaction
+                    
+                    App Design, Visual Design, Service Design
+
                     </p> 
                     <h4 style={{fontFamily:'Raleway', color:'#7791ff'}}><b>MY ROLE</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'16px', color: '#585757'}}>
-                        Responsible for Redesign, Discovery and Ideation, User Research, Interaction Design 
-                        and Prototype 
+                     
+                    Lead the UI design, discovery, research, requirements and design through launch. 
                 </p> 
             </Col>
             <Col lg={{span:9}} xs={{span:0}} align="right">
@@ -91,9 +91,8 @@ export default function Ving(){
                 <Col align="left" lg={{span:8}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/9B62B085-AF42-4F0E-9808-AA064943FE23.svg"/>
                     <br/>
-                    <div style={{color:'#7791ff', fontFamily:'Raleway', marginTop:'10px'}}> GOAL </div>
-                    <br/>
-                    <br/>
+                    <div style={{color:'#7791ff', fontFamily:'Raleway', marginTop:'10px', marginBottom:'24px'}}><b>GOAL</b></div>
+                    
                     <div className="vingH">
                     A Single Application to Balance them all
                     </div>
@@ -138,7 +137,7 @@ export default function Ving(){
             <Row className="vingM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <h2 style={{fontFamily:'Palatino-Roman'}}>     
+                    <h2 style={{fontFamily:'Palatino-Roman', fontSize:'28px', color:'#585757'}}>     
                         During discovery we found out that Business Organisations had to to manage their booking data manually through excel sheet and for end-to-end customers there was 
                         not a single platform where they can book meetings as per their requirements.
                     </h2>
@@ -151,10 +150,9 @@ export default function Ving(){
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:20}} xs={{span:24}} >
             <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D85EBB51-5B45-43A8-80DB-A60111DE1070.svg"/>
-            <div style={{color:'#7791ff', fontFamily:'Raleway', marginTop:'10px'}}> APPROACH </div>
+            <div style={{color:'#7791ff', fontFamily:'Raleway', marginTop:'10px'}}> <b>APPROACH</b> </div>
             <br/>
-            <div className="vingH">What we Planned</div>
-            <br/>
+            <div className="vingH" style={{marginBottom:'10px'}}>What we Planned</div> 
             <div className="vingHp" style={{textAlign:'center'}}>
                 VING helped us in understanding the problems faced by the Hospitality domain organisations and design the
                 web app accordingly by automating the entire process booking rooms and reducing the overhead of the admins 
@@ -209,7 +207,7 @@ export default function Ving(){
             backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:20}} xs={{span:24}}>
-                <img style={{width:'60%'}} src={organiser}/>
+                <img id="orgImg" style={{width:'60%'}} src={organiser}/>
             </Col>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
@@ -219,10 +217,9 @@ export default function Ving(){
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:20}} xs={{span:24}} >
             <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/22145BB8-171D-46AF-B017-3BE93B06344B.svg"/>
-            <div style={{color:'#7791ff', fontFamily:'Raleway', marginTop:'10px'}}> FEATURES AND FUNCTIONALITY </div>
+            <div style={{color:'#7791ff', fontFamily:'Raleway', marginTop:'10px'}}> <b>FEATURES AND FUNCTIONALITY</b> </div>
             <br/>
-            <div className="vingH">What we designed</div>
-            <br/>
+            <div className="vingH" style={{marginBottom:'10px'}}>What we designed</div> 
             <div className="vingHp" style={{textAlign:'center'}}>
             We designed a system where  all the user groups  can manage their inventory, manage bills, schedule dates. Follow up with upcoming meetings, form teams and seek help fom support for tutorials.
             </div>
@@ -243,7 +240,7 @@ export default function Ving(){
                     teams and notifications.
                 </div>
                 <br/>
-                <div className="vingHp" style={{textAlign:'center'}}>
+                <div className="vingHp" style={{textAlign:'left'}}>
                     With only a couple of clicks and sort by filters employees can book a conference room that fits their needs. Schedule dates, select room sizes. Add Co-organiser and add attendees. Follow up on their upcoming meetings. Create and manage teams.
                 </div>
                 <br/>
@@ -281,18 +278,16 @@ export default function Ving(){
                 <Col lg={{span:11}} xs={{span:24}} align="right">
                 <img style={{width:'85%'}} src={alert}/>
                 </Col> 
-            </Row>
-            <br/>
-            <br/>
+            </Row> 
             <Row className="vingM noBackgroundInMobile" style={{
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D42BB965-C9CA-4A03-9F46-82C7142A8146.svg")',
                 backgroundRepeat:'no-repeat',
                 backgroundSize:'contain',
                 backgroundPosition:'left',
                 backgroundPositionY:'-30px',
-                marginTop:'-80px',
-                paddingTop:'80px',
-                paddingBottom:'180px',
+                marginTop:'30px',
+                paddingTop:'10px',
+                paddingBottom:'110px',
         }}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:0}} xs={{span:24}} style={{ textAlign:'center'}}>
@@ -329,8 +324,8 @@ export default function Ving(){
             <Row
             className="vingM noBackgroundInMobile"
             style={{
-                marginTop:'-250px',
-                paddingTop:'200px',
+                marginTop:'-150px', 
+                paddingTop:'130px',
                 paddingBottom:'150px',
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0378630F-477E-485F-B6FB-015F00131AA9.svg")',
                 backgroundSize:'contain',

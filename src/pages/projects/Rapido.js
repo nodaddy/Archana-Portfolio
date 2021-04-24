@@ -7,6 +7,23 @@ import rapido3 from './../../assets/rapido/rapido3.png'
 import rapido4 from './../../assets/rapido/rapido4.png'
 import rapido5 from './../../assets/rapido/rapido5.png'
 
+import pUser from './../../animation_screens/pUser.mp4';
+import pu2 from './../../assets/rapido/pu2.png';
+import pu3 from './../../assets/rapido/pu3.png'; 
+
+import sp1 from './../../assets/rapido/sp1.png'; 
+import sp2 from './../../assets/rapido/sp2.png'; 
+import sp3 from './../../assets/rapido/sp3.png';
+
+
+import ts1 from './../../assets/rapido/ts1.png'; 
+import ts2 from './../../assets/rapido/ts2.png'; 
+import ts3 from './../../assets/rapido/ts3.png';
+
+import cb1 from './../../assets/rapido/cb1.png';
+import cb2 from './../../assets/rapido/cb2.png';
+
+
 const rapidoImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/859CF4DD-8B17-416A-8296-3FB76E60035A.png";
 const rapidoLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C3D8B4C-0F52-4937-90C7-E2AE414818D9.png";
 
@@ -19,20 +36,22 @@ export default function Rapido(){
     return (
         <div align="center" id="rapido">
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
-            <h1 style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px'}}>Perfecting the booking experience</h1>
+            <div id="rapidoMainH" style={{fontFamily:'Palatino-Roman', fontSize:'36px', color:'#796b6d', marginBottom:'80px'}}>
+                Perfecting the booking experience
+            </div>
             <Row>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <img style={{width:'100%'}} src={rapidoImg}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
-            </Row>
+            </Row> 
             <br/>
             <br/>
             <Row>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:7}} xs={{span:24}}>
-                    <img style={{width:'160px', marginBottom:'34px'}} src={rapidoLogo}/>
+                    <img id="rapido-logo" style={{width:'169px', marginBottom:'34px'}} src={rapidoLogo}/>
                     <br/>
                     <h4 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>AREA</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'17px', color: '#585757'}}>
@@ -102,9 +121,9 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row>
+            <Row style={{backgroundColor:'#f6fbff', paddingTop:'30px'}}>
                 <Col span={2}></Col>
-                <Col align="left" lg={{span:20}} xs={{span:24}}>
+                <Col align="center" lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A1671438-FEF7-40FB-842E-9FFB9DBD285D.svg"></img>
                     <br/>
                     <br/>
@@ -126,10 +145,8 @@ export default function Rapido(){
                     </h2>
                 </Col>
                 <Col span={2}></Col>
-            </Row>
-            <br/>
-            <br/>
-            <Row>
+            </Row> 
+            <Row style={{backgroundColor:'#f6fbff', paddingTop:'25px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
                     <h3 style={{
@@ -274,13 +291,13 @@ export default function Rapido(){
                     </h2>
                     <Row>
                         <Col align="center" lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/8C514DE4-1B37-4DED-9FD8-9EFAAE251E33.png"/>
+                            <img style={{width:'85%'}} src={ts1}/>
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/DCEC487C-17EE-4292-A3D8-C04FA2CCBD58.png"/>
+                            <img style={{width:'85%'}} src={ts2}/>
                         </Col>
                         <Col align="center" lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/5BF205BD-3627-4899-90B6-E3F2127D8796.png"/>
+                            <img style={{width:'85%'}} src={ts3}/>
                         </Col>
                         <Col lg={{span:24}} xs={{span:12}}>
                             <br/>
@@ -296,10 +313,10 @@ export default function Rapido(){
                     </h2>
                     <Row>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/677EA1D4-42B2-41DC-B4EA-BA743005088F.png"/>
+                            <img style={{width:'85%'}} src={cb1}/>
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/E00B0B58-023C-4613-8293-54B0DEAD3BF1.png"/>
+                            <img style={{width:'85%'}} src={cb2}/>
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
                            
@@ -312,13 +329,13 @@ export default function Rapido(){
                     </h2>
                     <Row>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/ADCEBB27-B509-4DE3-87E3-71AE37D3C73C.png"/>
+                            <img style={{width:'85%'}} src={sp1}/>
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/EFAFC54F-D38A-4846-AE00-8C77495F0BC9.png"/>
+                            <img style={{width:'85%'}} src={sp2}/>
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/9FB75A23-C69B-45D1-8836-14B71BCF0188.png"/>
+                            <img style={{width:'85%'}} src={sp3}/>
                         </Col>
                         <Col lg={{span:24}} xs={{span:12}}>
                             <br/>
@@ -397,15 +414,18 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Pro Users</b>
                     </h2>
-                    <Row >
-                        <Col lg={{span:0}} xs={{span:0}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D62BC45F-062E-448F-BA72-5A43A42883A4.png"></img>
+                    <Row > 
+                        <Col lg={{span:8}} xs={{span:12}}>
+                            <video style={{width:'85%'}} loop="true" autoplay="autoplay" muted>
+                                <source src={pUser} type="video/mp4"/>
+                        video tag is not supported
+                    </video> 
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/07CADD7E-8EE3-40F2-B26D-2EB8AAACD389.png"></img>
+                            <img style={{width:'85%'}} src={pu2}></img>
                         </Col>
                         <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3829E0B9-D878-4683-BE7F-35EA633596CB.png"></img>
+                            <img style={{width:'85%'}}  src={pu3}></img>
                         </Col>
                     </Row>
                     <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757'}}>
@@ -543,16 +563,18 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f6fbff', paddingTop:'60px', paddingLeft:'10px', paddingRight:'10px', paddingBottom:'60px', marginBottom:'-60px'}}>
+            <Row style={{backgroundColor:'#f6fbff', paddingTop:'90px', paddingLeft:'10px', paddingRight:'10px', paddingBottom:'150px', marginBottom:'-60px'}}>
+            
             <Col lg={{span:2}} xs={{span:24}}></Col> 
-            <Col align="left" lg={{span:8}} xs={{span:24}}>
-                    <h3 style={{color:'#f6d70f', fontFamily:'Raleway'}}><b>UPDATE</b></h3>
+            <Col align="left" lg={{span:7}} xs={{span:24}}>
+            <h4 style={{fontFamily:'Raleway', color:'#f6d70f'}}><b>UPDATE</b></h4>
                     <h2 className="rapidoH">Currently under work with Slang Labs</h2>
             </Col> 
+            <Col align="left" lg={{span:1}} xs={{span:24}}></Col>
             <Col lg={{span:12}} xs={{span:24}}>
-                    <p className="rapidoHp">
-                        
-It was really an exciting experience to be a part of Rapido’s and Slang Labs experimental design. At the moment, we have not rolled out the updated experience to enough users to gather statistical significance to validate the success of the new design and are hoping to get some feedbacks obstructive or positive.
+            <h4 style={{fontFamily:'Raleway', color:'#f6fbff'}}><b>.</b></h4>
+                    <p className="rapidoHp"> 
+                        It was really an exciting experience to be a part of Rapido’s and Slang Labs experimental design. At the moment, we have not rolled out the updated experience to enough users to gather statistical significance to validate the success of the new design and are hoping to get some feedbacks obstructive or positive.
                     </p>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 

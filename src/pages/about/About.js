@@ -1,13 +1,16 @@
 import {Row, Col} from 'antd';
 import './About.css';
 import {NavLink} from 'react-router-dom';
+import pp from './../../assets/pp/pp.jpg';
+import { behance, linkedIn } from '../../links';
+import resume from "./../../assets/resume/resume.pdf";
 
 export default function About(props){
     return(
         <Row id="about" style={{paddingBottom:'100px', marginBottom:'-50px'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:8}} xs={{span:24}} align="center"> 
-                <img id="profilePicture" src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4F39997D-E260-41AE-85EC-2AF3AFED18E9.png"
+                <img id="profilePicture" src={pp}
                 style={{width:'100%', marginBottom:'10vh'}}
                 /> 
             </Col>
@@ -33,9 +36,9 @@ export default function About(props){
             <br/>
             <br/>
             <h4 style={{color:'#c96b74'}}>LINKS</h4>
-            <NavLink style={{color:'#796b6d'}} to="/#">Resume</NavLink><br/>
-            <NavLink style={{color:'#796b6d'}}  to="/#">LinkedIn</NavLink><br/>
-            <NavLink style={{color:'#796b6d'}}  to="/#">Behance</NavLink> 
+            <a style={{color:'#796b6d'}} href={resume}>Resume</a><br/>
+                <a style={{color:'#796b6d'}}  href={linkedIn}>LinkedIn</a><br/>
+                <a style={{color:'#796b6d'}}  href={behance}>Behance</a> 
             </p>
             </Col>
             <Col lg={{span:2}} xs={{span:24}}></Col>

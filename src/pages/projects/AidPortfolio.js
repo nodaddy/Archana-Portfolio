@@ -29,9 +29,9 @@ export default function Aid(){
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>
             Project Duration  -  Sept 2019- Feb 2020
 </h4>
-            <h1 style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px'}}>
+            <div id="aidMainH" style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
             University Website Redesign 
-            </h1>
+            </div>
             <Row>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
@@ -44,10 +44,10 @@ export default function Aid(){
             </Row>
             <br/>
             <br/>
-            <Row>
+            <Row className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:7}} xs={{span:24}}>
-                    <img style={{width:'60%', marginBottom:'34px'}} src={AidLogo}/>
+                    <img id="aidLogoI" style={{width:'169px', marginBottom:'34px'}} src={AidLogo}/>
                     <br/> 
                     <h4 style={{fontFamily:'Raleway', color:'#e00044'}}><b>AREA</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'17px', color: '#585757'}}>
@@ -83,7 +83,12 @@ export default function Aid(){
             <br/>
             <Row style={{
                 paddingTop:'30px',
-                background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4A5ADF3B-4C72-420D-8ADE-4773C08A66B8.svg')"}}>
+                background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4A5ADF3B-4C72-420D-8ADE-4773C08A66B8.svg')",
+                backgroundSize:"cover",
+                backgroundPosition: "center top",
+                backgroundSize:"200vw"
+            }}
+                >
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:12}} xs={{span:12}}>
                 <img style={{width:'80%'}} src={aid1}/>
@@ -100,7 +105,7 @@ export default function Aid(){
             </Row>
             <br/>
             <br/>
-            <Row>
+            <Row className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <div className="aidH">Our Approach</div>
@@ -116,7 +121,7 @@ export default function Aid(){
                     </ul>
                     </p>
                     <br/>
-                    <p align="center" style={{fontFamily:'Palatino-Roman', fontSize:'20px', color:'#585757'}}>
+                    <p align="left" style={{fontFamily:'Palatino-Roman', fontSize:'20px', color:'#585757'}}>
                     " Make it easy to understand the company value and facilitate a positive user
                     experience through informative and relevant content to navigate potential  
                     clients in the right direction."
@@ -134,15 +139,15 @@ export default function Aid(){
             <br/>
             <br/>
             <Row style={{
-                paddingTop:'30px',
+                paddingTop:'117px',
                 paddingLeft:'15px',
                 paddingRight:'15px',
-                background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0B95BF7B-07F6-4F14-8AA1-CC8AD8419FAB.svg")'
+                background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0B95BF7B-07F6-4F14-8AA1-CC8AD8419FAB.svg")',
+                backgroundPositionX: '-20px'
                 }}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <div align="left" className="aidH">What we designed</div>
-                    <br/>
+                    <div align="left" style={{marginBottom:'30px'}} className="aidH">What we designed</div>
                     <p className="aidHp">
                     We needed to create a system that could logically represent a wide breadth of content they started producing, including e.g. student work, scholarships, blogs, placements, etc. Also, to this it was important to come up with a modern and appealing visual style that will shine a light on the brand personality.
                     <br/>
@@ -154,18 +159,16 @@ export default function Aid(){
                     </p>
                     <br/>
                     <br/>
-                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold'}}>Our Inspiration</h1>
-                    <img style={{width:'90%'}} src={aid3}/>
+                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold', width:'50%'}}>Our Inspiration</h1>
+                    <img style={{width:'50%'}} src={aid3}/>
                     <p style={{textAlign:'center', marginTop:'20px'}} className="aidHp">Jonathan Barnbook’s eclectic ideation</p>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
-            </Row>
-            <br/>
-            <br/>
-            <Row>
+            </Row> 
+            <Row style={{marginTop:'107px'}} className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <p className="aidHp">
+                    <p className="aidHp" style={{fontSize:'30px', fontFamily:'Palatino-Romoan', color:'#585757'}}>
                     “Design shapes the environment, changing the way we perceive things and informing our choices” - <i>Barnbrook</i>
                     </p>
                     <br/>
@@ -189,13 +192,13 @@ export default function Aid(){
                     </Row>
                     <br/>
                     <br/>
-                    <p className="aidHp">
+                    <p style={{fontSize:'20px'}} className="aidHp">
                         I worked around the most common shapes and started placing them in different sequences to create a dynamic 
                         aesthetic for the brand.
                     </p>
                     <br/>
                     <br/>
-                    <h2 align="right" style={{fontFamily:'Shorelines Script Bold'}}>more explorations</h2>
+                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold'}}>more explorations</h1>
                     <br/> 
                     <Row>
                         <Col xs={{span:24}} lg={{span:12}}>
@@ -227,8 +230,7 @@ export default function Aid(){
                     <br/>
                     <br/>
                     <br/>
-                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>wireframing</h1>
-                    <br/>
+                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', marginBottom:'19px'}}>wireframing</h1> 
                     <p className="aidHp">
                     Finally, once all of the planning and foundation was built, we were ready to play with wireframes for the core desktop experience. Once you know WHY and WHAT we are doing in the written form constructing pages is a piece of cake. Of course, we went through circles of feedback, but it was pretty easy to move things around without involving design ego for graphics.
                     <br/>
@@ -294,7 +296,7 @@ export default function Aid(){
                         <br/>
                         <br/>
                         <br/>
-                        Check out: https://asianinstituteofdesign.in/
+                        Check out: <a target="_aidDesign" href="https://asianinstituteofdesign.in/">https://asianinstituteofdesign.in/</a>
                     </p>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>

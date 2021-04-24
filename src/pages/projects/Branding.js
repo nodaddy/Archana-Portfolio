@@ -41,7 +41,7 @@ export default function Branding(props){
         </Row>
         <Row>
                 <Col xs={{span:24}} lg={{span:12}} align="center">
-                <NavLink to="/branding_illustrations">
+                <a target="_1" href="https://www.behance.net/gallery/77039627/Sutasttra-UI-Design-Concept">
                 <ReactCardFlip isFlipped={one} flipDirection="horizontal">  
             
             <img 
@@ -58,11 +58,11 @@ export default function Branding(props){
                 className="projectCardImg" align="center" style={{width:'70%', marginBottom:'30px'}} src={onef}/> 
       </ReactCardFlip>
       <br/><br/>
-            </NavLink>
+            </a>
                 </Col>
                 
                 <Col xs={{span:24}} lg={{span:12}} align="center">
-                <NavLink to="/branding_illustrations">
+                <a target="_2" href="https://www.behance.net/gallery/59238447/INTERNSHIP-PROJECT-System-Development">
                 <ReactCardFlip isFlipped={two} flipDirection="horizontal">  
             
             <img 
@@ -79,11 +79,11 @@ export default function Branding(props){
                 className="projectCardImg" align="center" style={{width:'70%', marginBottom:'30px'}} src={twof}/> 
       </ReactCardFlip>
       <br/><br/>
-            </NavLink>
+            </a>
                 </Col>
 
                 <Col xs={{span:24}} lg={{span:12}} align="center">
-                <NavLink to="/branding_illustrations">
+                <a target="_3" href="https://www.behance.net/gallery/59228371/Blends-Brand-Concept">
                 <ReactCardFlip isFlipped={three} flipDirection="horizontal">  
             
             <img 
@@ -100,11 +100,11 @@ export default function Branding(props){
                 className="projectCardImg" align="center" style={{width:'70%', marginBottom:'30px'}} src={threef}/> 
       </ReactCardFlip>
       <br/><br/>
-            </NavLink>
+            </a>
                 </Col>
 
                 <Col xs={{span:24}} lg={{span:12}} align="center">
-                <NavLink to="/branding_illustrations">
+                <a target="_4" href="https://www.behance.net/gallery/50905773/THEOBROMA-CHOCOLATE-Branding-Illustration">
                 <ReactCardFlip isFlipped={four} flipDirection="horizontal">  
             
             <img 
@@ -121,11 +121,11 @@ export default function Branding(props){
                 className="projectCardImg" align="center" style={{width:'70%', marginBottom:'30px'}} src={fourf}/> 
       </ReactCardFlip>
       <br/><br/>
-            </NavLink>
+            </a>
                 </Col>
 
                 <Col xs={{span:24}} lg={{span:12}} align="center">
-                <NavLink to="/branding_illustrations">
+                <a target="_5" href="https://www.behance.net/gallery/50952843/Oh-Wonder-Illustration-Digital-Art">
                 <ReactCardFlip isFlipped={five} flipDirection="horizontal">  
             
             <img 
@@ -142,11 +142,11 @@ export default function Branding(props){
                 className="projectCardImg" align="center" style={{width:'70%', marginBottom:'30px'}} src={fivef}/> 
       </ReactCardFlip>
       <br/><br/>
-            </NavLink>
+            </a>
                 </Col>
 
                 <Col xs={{span:24}} lg={{span:12}} align="center">
-                <NavLink to="/branding_illustrations">
+                <a target="_6" href="https://www.behance.net/gallery/50859337/Food-Ok-Please-Branding-Concept">
                 <ReactCardFlip isFlipped={six} flipDirection="horizontal">  
             
             <img 
@@ -163,7 +163,7 @@ export default function Branding(props){
                 className="projectCardImg" align="center" style={{width:'70%', marginBottom:'30px'}} src={sixf}/> 
       </ReactCardFlip>
       <br/><br/>
-            </NavLink>
+            </a>
                 </Col>
             </Row>
             <NavLink to="/">

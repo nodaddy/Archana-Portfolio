@@ -16,6 +16,8 @@ import p1 from './../../assets/selfi/p1.png';
 import p2 from './../../assets/selfi/p2.png';
 import circleAtBack from './../../assets/selfi/circleAtBack.png';
 
+import ss from './../../animation_screens/ss.mp4';
+
 import ContentProtection from '../content_protection';
 
 const selfiImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D8473546-2CE0-4561-B5C7-EE6F90ACA4FA.svg";
@@ -33,20 +35,24 @@ export default function Selfi(props){
     return (
         hasAccess ?  <div align="center" id="selfi">
                     <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
-                    <h1 className="showInDesktop" style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', width:'50%'}}>
+                    <div className="showInDesktop" style={{fontSize:'48px',fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', width:'70%'}}>
                         The Development of a Mobile Health App 
                         for Breast Cancer Self-Management 
-                    </h1>
-                    <h1 className="showInMobile" style={{display:'none', fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', width:'50%'}}>
+                    </div>
+                    <div className="showInMobile" style={{fontSize:'20px', display:'none', fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'20px', width:'80%'}}>
                         The Development of a Mobile Health App 
                         for Breast Cancer Self-Management 
-                    </h1>
+                    </div>
                     <Row>
-                        <Col lg={{span:2}} xs={{span:24}}></Col>
-                        <Col lg={{span:20}} xs={{span:24}}>
+                        <Col lg={{span:2}} md={{span:2}} xs={{span:24}}></Col>
+                        <Col lg={{span:0}} md={{span:0}} xs={{span:24}}>
+                            <img style={{width:'85%'}} src={selfiImg}></img>
+                        </Col>
+                        <Col lg={{span:20}} md={{span:20}} xs={{span:0}}>
                             <img style={{width:'65%'}} src={selfiImg}></img>
                         </Col>
-                        <Col lg={{span:2}} xs={{span:24}}></Col>
+
+                        <Col lg={{span:2}} md={{span:2}} xs={{span:24}}></Col>
                     </Row>
                     <br/>
                     <br/>
@@ -54,7 +60,7 @@ export default function Selfi(props){
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col align="left" lg={{span:7}} xs={{span:24}}>
-                        <div className="selfiH">
+                        <div align="left" className="selfiH" style={{textAlign:'left'}}>
                             Making Breast Health more accessible and empowering 
                             people around the world with breast health care and support.
                             </div>
@@ -115,7 +121,7 @@ export default function Selfi(props){
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col lg={{span:13}} xs={{span:24}} align="left"> 
-                        <div className="selfiH">Why Design a BSE app?</div>
+                        <div style={{textAlign:'left'}} className="selfiH">Why Design a BSE app?</div>
                         <br/>
                         <div className="selfiHp">
                             Breast cancer is the most frequently diagnosed cancer and the leading cause of cancer-related death in females worldwide, accounting for 23% of all cases 
@@ -165,7 +171,7 @@ export default function Selfi(props){
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col lg={{span:13}} xs={{span:24}} align="left"> 
-                        <div className="selfiH">Key Learnings</div>
+                        <div style={{textAlign:'left'}} className="selfiH">Key Learnings</div>
                         <br/> 
                         <div className="selfiHp">
                         <ul>
@@ -206,7 +212,7 @@ export default function Selfi(props){
                             <Col lg={{span:12}} xs={{span:24}} align="left">
                                 <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/6C1C9051-C170-4771-852B-E017C7A2D2A8.svg"/>
                                 <div style={{marginTop:'10px', marginBottom:'10px', color:'#ff6b63'}}>DEFINE/ SYNTHESIZE</div>
-                                <div className="selfiH">What we gathered</div>
+                                <div style={{textAlign:'left'}} className="selfiH">What we gathered</div>
                                 <br/>
                             </Col>
                             <Col lg={{span:12}} xs={{span:24}} align="right" className="showInDesktop" style={{marginTop:'20px'}}>
@@ -245,11 +251,11 @@ export default function Selfi(props){
                                         <br/>
                                         <br/>
                                     </Col>
-                                    <Col xs={{span:24}} lg={{span:14}} style={{textAlign:'center'}}>
+                                    <Col xs={{span:24}} lg={{span:14}} style={{textAlign:'left'}}>
                                         <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/78458AF2-232F-464A-B555-BBEF69D4FFDD.svg"/>
                                         <div style={{marginTop:'10px', marginBottom:'15px', color:'#ff6b63'}}>DEFINE/ SYNTHESIZE</div>
                                 
-                                        <div className="selfiH">
+                                        <div style={{textAlign:'left'}} className="selfiH">
                                         What we planned
                                         </div> 
                                         <br/>
@@ -431,18 +437,18 @@ export default function Selfi(props){
                                                     <b>No. of rows: A/4S+(A-B)/S </b>
                                                     <br/>
                                                     <br/>
-                                                    Example: 
-                                                    If their bra size is 32B
-                                                    Underbust circumference (B): 32in
-                                                    Bust circumference (A): 34in
-                                                    Assuming that the sensor is 2 inches in diameter,
-                                                    No. of columns: 34/8= 5
-                                                    No. of rows: 5+ 2/2= 6
+                                                    Example: <br/>
+                                                    If their bra size is 32B<br/>
+                                                    Underbust circumference (B): 32in<br/>
+                                                    Bust circumference (A): 34in<br/>
+                                                    Assuming that the sensor is 2 inches in diameter,<br/>
+                                                    <b>No. of columns: 34/8= 5</b><br/>
+                                                    <b>No. of rows: 5+ 2/2= 6</b><br/>
                                                 </div>
                                             </Col>
                                             <Col xs={{span:24}} lg={{span:12}} align="center">
                                             <br/>
-                                                <img className="showInDesktop" style={{width:'70%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
+                                                <img className="showInDesktop" align="right" style={{marginBottom:'54px',width:'70%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
                                                 <br/>
                                                 <br/>
                                                 <br/>
@@ -537,10 +543,15 @@ export default function Selfi(props){
                             backgroundPosition: 'right top'
                         }}
                         >
-                        <img style={{width:'50%'}} src={selfiMockup}/>
+                     <br/>
                         <br/>
-                        <br/>
-                        <br/>
+                        <video style={{width:'40%', backgroundColor:"white", borderRadius:'23px'}} loop="true" autoplay="autoplay" muted>
+                                <source src={ss} type="video/mp4"/>
+                        video tag is not supported
+                    </video>
+                        
+                    <br/>
+                    <br/>
                         <br/>
                         </Col> 
                         </Row>
@@ -560,7 +571,7 @@ export default function Selfi(props){
                             <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/56E20561-C0AC-43DA-923F-0CE1EB575BF6.svg"/>
                             <br/>
                             <br/>
-                            <div style={{fontFamily:'Raleway', color:'#ff6b63'}}>OUTCOME</div>
+                            <div style={{fontFamily:'Raleway', color:'#ff6b63'}}><b>OUTCOME</b></div>
                             <br/>
                             <br/>
                             <div className="selfiHp" style={{textAlign:'center'}}>                                
@@ -570,19 +581,19 @@ export default function Selfi(props){
                                 <br/>
                                 <br/>
                                 <div style={{textAlign:'left'}}>
-                                <b>How to adapt to changing requirements</b>
+                                <b style={{color:'navy'}}>How to adapt to changing requirements</b>
                                 <br/>
                                 <br/>
                                 New timelines, resourcing issues, and reprioritization meant the scope of the project was constantly changing. I had to adapt to those changes and still deliver the best design in time within the given timeframe.
                                 <br/>
                                 <br/>
-                                <b>Always fight for good UX</b>
+                                <b style={{color:'navy'}}>Always fight for good UX</b>
                                 <br/>
                                 <br/>
                                 We as a team had to work under very strict technical constraints, but still fought for what we believed is essential to having a good user experience.
                                 <br/>
                                 <br/>
-                                <b>Don’t overpromise and underdeliver</b>
+                                <b style={{color:'navy'}}>Don’t overpromise and underdeliver</b>
                                 <br/>
                                 <br/>
                                 I learned how to define a true MVP vs. something that is simply not usable and therefore not shippable.

@@ -1,14 +1,16 @@
 #ving { 
     padding-top: 25vh;
     background-image: url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/79E13BAF-494A-45FA-B75F-A1B739A8603F.svg'),url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/12C3131B-EE0F-4746-8EEC-384E70428488.svg");
-    background-position: top, top;
-    background-size: cover, unset; 
-    background-repeat: no-repeat, no-repeat; 
+    background-position: left top;
+    background-size: cover; 
+    background-size: 105vw; 
+    background-repeat: no-repeat;   
+    background-position-y: -110px;
 }
 
 .vingH {
     font-family: Palatino-Roman;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -19,7 +21,7 @@
 
 .vingHp {
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -30,6 +32,20 @@
 }
 
 @media only screen and (max-width: 600px) {
+    #ving {
+        background-size: 135vh;  
+    }
+    #vingMainH {
+        font-size: 24px !important;
+        width: 85% !important;
+    }
+    #vingLogo {
+        width: 125px !important;
+        margin-top: 40px !important;
+    }
+    #orgImg {
+        width: 95% !important;
+    }
     .vingM {
         padding-left: 20px;
         padding-Right: 20px;   

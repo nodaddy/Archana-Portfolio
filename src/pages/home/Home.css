@@ -23,7 +23,12 @@
     background-position: center top;
     background-size: 160vh, 100vh; 
     background-position-y: 0vh;
-
     }
-
+    .home-title {
+        font-size: 21px !important;
+        margin-bottom: 24px !important;
+    }
+    #home-about {
+        font-size: 14px !important;
+    }
 }

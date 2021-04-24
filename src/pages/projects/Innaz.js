@@ -4,6 +4,8 @@ import {Row, Col} from 'antd';
 
 import gif from './../../animation_screens/new.gif'
 import innaz1 from './../../assets/innaz/innaz1.png'
+import innaz2 from './../../assets/innaz/innaz2.jpg'
+import innaz3 from './../../assets/innaz/innaz3.jpg'
 import innaz4 from './../../assets/innaz/innaz4.png'
 import innaz5 from './../../assets/innaz/innaz5.png'
 import innaz6 from './../../assets/innaz/innaz6.png'
@@ -24,15 +26,15 @@ export default function Innaz(){
         <div align="center" id="innaz">
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration  - Jan 2018- May 2018
 </h4>
-            <h1 style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px'}}>
+            <div id="innazMainH" style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'30px', fontSize:'36px'}}>
             Rebranding for an Event Website
-            </h1>
+            </div>
             <Row>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
-                <Col lg={{span:20}} xs={{span:24}}>
+                <Col lg={{span:20}} xs={{span:24}} style={{backgroundColor:'white'}}>
                     <img style={{width:'100%'}} src={innaz1}></img>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/F195D33E-0788-4D55-9E24-71510AC314FD.png"/>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/76CEA0AB-7D79-4924-96CA-96B31272E10C.png"/>
+                    <img style={{width:'100%'}} src={innaz2}/>
+                    <img style={{width:'100%'}} src={innaz3}/>
                     <img style={{width:'100%'}} src={innaz4}/>
                     <img style={{width:'100%'}} src={innaz5}/>
                     <img style={{width:'100%'}} src={innaz6}/>
@@ -50,7 +52,8 @@ export default function Innaz(){
                         personality of the company thus creating a clean theme that<br/>
                         shows confidence
                         </b></p> */}
-                    <h3 style={{overflowX:'hidden',fontFamily:'Raleway'}}>Click on this link to view the entire project <a target="_behance_innaz" href="https://www.behance.net/gallery/76554909/Weddings-By-Innaz-Event-Website">https://www.behance.net/gallery/76554909/Weddings-By-Innaz-Event-Website</a></h3>
+                    <h3 style={{overflowX:'hidden',fontFamily:'Raleway',  marginTop:'74px', marginBottom:'55px'}}>Click on this link to view the entire project 
+                    <a style={{color:'#cf9576'}} target="_behance_innaz" href="https://www.behance.net/gallery/76554909/Weddings-By-Innaz-Event-Website">https://www.behance.net/gallery/76554909/Weddings-By-Innaz-Event-Website</a></h3>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
