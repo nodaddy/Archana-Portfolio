@@ -15,6 +15,7 @@ import reminderbooking from './../../assets/ving/reminderbooking.png'
 import laptop from './../../assets/ving/laptop.png'
 import mobile1 from './../../assets/ving/mobile1.png'
 import mobile2 from './../../assets/ving/mobile2.png'
+import social from './../../assets/ving/social.png'
 
 export const lockIcon = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/373D7483-4A00-449A-96E4-6899204BBE2D.svg";
 
@@ -45,7 +46,7 @@ export default function Ving(){
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
             <br/> 
-            <Row className="vingM" id="row2" style={{ marginTop:'-600px', paddingTop:'620px', backgroundSize:'contain', background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/90976B30-E373-443D-A590-204AD34B8039.svg")',backgroundPosition:'right', backgroundRepeat:'no-repeat'}}>
+            <Row className="vingM" id="row2" style={{ marginTop:'-200px', paddingTop:'290px', backgroundSize:'contain', background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/90976B30-E373-443D-A590-204AD34B8039.svg")',backgroundPosition:'right', backgroundRepeat:'no-repeat'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col align="left" lg={{span:8}} xs={{span:24}}> 
                 <img id="vingLogo" style={{width:'270px'}} src={VingLogo}/> 
@@ -372,13 +373,18 @@ export default function Ving(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f3f4fc', paddingBottom:'100px'}}> 
+            {/* <Row style={{backgroundColor:'#f3f4fc', paddingBottom:'100px'}}> 
                 <Col lg={{span:24}} xs={{span:24}}>
                     <img style={{width:'100%'}} src={vingBottom}/>
                 </Col> 
-            </Row> 
-            
-            <Row style={{
+            </Row>  */}
+            <Row style={{marginBottom:'50px'}}>
+                <Col span={24} align="center">
+                    <img style={{width:'100%'}} src={social}/>
+                     
+                </Col>
+            </Row>
+            {/* <Row style={{
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2CAF893D-6FDD-414B-914C-F4086E71DEE8.svg")',
                 backgroundSize:'cover',
                 backgroundRepeat:'no-repeat',
@@ -398,7 +404,7 @@ export default function Ving(){
                 <Col lg={{span:0}} xs={{span:6}} align="left" style={{marginTop:'-70px', marginLeft:'-20px'}}>
                 <img style={{width:'75%'}} src={mobile2}/>
                 </Col>
-            </Row>
+            </Row> */}
         </div>
         :
         <>

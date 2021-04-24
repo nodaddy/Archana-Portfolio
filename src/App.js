@@ -194,5 +194,9 @@ export default App;
 
 /*
  * No footer in the password field
+ * rapido me end me 2 images make them high resolution
+ * make small images smaller
+ * highlight font in the paras
+ * icon title bold
  *
 */

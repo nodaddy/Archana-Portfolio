@@ -29,10 +29,10 @@ export default function Aid(){
             <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>
             Project Duration  -  Sept 2019- Feb 2020
 </h4>
-            <div id="aidMainH" style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
+            <div id="aidMainH" style={{fontFamily:'PalatinoETW01-Roman', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
             University Website Redesign 
             </div>
-            <Row>
+            <Row style={{marginBottom:'116px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <video style={{width:'100%'}} loop="true" autoplay="autoplay" muted>
@@ -41,9 +41,7 @@ export default function Aid(){
                     </video> 
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
-            </Row>
-            <br/>
-            <br/>
+            </Row> 
             <Row className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:7}} xs={{span:24}}>
@@ -82,7 +80,8 @@ export default function Aid(){
             <br/>
             <br/>
             <Row style={{
-                paddingTop:'30px',
+                paddingTop:'84px',
+                paddingBottom:'84px',
                 background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/4A5ADF3B-4C72-420D-8ADE-4773C08A66B8.svg')",
                 backgroundSize:"cover",
                 backgroundPosition: "center top",
@@ -105,10 +104,11 @@ export default function Aid(){
             </Row>
             <br/>
             <br/>
+            <br/>
             <Row className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <div className="aidH">Our Approach</div>
+                    <div className="aidH" style={{marginBottom:'45px'}}>Our Approach</div>
                     <p className="aidHp">
                     Our ideal goal was to create an interactive user friendly experience for the students applying to the institution who can feel the excitement of joining a Design School and be a part of the brand. Their old website however, didn’t reflect this dynamic. Aesthetically it was a information dumping ground which didn’t do justice to the brand or institution ideals. There was no structure to the content. It amplified confusion rather than coherency.
                     <br/>
@@ -121,7 +121,7 @@ export default function Aid(){
                     </ul>
                     </p>
                     <br/>
-                    <p align="left" style={{fontFamily:'Palatino-Roman', fontSize:'20px', color:'#585757'}}>
+                    <p align="left" style={{fontFamily:'PalatinoETW01-Roman', fontSize:'20px', color:'#585757'}}>
                     " Make it easy to understand the company value and facilitate a positive user
                     experience through informative and relevant content to navigate potential  
                     clients in the right direction."
@@ -142,6 +142,7 @@ export default function Aid(){
                 paddingTop:'117px',
                 paddingLeft:'15px',
                 paddingRight:'15px',
+                paddingBottom:'60px',
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0B95BF7B-07F6-4F14-8AA1-CC8AD8419FAB.svg")',
                 backgroundPositionX: '-20px'
                 }}>
@@ -159,7 +160,7 @@ export default function Aid(){
                     </p>
                     <br/>
                     <br/>
-                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold', width:'50%'}}>Our Inspiration</h1>
+                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold', color:'#585757',width:'50%'}}>Our Inspiration</h1>
                     <img style={{width:'50%'}} src={aid3}/>
                     <p style={{textAlign:'center', marginTop:'20px'}} className="aidHp">Jonathan Barnbook’s eclectic ideation</p>
                 </Col>
@@ -168,9 +169,10 @@ export default function Aid(){
             <Row style={{marginTop:'107px'}} className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <p className="aidHp" style={{fontSize:'30px', fontFamily:'Palatino-Romoan', color:'#585757'}}>
+                    <div style={{fontSize:'30px', fontFamily:'PalatinoETW01-Roman', color:'#585757'}}>
                     “Design shapes the environment, changing the way we perceive things and informing our choices” - <i>Barnbrook</i>
-                    </p>
+                    </div>
+                    <br/>
                     <br/>
                     <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>our ideation</h1>
                     <Row>
@@ -206,13 +208,15 @@ export default function Aid(){
                             <br/>
                             <br/>
                         </Col>
-                        <Col xs={{span:24}} lg={{span:12}}>
+                        <Col xs={{span:24}} lg={{span:12}} align="left">
+                            <div>
                             <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A821A58B-4E3E-4508-BDDB-AF2FBA816889.png"/>
-                            <br/>
-                            <br/>
-                            <p className="aidHp" style={{width:'90%'}}>
+                            <br/> 
+                            </div>
+                            <br/> 
+                            <div className="aidHp" style={{width:'100%'}}>
                             I further explored a few more ideations of the same shapes and created a few more iterations drawing inspiration from Art Deco architecture and gave the shapes a little more personality.
-                            </p>
+                            </div>
                         </Col>
                     </Row>
                     <br/>
@@ -230,7 +234,7 @@ export default function Aid(){
                     <br/>
                     <br/>
                     <br/>
-                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', marginBottom:'19px'}}>wireframing</h1> 
+                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#585757',marginBottom:'19px'}}>wireframing</h1> 
                     <p className="aidHp">
                     Finally, once all of the planning and foundation was built, we were ready to play with wireframes for the core desktop experience. Once you know WHY and WHAT we are doing in the written form constructing pages is a piece of cake. Of course, we went through circles of feedback, but it was pretty easy to move things around without involving design ego for graphics.
                     <br/>
@@ -288,11 +292,11 @@ export default function Aid(){
                         the new design. However, we're continuing to get some positive feedback
                         <br/>
                         <br/>
-                        <b>Increase</b> in site views and admissions
+                        <span style={{color:'#15204e' }}><b>Increase</b> in site views and admissions</span>
                         <br/>
-                        <b>Improved</b> user experience and architecture
+                        <span style={{color:'#15204e' }}><b  style={{color:'#15204e' }}>Improved</b> user experience and architecture</span>
                         <br/>
-                        <b>Decrease</b> in site confusion
+                        <span style={{color:'#15204e' }}><b  style={{color:'#15204e' }}>Decrease</b> in site confusion</span>
                         <br/>
                         <br/>
                         <br/>

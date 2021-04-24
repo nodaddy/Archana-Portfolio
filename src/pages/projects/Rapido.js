@@ -87,11 +87,9 @@ export default function Rapido(){
             </Row>
             <Row>
                 <Col span={24}>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
+                    <img style={{width:'100%', marginTop:'80px', marginBottom:'60px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
                 </Col>
-            </Row>
-            <br/>
-            <br/>
+            </Row> 
             <Row>
                 <Col align="left" lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
@@ -259,7 +257,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f6fbff', padding:'7px'}}>
+            <Row style={{backgroundColor:'#f6fbff', padding:'7px', paddingBottom:'40px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/00C35001-8200-4CB9-9165-FEAC7D67C3CF.svg"></img>

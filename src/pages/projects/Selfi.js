@@ -15,6 +15,7 @@ import g_61 from './../../assets/selfi/group-61.svg';
 import p1 from './../../assets/selfi/p1.png';
 import p2 from './../../assets/selfi/p2.png';
 import circleAtBack from './../../assets/selfi/circleAtBack.png';
+import Alli from './../../assets/selfi/alli.png';
 
 import ss from './../../animation_screens/ss.mp4';
 
@@ -57,6 +58,8 @@ export default function Selfi(props){
                     <br/>
                     <br/>
                     <br/>
+                    <br/>
+                    <br/>
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col align="left" lg={{span:7}} xs={{span:24}}>
@@ -93,7 +96,7 @@ export default function Selfi(props){
                             <br/>
                             <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/CFA3DDDD-C7DA-4982-A85D-7CF6B32F2EFF.png"/>
                             <br/>
-                            <div className="selfiHp">
+                            <div style={{marginTop:'18px'}} className="selfiHp">
                             A functional prototype of the Selfi Scanner device developed by iBreastExam’s sensor technology platform.
                             </div>
                         </Col>
@@ -103,7 +106,7 @@ export default function Selfi(props){
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col lg={{span:20}} xs={{span:24}} align="left">
-                            <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>agenda</h1>
+                            <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>agenda</h1>
                             
                             <div style={{fontSize:'23px', fontFamily:'Palatino-Roman'}} className="selfiHp">
                             Our Goal was to make breast health the new normal and design the Selfi app for women to monitor their own breast health by using the Selfi device conveniently, from the privacy of their homes, without pain or radiation.
@@ -152,22 +155,21 @@ export default function Selfi(props){
                         </Col>
                         <Col lg={{span:2}} xs={{span:24}}> </Col>
                     </Row>
-                    <br/>
-                    <Row className="selfiM" >
+                     <br/>
+                    <Row style={{marginBottom:'55px'}} className="selfiM" >
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col lg={{span:20}} xs={{span:24}}>
-                        <h1 align="center" style={{fontFamily:'Shorelines Script Bold'}}>Needfinding  ?</h1>
+                        <h1 align="center" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>Needfinding  ?</h1>
                         <div className="selfiHp" style={{textAlign:'center'}}>
                             To better understand the current scene of breast health awareness  and discover opportunities where an app 
                             might help. We interviewed a few doctors and patients at Bangalore Baptist Hospital who were using the SELFI 
                             device for trials, asking their views and feelings about mammography and how would they feel about making SELFI 
                             a household item for monthly breast checkups? 
                         </div>
-                        <img style={{width:'100%', marginTop:'10px'}} src={selfiForm}/>
+                        <img style={{width:'100%', marginTop:'30px'}} src={selfiForm}/>
                         </Col>
                         <Col lg={{span:2}} xs={{span:24}}></Col>
-                    </Row>
-                    <br/>
+                    </Row> 
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col lg={{span:13}} xs={{span:24}} align="left"> 
@@ -200,11 +202,11 @@ export default function Selfi(props){
                         
                         </Col>
                         <Col lg={{span:7}} xs={{span:24}} align="center"> 
-                        <img style={{width:'85%', marginTop:'50px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BA49E97B-0D0A-4F6F-B7E9-9DF87FB6B209.svg"/>
+                        <img className="showInDesktop" style={{width:'85%', marginTop:'50px', position:'absolute', bottom:'0px', right:'20px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BA49E97B-0D0A-4F6F-B7E9-9DF87FB6B209.svg"/>
+                        <img className="showInMobile" style={{width:'85%', marginTop:'50px', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BA49E97B-0D0A-4F6F-B7E9-9DF87FB6B209.svg"/>
                         </Col>
                         <Col lg={{span:2}} xs={{span:24}}> </Col>
-                    </Row>
-                    <br/>
+                    </Row> 
                     <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
                     <Col lg={{span:2}} xs={{span:24}}></Col>
                     <Col lg={{span:20}} xs={{span:24}}>
@@ -216,7 +218,7 @@ export default function Selfi(props){
                                 <br/>
                             </Col>
                             <Col lg={{span:12}} xs={{span:24}} align="right" className="showInDesktop" style={{marginTop:'20px'}}>
-                            <h1 style={{fontFamily:'Shorelines Script Bold'}}>gather  +  devlop……</h1>
+                            <h1 style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>gather  +  devlop……</h1>
                             </Col>
                         </Row>
                         <Row>
@@ -282,14 +284,14 @@ export default function Selfi(props){
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
 
                             <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>01</h1>
-                            <h3 style={{fontFamily:'Palatino-Roman'}}>The Primary User</h3>
+                            <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Primary User</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                              Elle has dense breasts and while during her mammograms checkups she endures pain and is looking for other painfree alterantives
                              </div>
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
                             <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>02</h1>
-                            <h3 style={{fontFamily:'Palatino-Roman'}}>The Survivor</h3>
+                            <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Survivor</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                Miranda is a Survivor and has a family history of breast cancer, hence she is looking for other convenient methods for regulary checking her 
                                 breast health
@@ -297,7 +299,7 @@ export default function Selfi(props){
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
                             <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>03</h1>
-                            <h3 style={{fontFamily:'Palatino-Roman'}}>The Well- Wisher</h3>
+                            <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Well- Wisher</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                 John is a dotting husband who after hearing about the importance of breast health from his colleagues and to help her maintain breast wellness.
                                 He plans to gift her the fussfree
@@ -309,7 +311,7 @@ export default function Selfi(props){
                     <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col lg={{span:20}} xs={{span:24}}>
-                            <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>Elle’ s  experience  map…</h1>
+                            <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>Elle’ s  experience  map…</h1>
                             <img style={{width:'90%'}} src={elleMap}/>
                           
                         </Col>
@@ -345,15 +347,9 @@ export default function Selfi(props){
                             <br/>
                             <br/>
                             <Row className="selfiM"> 
-                                <Col xs={{span:24}} lg={{span:12}} align="left">
-                                    <img style={{width:'100%'}} src={weDesigned0}/>
-                                </Col>
-                                <Col xs={{span:24}} lg={{span:1}} align="left"></Col> 
-                                <Col xs={{span:24}} lg={{span:11}} align="left">
-                                    <br/>
-                                    <br/>
-                                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>We called in a few  people  to  help us with card sorting sthe  features  for  the  app</h1>
-                                    <img className="showInDesktop" style={{width:'30%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/131A8F93-E6B1-4EFC-AE5E-8415C858BD8F.svg"/>
+                                <Col xs={{span:24}} lg={{span:2}} align="left"></Col> 
+                                <Col xs={{span:24}} lg={{span:20}} align="left">
+                                    <img className="showInDesktop" style={{width:'90%'}} src={Alli}/>
                                 </Col> 
                             </Row>
                         </Col>
@@ -362,11 +358,9 @@ export default function Selfi(props){
 
                     <Row className="selfiM"> 
                                 <Col xs={{span:24}} lg={{span:24}}>
-                                <h1 align="center" style={{fontFamily:'Shorelines Script Bold'}}>
-                                the  inforamtion  architecture  that  we  created
-                                </h1>
+                                 
                                 <br/>
-                                <img style={{width:'100%'}} src={theInfo}/>
+                                <img style={{width:'90%'}} src={theInfo}/>
                                 <br/>
                                 <div className="selfiHp" style={{textAlign:'center', padding:'15px'}}>
                                 The Information Architecture emerged through two rounds of user testing and heuristic evaluation 
@@ -396,7 +390,7 @@ export default function Selfi(props){
                         </Row>
                         <br/>
                         <br/>
-                        <Row className="selfiM" style={{background:'#faf7f4', paddingTop:'30px', paddingBottom:'30px'}}>
+                        <Row className="selfiM" style={{background:'#faf7f4', paddingTop:'60px', paddingBottom:'30px'}}>
                             <Col xs={{span:24}} lg={{span:'2'}}></Col>
                             <Col xs={{span:24}} lg={{span:'20'}}>
                             <Col xs={{span:24}} lg={{span:'2'}}></Col>
@@ -423,7 +417,7 @@ export default function Selfi(props){
                                         <Row>
                                             <Col xs={{span:24}} lg={{span:12}}>
                                                 <div className='selfiHp'>
-                                                    We worked around this method which involves a very loose mathematical formula based on how band size and cup size are calculated. In the image on the right, the underbust circumference is represented by B and the bust circumference is represented by A. The underbust circumference (B) represents the band size, while difference between the bust and underbust circumferences (A-B) is converted into a cup size. If we assume that the diameter of the sensor is S , then,
+                                                    We worked around this method which involves a very loose mathematical formula based on how band size and cup size are calculated. In the image on the right, the underbust circumference is represented by <b>B</b> and the bust circumference is represented by <b>A</b>. The underbust circumference <b>(B)</b> represents the band size, while difference between the bust and underbust circumferences <b>(A-B)</b> is converted into a cup size. If we assume that the diameter of the sensor is S , then,
                                                     <br/>
                                                    <img className="showInMobile" style={{width:'80%', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
                                                     <br/>
@@ -478,10 +472,10 @@ export default function Selfi(props){
                         </Row>
                         <br/>
                         <br/>
-                        <Row>
+                        <Row style={{marginTop:'45px'}}>
                             <Col lg={{span:2}} xs={{span:24}}></Col>
                             <Col lg={{span:20}} xs={{span:24}}>
-                            <h1 align="center" style={{fontFamily:'Shorelines Script Bold'}}>Prototyping  a  better  solution</h1>
+                            <h1 align="center" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>Prototyping  &nbsp;a &nbsp; better&nbsp;  solution</h1>
                             <br/>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                 To further develop the SELFI app, we revamped the key features and worked on the visual design
@@ -526,7 +520,7 @@ export default function Selfi(props){
                         <br/>
                         <Row>
                         <Col lg={{span:4}} xs={{span:24}}></Col>
-                        <Col lg={{span:7}} xs={{span:24}}>
+                        <Col lg={{span:7}} xs={{span:24}} style={{paddingTop:'10%'}}>
                             <div style={{textAlign:'left'}} className="selfiH">Easy to follow Scanning Steps</div>
                             <br/>
                             <div className="selfiHp">
@@ -545,7 +539,7 @@ export default function Selfi(props){
                         >
                      <br/>
                         <br/>
-                        <video style={{width:'40%', backgroundColor:"white", borderRadius:'23px'}} loop="true" autoplay="autoplay" muted>
+                        <video style={{width:'40%', backgroundColor:"white", borderRadius:'35px'}} loop="true" autoplay="autoplay" muted>
                                 <source src={ss} type="video/mp4"/>
                         video tag is not supported
                     </video>
@@ -580,20 +574,20 @@ export default function Selfi(props){
                                 <br/>
                                 <br/>
                                 <br/>
-                                <div style={{textAlign:'left'}}>
-                                <b style={{color:'navy'}}>How to adapt to changing requirements</b>
+                                <div style={{textAlign:'left', color:'#15204e'}}>
+                                <b>How to adapt to changing requirements</b>
                                 <br/>
                                 <br/>
                                 New timelines, resourcing issues, and reprioritization meant the scope of the project was constantly changing. I had to adapt to those changes and still deliver the best design in time within the given timeframe.
                                 <br/>
                                 <br/>
-                                <b style={{color:'navy'}}>Always fight for good UX</b>
+                                <b>Always fight for good UX</b>
                                 <br/>
                                 <br/>
                                 We as a team had to work under very strict technical constraints, but still fought for what we believed is essential to having a good user experience.
                                 <br/>
                                 <br/>
-                                <b style={{color:'navy'}}>Don’t overpromise and underdeliver</b>
+                                <b>Don’t overpromise and underdeliver</b>
                                 <br/>
                                 <br/>
                                 I learned how to define a true MVP vs. something that is simply not usable and therefore not shippable.
