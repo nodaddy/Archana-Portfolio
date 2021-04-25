@@ -24,7 +24,7 @@ import { linkedIn, behance } from './links';
 
 function Footer(props){
   return (
-  <footer className="footer" id={props.id} style={{paddingTop:'70px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'3px'}}> 
+  <footer className="footer" id={props.id} style={{paddingTop:'70px', zIndex:'99999', backgroundImage:`url("${props.image}")`, backgroundRepeat:'no-repeat', backgroundPosition:'left top', backgroundSize:'cover', backgroundPositionX:'-3px', marginRight:'15px',  marginLeft:'15px'}}> 
   {props.nextLink ? <Row>
     <Col span={24} align="center">
       <NavLink to={`${props.nextLink}`} style={{color:'#585757', fontSize:'13px', fontFamily:'Raleway'}}>
@@ -81,7 +81,6 @@ function App() {
       <BrowserRouter>
       <br/>
         <Switch>
-
           <Route exact path="/">
             <>
             <NavigationBar currentComponent="work" bgColor="#efe7e2"/> 
@@ -92,6 +91,7 @@ function App() {
             id="footer"
             image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
             />
+            <br/>
             </>
           </Route>
 
@@ -103,6 +103,7 @@ function App() {
             section={false}
             image={whiteFooter}
             id="footer_white"/>
+            <br/>
             </>
           </Route>
 
@@ -110,16 +111,16 @@ function App() {
             <>
             <NavigationBar currentComponent="work" bgColor="#d5e7ea"/>
             <Rapido/>
-            <Footer 
+            <Footer
             section={true}
             id="footer"
-            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/046C30E2-CCE0-4DF2-912E-2ADF5608E394.svg"
+            image="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/478D9978-A5E1-431E-8952-63131AB75896.svg"
             nextLink="/selfi"
             nextLinkText="Breast-Self Examination App"
             />
+            <br/>
             </>
           </Route>
-
           <Route path="/innaz">
             <>
             <NavigationBar currentComponent="work" bgColor="#f5e5d9"/>
@@ -131,6 +132,7 @@ function App() {
             nextLink="/branding_illustrations"
             nextLinkText="Branding + Illustrations"
             />
+            <br/>
             </>
           </Route>
 
@@ -145,6 +147,7 @@ function App() {
             nextLink="/ving"
             nextLinkText="VING Meeting Room Software"
             />
+            <br/>
             </>
           </Route>
 
@@ -159,6 +162,7 @@ function App() {
             nextLink="/innaz"
             nextLinkText="Website Rebranding"
             />
+            <br/>
             </>
           </Route>
 
@@ -173,6 +177,7 @@ function App() {
             nextLink="/aid"
             nextLinkText="Website Design for a Design University"
             />
+            <br/>
             </>
           </Route>
           <Route path="/branding_illustrations">
@@ -182,9 +187,10 @@ function App() {
             <Footer 
             section={false}
             id="footer"/>
+            <br/>
             </>
           </Route>
-        </Switch> 
+        </Switch>
       </BrowserRouter>
     </div>
   );
@@ -193,14 +199,14 @@ function App() {
 export default App;
 
 /*
- * No footer in the password field
- * rapido me end me 2 images make them high resolution 
- * highlight font in the paras
- * icon title bold
+ * No footer in the password field : DONE
+ * rapido me end me 2 images make them high resolution : DONE
+ * highlight font in the paras : DONE
+ * icon title bold : DONE
  * yellow bullets
  * breast diagrams picture high resolution
- * project duration font increase h2->h3 for all projets
- * aid background image no-reapeat
- * same fonts in mobile and desktop
+ * project duration font increase h2->h3 for all projets : DONE
+ * aid background image no-reapeat : DONE
+ * same fonts in mobile and desktop : DONE
  *
 */
