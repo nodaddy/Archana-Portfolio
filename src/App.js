@@ -194,9 +194,13 @@ export default App;
 
 /*
  * No footer in the password field
- * rapido me end me 2 images make them high resolution
- * make small images smaller
+ * rapido me end me 2 images make them high resolution 
  * highlight font in the paras
  * icon title bold
+ * yellow bullets
+ * breast diagrams picture high resolution
+ * project duration font increase h2->h3 for all projets
+ * aid background image no-reapeat
+ * same fonts in mobile and desktop
  *
 */

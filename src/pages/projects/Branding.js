@@ -166,11 +166,11 @@ export default function Branding(props){
             </a>
                 </Col>
             </Row>
-            <NavLink to="/">
+            <a href="https://www.behance.net/Archana_ponamarev">
             <h4 align="center" style={{fontFamily:'Raleway', color:'#796b6d'}}>
             VIEW ALL PROJECTS
             </h4>
-            </NavLink>
+            </a>
 
         </div>
     )

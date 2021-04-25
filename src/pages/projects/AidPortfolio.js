@@ -26,9 +26,9 @@ export default function Aid(){
 
     return (
         <div align="center" id="aid">
-            <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>
+            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>
             Project Duration  -  Sept 2019- Feb 2020
-</h4>
+</h3>
             <div id="aidMainH" style={{fontFamily:'PalatinoETW01-Roman', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
             University Website Redesign 
             </div>
@@ -121,7 +121,7 @@ export default function Aid(){
                     </ul>
                     </p>
                     <br/>
-                    <p align="left" style={{fontFamily:'PalatinoETW01-Roman', fontSize:'20px', color:'#585757'}}>
+                    <p align="left" style={{fontFamily:'PalatinoETW01-Roman', fontSize:'30px', color:'#585757'}}>
                     " Make it easy to understand the company value and facilitate a positive user
                     experience through informative and relevant content to navigate potential  
                     clients in the right direction."
@@ -160,7 +160,7 @@ export default function Aid(){
                     </p>
                     <br/>
                     <br/>
-                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold', color:'#585757',width:'50%'}}>Our Inspiration</h1>
+                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868',width:'50%'}}>Our Inspiration</h1>
                     <img style={{width:'50%'}} src={aid3}/>
                     <p style={{textAlign:'center', marginTop:'20px'}} className="aidHp">Jonathan Barnbook’s eclectic ideation</p>
                 </Col>
@@ -174,7 +174,7 @@ export default function Aid(){
                     </div>
                     <br/>
                     <br/>
-                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>our ideation</h1>
+                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>our ideation</h1>
                     <Row>
                         <Col xs={{span:12}} lg={{span:12}}>
                             <img style={{width:'90%'}} src={ourIdeation1}/>
@@ -200,7 +200,7 @@ export default function Aid(){
                     </p>
                     <br/>
                     <br/>
-                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold'}}>more explorations</h1>
+                    <h1 align="right" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>more explorations</h1>
                     <br/> 
                     <Row>
                         <Col xs={{span:24}} lg={{span:12}}>
@@ -234,7 +234,7 @@ export default function Aid(){
                     <br/>
                     <br/>
                     <br/>
-                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#585757',marginBottom:'19px'}}>wireframing</h1> 
+                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868',marginBottom:'19px'}}>wireframing</h1> 
                     <p className="aidHp">
                     Finally, once all of the planning and foundation was built, we were ready to play with wireframes for the core desktop experience. Once you know WHY and WHAT we are doing in the written form constructing pages is a piece of cake. Of course, we went through circles of feedback, but it was pretty easy to move things around without involving design ego for graphics.
                     <br/>
@@ -257,7 +257,7 @@ export default function Aid(){
                     </p>
                     <br/>
                     <br/>
-                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold'}}>our final prototype</h1>
+                    <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>our final prototype</h1>
                     <br/> 
                     <p className="aidHp">
                     Once logic and functionality are defined, the visual design process doesn’t take long, and turns into an enjoyable meditation on aesthetic and design quality. Using wireframes and the modular design system, the UI was created, following brand visual guidelines.

@@ -173,10 +173,10 @@ export default function Ving(){
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:1}} xs={{span:24}}></Col>
                 <Col lg={{span:8}} xs={{span:24}} align="center">
-                    <div className="vingH" style={{color:'#7791ff', fontSize:'24px'}}>
+                    <div className="vingH" style={{color:'#7791ff', fontSize:'24px', fontFamily:'Prompt'}}>
                         01
                     <br/>
-                    <div style={{color:'#585757'}}>The Organiser</div>     
+                    <div style={{color:'#585757', fontSize:'30px'}}>The Organiser</div>     
                     <div className="vingHp" style={{fontSize:'13px', textAlign:'center'}}>
                         <br/>
                     The Organiser has access to manage the details of 
@@ -186,10 +186,10 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:8}} xs={{span:24}} align="center">
-                <div className="vingH" style={{color:'#7791ff', fontSize:'24px'}}>
+                <div className="vingH" style={{color:'#7791ff', fontSize:'24px', fontFamily:'Prompt'}}>
                         02
                     <br/>
-                    <div style={{color:'#585757'}}>The Co-Organiser</div>     
+                    <div style={{color:'#585757', fontSize:'30px'}}>The Co-Organiser</div>     
                     <div className="vingHp" style={{fontSize:'13px', textAlign:'center'}}>
                         <br/>
                         The Co-Organiser is addded as a Second User 

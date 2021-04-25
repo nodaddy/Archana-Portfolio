@@ -42,7 +42,7 @@ export default function Rapido(){
             <Row style={{marginBottom:'110px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <img style={{width:'100%'}} src={rapidoImg}></img>
+                    <img style={{width:'90%'}} src={rapidoImg}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row> 
@@ -132,14 +132,14 @@ export default function Rapido(){
                     <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AB3D6DBD-C793-4723-B8B4-35D34F821652.png"/>
                     <br/>
                     <br/>
-                    <h2 style={{ 
+                    <h1 style={{ 
                         fontFamily: 'Palatino-Roman',   
                         textAlign: 'center',
                         color: '#585757'
                     }}>
                         “Curiosity revealed an opportunity to perfect the booking experience <br/>
                         for everyone, everywhere”
-                    </h2>
+                    </h1>
                 </Col>
                 <Col span={2}></Col>
             </Row> 
@@ -211,7 +211,7 @@ export default function Rapido(){
                     <p className="rapidoHp">
                     Based on our research and insights, we drew a plan where I took up the task of solving customer-facing issues, and my team-mate Guru took the task of solving the captain's problem using VUI and present it as part of the initial meeting. We started off by setting the principles right for the project.
                     </p>
-                    <h2 align="center" style={{color:'#585757', fontFamily:'Palatino-Roman'}}>“How do we create a smoother booking flow for Riders and Drivers ?”</h2>
+                    <h1 align="center" style={{color:'#585757', fontFamily:'Palatino-Roman'}}>“How do we create a smoother booking flow for Riders and Drivers ?”</h1>
                     <br/> 
                     <h3 style={{ 
                         fontFamily: 'Raleway',
@@ -363,25 +363,26 @@ export default function Rapido(){
                     </h2>
                     <Row >
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/720F518B-EF3D-438F-9FAB-D447CF025E44.png"></img>
+                            <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/720F518B-EF3D-438F-9FAB-D447CF025E44.png"></img>
                         </Col>
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'83%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B4FA74E6-1B20-4AC0-B747-F64ECDC9F05D.png"/>
+                            <img style={{width:'60%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B4FA74E6-1B20-4AC0-B747-F64ECDC9F05D.png"/>
                         </Col>
                     </Row>
-                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757'}}>
+                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
+                        <br/>
                         Error State for Internet Connectivity or Server Issues
                     </h3>
                     <br/>
                     <Row >
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A928C30-F094-459C-A0C1-C5D42BD36B8D.png"></img>
+                            <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A928C30-F094-459C-A0C1-C5D42BD36B8D.png"></img>
                         </Col>
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'83%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/33723C99-6F7B-4F8E-87DC-436E93BD6ADF.png"/>
+                            <img style={{width:'60%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/33723C99-6F7B-4F8E-87DC-436E93BD6ADF.png"/>
                         </Col>
                     </Row>
-                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757'}}>
+                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
                     Error State for Misheard Commands
                     </h3>
                     <br/>
@@ -391,19 +392,19 @@ export default function Rapido(){
                     </h2>
                     <Row >
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D0109D2E-33BC-4F4C-B7CA-C488288C7168.png"></img>
+                            <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D0109D2E-33BC-4F4C-B7CA-C488288C7168.png"></img>
                         </Col>
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'85%'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B0D313D1-19CC-4034-83B8-6988895EE6AB.png"/>
+                            <img style={{width:'60%'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B0D313D1-19CC-4034-83B8-6988895EE6AB.png"/>
                         </Col>
                     </Row>
                     <br/>
                     <Row >
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D62BC45F-062E-448F-BA72-5A43A42883A4.png"></img>
+                            <img style={{width:'65%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D62BC45F-062E-448F-BA72-5A43A42883A4.png"></img>
                         </Col>
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'87%', marginTop:'-10px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/48C1F40C-7806-411A-899B-B549FCB09261.png"/>
+                            <img style={{width:'67%', marginTop:'-10px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/48C1F40C-7806-411A-899B-B549FCB09261.png"/>
                         </Col>
                     </Row>
                     <br/>
@@ -464,24 +465,28 @@ export default function Rapido(){
             <br/>
             <br/>
                 <h2 align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Indicators for Driver</h2>
-                <p align="left" className="rapidoHb" style={{fontSize:'19px'}}>
-                    Pick up Location and Drop off Location <br/>
-                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'26px'}}>Your ride is from KFC Signal, HSR Layout to Grand Hotel, HSR Layout.</span>
+                <p align="left" className="rapidoHp">
+                    Pick up Location and Drop off Location 
+                    <br/>
+                    <br/>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>Your ride is from KFC Signal, HSR Layout to Grand Hotel, HSR Layout.</span>
                     <br/>
                     <br/>
                     Minutes to Reach
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'26px'}}>Pick up is 10 mins away.</span>
+                    <br/>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>Pick up is 10 mins away.</span>
                     <br/>
                     <br/>
                     Total Distance Covered
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'26px'}}>3 km will be the distance from your pickup to drop location.</span>
+                    <br/>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>3 km will be the distance from your pickup to drop location.</span>
                     <br/>
                     <br/>
                     Accept or Decline Ride
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'26px'}}>Would you like to ACCEPT or DECLINE?</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>Would you like to ACCEPT or DECLINE?</span>
                 </p>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 

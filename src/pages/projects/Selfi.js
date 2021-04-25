@@ -283,14 +283,14 @@ export default function Selfi(props){
 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
 
-                            <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>01</h1>
+                            <h1 style={{fontFamily:'Raleway', color:'#ff6b63'}}>01</h1>
                             <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Primary User</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                              Elle has dense breasts and while during her mammograms checkups she endures pain and is looking for other painfree alterantives
                              </div>
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
-                            <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>02</h1>
+                            <h1 style={{fontFamily:'Raleway', color:'#ff6b63'}}>02</h1>
                             <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Survivor</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                Miranda is a Survivor and has a family history of breast cancer, hence she is looking for other convenient methods for regulary checking her 
