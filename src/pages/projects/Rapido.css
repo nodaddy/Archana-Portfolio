@@ -39,13 +39,16 @@
         width: 110px !important;
     }
     #rapidoMainH {
-        font-size: 20px !important;
+        font-size: 24px !important;
+        font-family:serif !important;
     }
-    #rapido {
-        padding-left: 20px;
-        padding-Right: 20px;    
+    #rapido {    
         background-size: 115vh;   
     }
+    .rapidoM {
+      padding-left: 20px;
+      padding-Right: 20px;      
+  }
     #bnwimg {
         margin-left: auto !important;
         margin-top: 30px !important;

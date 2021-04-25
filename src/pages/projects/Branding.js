@@ -166,7 +166,7 @@ export default function Branding(props){
             </a>
                 </Col>
             </Row>
-            <a href="https://www.behance.net/Archana_ponamarev">
+            <a target="_behance" href="https://www.behance.net/Archana_ponamarev">
             <h4 align="center" style={{fontFamily:'Raleway', color:'#796b6d'}}>
             VIEW ALL PROJECTS
             </h4>

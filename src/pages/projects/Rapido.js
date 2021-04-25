@@ -50,7 +50,7 @@ export default function Rapido(){
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row> 
             
-            <Row>
+            <Row className="rapidoM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:7}} xs={{span:24}}>
                     <img id="rapido-logo" style={{width:'169px', marginBottom:'34px'}} src={rapidoLogo}/>
@@ -90,10 +90,10 @@ export default function Rapido(){
             </Row>
             <Row>
                 <Col span={24}>
-                    <img style={{width:'100%', marginTop:'80px', marginBottom:'60px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
+                    <img style={{width:'100vw', marginTop:'80px', marginBottom:'60px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
                 </Col>
             </Row> 
-            <Row>
+            <Row className="rapidoM">
                 <Col align="left" lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3B5034A2-6191-4151-B4DD-112DBF0CCF50.svg"></img>
@@ -121,7 +121,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f6fbff', paddingTop:'30px'}}>
+            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', paddingTop:'30px'}}>
                 <Col span={2}></Col>
                 <Col align="center" lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A1671438-FEF7-40FB-842E-9FFB9DBD285D.svg"></img>
@@ -146,7 +146,7 @@ export default function Rapido(){
                 </Col>
                 <Col span={2}></Col>
             </Row> 
-            <Row style={{backgroundColor:'#f6fbff', paddingTop:'25px'}}>
+            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', paddingTop:'25px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
                     <h3 style={{
@@ -204,7 +204,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row>
+            <Row className="rapidoM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C8103D3-2B4F-49AF-AEC7-B212C0861A46.svg"></img>
@@ -260,7 +260,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f6fbff', padding:'7px', paddingBottom:'40px'}}>
+            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', padding:'7px', paddingBottom:'40px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/00C35001-8200-4CB9-9165-FEAC7D67C3CF.svg"></img>
@@ -289,7 +289,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Trigger Screens For Riders</b>
                     </h2>
-                    <Row>
+                    <Row className="rapidoM">
                         <Col align="center" lg={{span:8}} xs={{span:12}}>
                             <img style={{width:'85%'}} src={ts1}/>
                         </Col>
@@ -311,7 +311,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Confirming your booking</b>
                     </h2>
-                    <Row>
+                    <Row className="rapidoM">
                         <Col lg={{span:8}} xs={{span:12}}>
                             <img style={{width:'85%'}} src={cb1}/>
                         </Col>
@@ -327,7 +327,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Saving your Preferences</b>
                     </h2>
-                    <Row>
+                    <Row className="rapidoM">
                         <Col lg={{span:8}} xs={{span:12}}>
                             <img style={{width:'85%'}} src={sp1}/>
                         </Col>
@@ -351,7 +351,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Error States</b>
                     </h2>
-                    <Row >
+                    <Row className="rapidoM">
                         <Col lg={{span:16}} xs={{span:24}}>
                             <img style={{width:'80%'}} src={rapido2}></img>
                         </Col>
@@ -364,7 +364,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>System Errors</b>
                     </h2>
-                    <Row >
+                    <Row className="rapidoM">
                         <Col lg={{span:12}} xs={{span:12}}>
                             <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/720F518B-EF3D-438F-9FAB-D447CF025E44.png"></img>
                         </Col>
@@ -377,7 +377,7 @@ export default function Rapido(){
                         Error State for Internet Connectivity or Server Issues
                     </h3>
                     <br/>
-                    <Row >
+                    <Row className="rapidoM">
                         <Col lg={{span:12}} xs={{span:12}}>
                             <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A928C30-F094-459C-A0C1-C5D42BD36B8D.png"></img>
                         </Col>
@@ -393,7 +393,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Unsupported Features/ Machine Learning</b>
                     </h2>
-                    <Row >
+                    <Row className="rapidoM">
                         <Col lg={{span:12}} xs={{span:12}}>
                             <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D0109D2E-33BC-4F4C-B7CA-C488288C7168.png"></img>
                         </Col>
@@ -402,7 +402,7 @@ export default function Rapido(){
                         </Col>
                     </Row>
                     <br/>
-                    <Row >
+                    <Row className="rapidoM">
                         <Col lg={{span:12}} xs={{span:12}}>
                             <img style={{width:'65%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/D62BC45F-062E-448F-BA72-5A43A42883A4.png"></img>
                         </Col>
@@ -415,7 +415,7 @@ export default function Rapido(){
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Pro Users</b>
                     </h2>
-                    <Row > 
+                    <Row className="rapidoM"> 
                         <Col lg={{span:8}} xs={{span:12}}>
                             <video style={{width:'85%'}} loop="true" autoplay="autoplay" muted>
                                 <source src={pUser} type="video/mp4"/>
@@ -439,7 +439,7 @@ export default function Rapido(){
             <br/>
             <br/>
 
-            <Row>
+            <Row className="rapidoM">
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:20}} xs={{span:24}}>
             <br/>
@@ -458,8 +458,8 @@ export default function Rapido(){
 
             <br/>
             <br/>
-            <h2 align="left" className="showOnMobile" style={{display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>Voice Indicators for Driver</b></h2>
-            <Row>
+            <h2 align="left" className="showOnMobile" style={{paddingLeft:'15px', display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>Voice Indicators for Driver</b></h2>
+            <Row className="rapidoM">
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col lg={{span:8}} xs={{span:24}}>
                 <img style={{width:'60%'}} src={rapido4}/>
@@ -467,7 +467,7 @@ export default function Rapido(){
             <Col lg={{span:12}} xs={{span:24}}>
             <br/>
             <br/>
-                <h2 align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Indicators for Driver</h2>
+                <h2 className="rapidoM" align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Indicators for Driver</h2>
                 <p align="left" className="rapidoHp">
                     Pick up Location and Drop off Location 
                     <br/>
@@ -496,14 +496,14 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <h2 align="left" className="showOnMobile" style={{display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>Voice Commands</b></h2>
-            <Row>
+            <h2 align="left" className="showOnMobile" style={{display:'none', fontFamily:'Raleway', color:'#15204e', paddingLeft:'15px'}}><b>Voice Commands</b></h2>
+            <Row className="rapidoM">
             <Col lg={{span:2}} xs={{span:24}}></Col>  
             <Col className="showOnMobile" style={{display:'none'}} lg={{span:8}} xs={{span:24}}>
                 <img style={{width:'60%'}} src={rapido5}/>
             </Col>
             <Col lg={{span:12}} xs={{span:24}} style={{paddingTop:'50px'}}> 
-                <h2 align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Commands</h2>
+                <h2  align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Commands</h2>
                 <p align="left" className="rapidoHb" style={{fontSize:'17px'}}>
                     Would you like to ACCEPT or DECLINE?
                     <br/>
@@ -521,8 +521,8 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <h2 align="left" className="showOnMobile" style={{display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>En route/ Reaching Destination</b></h2>
-            <Row>
+            <h2 align="left" className="showOnMobile" style={{paddingLeft:'15px', display:'none', fontFamily:'Raleway', color:'#15204e'}}><b>En route/ Reaching Destination</b></h2>
+            <Row className="rapidoM">
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col lg={{span:8}} xs={{span:24}}>
                 <img style={{width:'60%'}} src={last2}/>
@@ -562,7 +562,7 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row style={{backgroundColor:'#f6fbff', paddingTop:'90px', paddingLeft:'10px', paddingRight:'10px', paddingBottom:'150px', marginBottom:'-60px'}}>
+            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', paddingTop:'90px', paddingLeft:'10px', paddingRight:'10px', paddingBottom:'150px', marginBottom:'-60px'}}>
             
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col align="left" lg={{span:7}} xs={{span:24}}>

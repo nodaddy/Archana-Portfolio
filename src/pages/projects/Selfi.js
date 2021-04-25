@@ -358,7 +358,7 @@ export default function Selfi(props){
                             <Row className="selfiM"> 
                                 <Col xs={{span:24}} lg={{span:2}} align="left"></Col> 
                                 <Col xs={{span:24}} lg={{span:20}} align="left">
-                                    <img className="showInDesktop" style={{width:'90%'}} src={Alli}/>
+                                    <img style={{width:'90%'}} src={Alli}/>
                                 </Col> 
                             </Row>
                         </Col>
@@ -553,8 +553,7 @@ export default function Selfi(props){
                         video tag is not supported
                     </video>
                         
-                    <br/>
-                    <br/>
+                    <br/> 
                         <br/>
                         </Col> 
                         </Row>
