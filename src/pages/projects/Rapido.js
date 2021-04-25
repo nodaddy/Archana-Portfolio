@@ -23,6 +23,9 @@ import ts3 from './../../assets/rapido/ts3.png';
 import cb1 from './../../assets/rapido/cb1.png';
 import cb2 from './../../assets/rapido/cb2.png';
 
+import last1 from './../../assets/rapido/last1.png';
+import last2 from './../../assets/rapido/last2.png';
+
 
 const rapidoImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/859CF4DD-8B17-416A-8296-3FB76E60035A.png";
 const rapidoLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C3D8B4C-0F52-4937-90C7-E2AE414818D9.png";
@@ -35,7 +38,7 @@ export default function Rapido(){
 
     return (
         <div align="center" id="rapido">
-            <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
+            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
             <div id="rapidoMainH" style={{fontFamily:'Palatino-Roman', fontSize:'36px', color:'#796b6d', marginBottom:'80px'}}>
                 Perfecting the booking experience
             </div>
@@ -265,7 +268,7 @@ export default function Rapido(){
                     <br/>
                     <h2 className="rapidoH">Our Approach</h2>
                     <p align="left" className="rapidoHp">
-                        Drawing from our three important principles, we generated ideas for solutions. We started working on Riders Flow and Drivers Flow by integrating Voice commands for the Booking experience, which helped us in designing the other important flows in-between.
+                        Drawing from our three important principles, we generated ideas for solutions. We started working on <b>Riders Flow and Drivers Flow</b> by integrating Voice commands for the Booking experience, which helped us in designing the other important flows in-between.
                     </p>
                     <br/>
                     <br/>
@@ -512,7 +515,7 @@ export default function Rapido(){
                 </p>
             </Col> 
             <Col className="showOnDesktop" lg={{span:8}} xs={{span:24}}>
-                <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/33F10BD7-71C0-4285-A0D9-C05E0BAA3F7A.png"/>
+                <img style={{width:'60%'}} src={last1}/>
             </Col>
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             </Row>
@@ -522,7 +525,7 @@ export default function Rapido(){
             <Row>
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             <Col lg={{span:8}} xs={{span:24}}>
-                <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/43256E7C-57E8-4CDA-B99E-E03A626000C4.png"/>
+                <img style={{width:'60%'}} src={last2}/>
             </Col> 
             <Col lg={{span:12}} xs={{span:24}}>
             <br/>
@@ -552,13 +555,7 @@ export default function Rapido(){
                         “Customer ko call Karo."
                         <br/>
                         “Vanuatu"
-                    </p>
-
-
-
-
-
-
+                    </p> 
                 </p>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 

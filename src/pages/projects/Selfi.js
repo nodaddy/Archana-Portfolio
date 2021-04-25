@@ -35,7 +35,7 @@ export default function Selfi(props){
 
     return (
         hasAccess ?  <div align="center" id="selfi">
-                    <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
+                    <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
                     <div className="showInDesktop" style={{fontSize:'48px',fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', width:'70%'}}>
                         The Development of a Mobile Health App 
                         for Breast Cancer Self-Management 
@@ -115,7 +115,7 @@ export default function Selfi(props){
                             <br/>
                             <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2909DCB3-3CFB-4638-948A-94ED185C5981.svg"/>
                             <br/> 
-                            <div style={{color:'#ff6b63', fontFamily:'Raleway', marginTop:'10px'}}>DISCOVER/ INSIGHTS</div>
+                            <div style={{color:'#ff6b63', fontFamily:'Raleway', marginTop:'10px'}}><b>DISCOVER/ INSIGHTS</b></div>
                             
                         </Col>
                         <Col lg={{span:2}} xs={{span:24}}></Col> 
@@ -133,16 +133,22 @@ export default function Selfi(props){
                         <br/>
                         <div className="selfiHp">
                         <ul>
-                        <li>Over 300,000 people in the US is diagnosed with breast cancer, with an estimated 12,000 of those diagnosed expected to be under the age 
-                        of 40. Early detection is pivotal to ensuring a high likelihood of survival, which 
+                        <li>Over 300,000 people in the US is diagnosed with breast cancer, with an estimated 12,000 of those
+                            <span style={{color:'#15204e', fontWeight:'700'}}> diagnosed expected to be under the age 
+                        of 40.</span> Early detection is pivotal to ensuring a high likelihood of survival, which 
                         is why the importance of self-check is the no 1 priority for both men and women .
                         </li>
                         <br/>
-                        <li> According to Johns Hopkins Medicine, 40% of diagnosed breast cancers are detected by women who feel a lump. All adult women are encouraged to perform BSE( Breast Self- Examination) at least once a month. BSE is not a replacement to getting routine mammograms.</li>
+                        <li> According to Johns Hopkins Medicine, 40% of diagnosed breast cancers are detected by women who feel a lump. 
+                        <span style={{color:'#15204e', fontWeight:'700'}}>  All adult women are encouraged to perform BSE( Breast Self- Examination) at least once a month. </span>
+                          BSE is not a replacement to getting routine mammograms.</li>
                         <br/>
                         <li>
-                                Breast Self-Examination (BSE) is a procedure by which women physically examine their own breasts in the privacy of their own homes. The goal of BSE 
-                        is to detect sub-surface lumps or changes which can be brought to the doctor’s attention and get advice on follow-on diagnostics such as mammogram. Since BSE is a manual, subjective procedure, many women are unsure how to perform a BSE, and unsure how to interpret what they feel. As a result, some women may be reluctant to perform BSEs, and the effectiveness of BSEs vary dramatically among those who perform them. Currently there are no digital health solutions or devices to guide or assist women to perform BSEs at home.
+                                Breast Self-Examination (BSE) is a procedure by which women physically examine their own breasts in the privacy of their own homes. 
+                                <span style={{color:'#15204e', fontWeight:'700'}}> The goal of BSE 
+                        is to detect sub-surface lumps or changes which can be brought to the doctor’s attention and get advice on follow-on diagnostics such as mammogram. Since BSE is a manual, subjective procedure, many women are unsure how to perform a BSE, 
+                        and unsure how to interpret what they feel. </span>
+                        As a result, some women may be reluctant to perform BSEs, and the effectiveness of BSEs vary dramatically among those who perform them. Currently there are no digital health solutions or devices to guide or assist women to perform BSEs at home.
                         
                                 </li>
                         </ul>
@@ -213,7 +219,7 @@ export default function Selfi(props){
                         <Row>
                             <Col lg={{span:12}} xs={{span:24}} align="left">
                                 <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/6C1C9051-C170-4771-852B-E017C7A2D2A8.svg"/>
-                                <div style={{marginTop:'10px', marginBottom:'10px', color:'#ff6b63'}}>DEFINE/ SYNTHESIZE</div>
+                                <div style={{marginTop:'10px', marginBottom:'10px', color:'#ff6b63'}}><b>DEFINE/ SYNTHESIZE</b></div>
                                 <div style={{textAlign:'left'}} className="selfiH">What we gathered</div>
                                 <br/>
                             </Col>
@@ -262,7 +268,10 @@ export default function Selfi(props){
                                         </div> 
                                         <br/>
                                         <div className="selfiHp">
-                                        Drawing from our two important questions, we generated ideas for solutions. Some of these included the ability to send referral codes to your friend for discount, making a subscription model, getting notifications when your next appointments is or scheduling an appointment, having in app mental health counsellor, a breast cancer survivor community for sharing experience  and gamification of in-app actions. We bundled these ideas in various ways to get a feel for how the most promising ones could fit within an educate-and-motivate framework.
+                                        Drawing from our two important questions, we generated ideas for solutions. Some of these 
+                                        <span style={{color:'#15204e', fontWeight:'700'}}>  included the ability to send referral codes to your friend for discount, making a subscription model, getting notifications when your next appointments is or scheduling an appointment, having in app mental health counsellor, 
+                                        a breast cancer survivor community for sharing experience  and gamification of in-app actions. </span>
+                                         We bundled these ideas in various ways to get a feel for how the most promising ones could fit within an educate-and-motivate framework.
                                         </div>
                                     </Col>
                                     <Col lg={{span:24}} lg={{span:2}} align="left"></Col>
@@ -283,14 +292,14 @@ export default function Selfi(props){
 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
 
-                            <h1 style={{fontFamily:'Raleway', color:'#ff6b63'}}>01</h1>
+                            <h1 style={{fontFamily:'Prompt-SemiBold', color:'#ff6b63'}}>01</h1>
                             <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Primary User</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                              Elle has dense breasts and while during her mammograms checkups she endures pain and is looking for other painfree alterantives
                              </div>
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
-                            <h1 style={{fontFamily:'Raleway', color:'#ff6b63'}}>02</h1>
+                            <h1 style={{fontFamily:'Prompt-SemiBold', color:'#ff6b63'}}>02</h1>
                             <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Survivor</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                Miranda is a Survivor and has a family history of breast cancer, hence she is looking for other convenient methods for regulary checking her 
@@ -298,7 +307,7 @@ export default function Selfi(props){
                             </div>
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
-                            <h1 style={{fontFamily:' Prompt', color:'#ff6b63'}}>03</h1>
+                            <h1 style={{fontFamily:'Prompt-SemiBold', color:'#ff6b63'}}>03</h1>
                             <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Well- Wisher</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                 John is a dotting husband who after hearing about the importance of breast health from his colleagues and to help her maintain breast wellness.
@@ -334,7 +343,7 @@ export default function Selfi(props){
                             <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/734A34E9-A0FD-4E89-80CE-1E13BD5E88DA.svg"/>
                             <br/>
                             <br/>
-                            <div style={{fontFamily:'Raleway', color:'#ff6b63'}}>DESIGN/ PROTOTYPE</div>
+                            <div style={{fontFamily:'Raleway', color:'#ff6b63'}}><b>DESIGN/ PROTOTYPE</b></div>
                             <br/>
                             <br/>
                             <div className="selfiH">
@@ -603,7 +612,7 @@ export default function Selfi(props){
                 </div>
                 :
                 <>
-            <div style={{paddingTop:'150px', backgroundColor:'white', height:'100vh'}} align="center">
+            <div style={{paddingTop:'140px', backgroundColor:'white', height:'90vh', marginBottom:'-10000px'}} align="center">
                 <img src={lockIcon} style={{width:'39px'}}/>
                 <br/>
                 <h3 style={{color:'#5e5a5a', fontFamily:'Raleway', marginTop:'32px', marginBottom:'32px'}}>

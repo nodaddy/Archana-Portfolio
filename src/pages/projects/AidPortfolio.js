@@ -27,8 +27,8 @@ export default function Aid(){
     return (
         <div align="center" id="aid">
             <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>
-            Project Duration  -  Sept 2019- Feb 2020
-</h3>
+                Project Duration  -  Sept 2019- Feb 2020
+            </h3>
             <div id="aidMainH" style={{fontFamily:'PalatinoETW01-Roman', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
             University Website Redesign 
             </div>
@@ -144,7 +144,8 @@ export default function Aid(){
                 paddingRight:'15px',
                 paddingBottom:'60px',
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0B95BF7B-07F6-4F14-8AA1-CC8AD8419FAB.svg")',
-                backgroundPositionX: '-20px'
+                backgroundSize:'cover', 
+                backgroundRepeat:'no-repeat'
                 }}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>

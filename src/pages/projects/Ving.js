@@ -33,7 +33,7 @@ export default function Ving(){
 
     return (
         hasAccess ?   <div align="center" id="ving">
-            <h4 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h4>
+            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
             <div id="vingMainH" style={{width:'80%', fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'10px', fontSize:'48px'}}>
             Creating a Software for 
             Booking rooms online
@@ -408,7 +408,7 @@ export default function Ving(){
         </div>
         :
         <>
-        <div style={{paddingTop:'150px', backgroundColor:'#f5f5f5', height:'100vh'}} align="center">
+        <div style={{paddingTop:'150px', backgroundColor:'white', height:'90vh', marginBottom:'-10000px'}} align="center">
             <img src={lockIcon} style={{width:'39px'}}/>
             <br/>
             <h3 style={{color:'#5e5a5a', fontFamily:'Raleway', marginTop:'32px', marginBottom:'32px'}}>
@@ -418,7 +418,7 @@ export default function Ving(){
                 This content is protected. 
                 </b>
             </h3>
-            <p style={{marginBottom:'89px', color:'#5e5a5a', fontFamily:'Raleway'}}>To view please enter password.</p>
+            <p style={{marginBottom:'70px', color:'#5e5a5a', fontFamily:'Raleway'}}>To view please enter password.</p>
             <Input type="password"
             onChange={(e)=>{
                 if(e.target.value == "password"){
