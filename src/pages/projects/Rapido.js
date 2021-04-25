@@ -466,22 +466,22 @@ export default function Rapido(){
                 <h2 align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Indicators for Driver</h2>
                 <p align="left" className="rapidoHb" style={{fontSize:'19px'}}>
                     Pick up Location and Drop off Location <br/>
-                    <span style={{fontFamily:'Nanum Pen Script'}}>Your ride is from KFC Signal, HSR Layout to Grand Hotel, HSR Layout.</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>Your ride is from KFC Signal, HSR Layout to Grand Hotel, HSR Layout.</span>
                     <br/>
                     <br/>
                     Minutes to Reach
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script'}}>Pick up is 10 mins away.</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>Pick up is 10 mins away.</span>
                     <br/>
                     <br/>
                     Total Distance Covered
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script'}}>3 km will be the distance from your pickup to drop location.</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>3 km will be the distance from your pickup to drop location.</span>
                     <br/>
                     <br/>
                     Accept or Decline Ride
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script'}}>Would you like to ACCEPT or DECLINE?</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>Would you like to ACCEPT or DECLINE?</span>
                 </p>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 
@@ -500,9 +500,9 @@ export default function Rapido(){
                     Would you like to ACCEPT or DECLINE?
                     <br/>
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script'}}>Accept / Yes / OK / Accept/ Haan/ Howdu/ Sari ride eduthukaran</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>Accept / Yes / OK / Accept/ Haan/ Howdu/ Sari ride eduthukaran</span>
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script'}}>Ride Reject / No / Decline / Reject Ride/ Nahi/ Illai/ Illa/ Beda</span>
+                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>Ride Reject / No / Decline / Reject Ride/ Nahi/ Illai/ Illa/ Beda</span>
 
                 </p>
             </Col> 
@@ -531,7 +531,7 @@ export default function Rapido(){
                     The Driver can use these commands to for directions or send a message or call the customer.
                     <br/>
                     <br/>
-                    <p style={{fontFamily:'Nanum Pen Script'}}>
+                    <p style={{fontFamily:'Nanum Pen Script', fontSize:'22px'}}>
                         "Give me directions to the pickup location."
                         <br/>
                         "Rasta dikhaye."
