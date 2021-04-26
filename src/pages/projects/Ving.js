@@ -47,7 +47,7 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row> 
-            <Row className="vingM" id="row2" style={{marginTop:'-500px', paddingTop:'560px', background:`url("${bg}")`, backgroundPositionY:'-10px', backgroundRepeatY:'no-repeat', backgroundSize:'cover', backgroundSize:'100%', backgroundPosition:'left top'}}>
+            <Row className="vingM" id="row2" style={{marginTop:'-500px',marginBottom:'120px', paddingTop:'560px', background:`url("${bg}")`, backgroundPositionY:'-10px', backgroundRepeatY:'no-repeat', backgroundSize:'cover', backgroundSize:'100%', backgroundPosition:'left top'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col align="left" lg={{span:8}} xs={{span:24}}> 
                 <img id="vingLogo" style={{width:'270px'}} src={VingLogo}/>
@@ -102,9 +102,7 @@ export default function Ving(){
                 <br/>
                 </div> 
             </Col>
-            </Row>
-            <br/>
-            <br/>
+            </Row> 
             <Row className="vingM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:8}} xs={{span:24}}>
@@ -430,7 +428,7 @@ export default function Ving(){
         </div>
         :
         <>
-        <div style={{paddingTop:'150px', backgroundColor:'white', height:'90vh', marginBottom:'-10000px'}} align="center">
+        <div style={{paddingTop:'30vh', backgroundColor:'white', height:'90vh', marginBottom:'-10000px'}} align="center">
             <img src={lockIcon} style={{width:'39px'}}/>
             <br/>
             <h3 style={{color:'#5e5a5a', fontFamily:'Raleway', marginTop:'32px', marginBottom:'32px'}}>
@@ -440,7 +438,7 @@ export default function Ving(){
                 This content is protected. 
                 </b>
             </h3>
-            <p style={{marginBottom:'70px', color:'#5e5a5a', fontFamily:'Raleway'}}>To view please enter password.</p>
+            <p style={{marginBottom:'50px', color:'#5e5a5a', fontFamily:'Raleway'}}>To view please enter password.</p>
             <Input type="password"
             onChange={(e)=>{
                 if(e.target.value == "password"){

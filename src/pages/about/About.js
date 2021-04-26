@@ -17,8 +17,9 @@ export default function About(props){
             <Col lg={{span:1}} xs={{span:24}}></Col>
             <Col lg={{span:11}} xs={{span:24}} style={{paddingLeft:'30px', paddingRight:'30px'}} align="center"> 
             <div>
-            <img align="left" style={{width:'80%', display:'block'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/140DE156-B4F2-4FD7-A541-D69545AB2AAC.png"/>
-            <br/>
+            <img className="showInDesktop" align="left" style={{width:'80%', display:'block'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/140DE156-B4F2-4FD7-A541-D69545AB2AAC.png"/>
+            <img className="showInMobile" align="center" style={{display:'none', width:'80%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/5492C75D-AFD4-40F2-9DDD-C8191D37AE3C.png"/>
+            <br/> 
             </div>
             <br/>
             <br/>

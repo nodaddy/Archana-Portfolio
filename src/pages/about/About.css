@@ -12,5 +12,11 @@
    #profilePicture {
        width: 65% !important;  
    }
+   .showInDesktop{
+       display: none !important;
+   }
+   .showInMobile{
+    display: block !important;
+}
   }
  

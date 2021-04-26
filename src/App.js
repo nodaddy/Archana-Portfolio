@@ -42,10 +42,10 @@ function Footer(props){
   <br/>
   <Row>
   <Col align="center" xs={{span:24}} sm={{span:24}} lg={{span:2}} md={{span:2}}></Col>
-  <Col id="footer_left" style={{borderRight:props.section?'2px solid silver':'0px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+  <Col id="footer_left" style={{fontFamily:'Raleway',borderRight:props.section?'2px solid silver':'0px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
     <span style={{paddingBottom:'35px', fontSize:'18px', color: '#585757'}}>archanadesign.com</span>
   </Col>
-  <Col id="footer_right" style={{paddingBottom:'40px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
+  <Col id="footer_right" style={{fontFamily:'Raleway', paddingBottom:'40px', textAlign:'center'}} xs={{span:24}} sm={{span:24}} lg={{span:10}} md={{span:10}}>
     <h2 style={{ color: '#585757'}}>
       <a href={behance}>
           <span style={{fontSize:'18px', color:'#796b6d', fontWeight:'normal'}}>

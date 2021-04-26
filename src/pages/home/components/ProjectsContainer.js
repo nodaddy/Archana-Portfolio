@@ -2,12 +2,12 @@ import './ProjectsContainer.css';
 import {NavLink} from 'react-router-dom';
 import {Row, Col, Card} from 'antd';
 
-import group19 from './../../../assets/group-19.svg';
-import group29 from './../../../assets/group-29.svg';
-import group30 from './../../../assets/group-30.svg';
+import group19 from './../../../assets/group-19.png';
+import group29 from './../../../assets/group-20.png';
+import group30 from './../../../assets/group-30.png';
 import group31 from './../../../assets/group-31.png';
-import group32 from './../../../assets/group-32.jpg';
-import group33 from './../../../assets/group-37.svg';
+import group32 from './../../../assets/group-32.png';
+import group33 from './../../../assets/group-33.png';
 
 import rapidoBack from './../../../assets/rapidoBack.svg';
 import selfiBack from './../../../assets/selfiBack.svg';
