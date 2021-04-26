@@ -27,7 +27,7 @@ import last1 from './../../assets/rapido/last1.png';
 import last2 from './../../assets/rapido/last2.png';
 
 
-const rapidoImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/859CF4DD-8B17-416A-8296-3FB76E60035A.png";
+const rapidoImg = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3A714B15-15BD-4702-A898-5805E5906FA9.png";
 const rapidoLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C3D8B4C-0F52-4937-90C7-E2AE414818D9.png";
 
 export default function Rapido(){
@@ -138,9 +138,8 @@ export default function Rapido(){
                     Even though we had an idea of the app or drivers riding on the road. We weren’t well versed with the interface of the app. The things we design are bound to fail if we don't understand how it works in the first place. Since it was completely a new area for both the product and the interface, we requested some of our colleagues to try the app and tell us about their experience using the app and figure out the problem areas for booking. We personally tried it from different environments home, work, even in the middle of the main road.
                     </p>
                     <br/>
-                    <img style={{width:'100%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AB3D6DBD-C793-4723-B8B4-35D34F821652.png"/>
-                    <br/>
-                    <br/>
+                    <img style={{width:'100%', marginBottom:'51px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AB3D6DBD-C793-4723-B8B4-35D34F821652.png"/>
+                    <br/> 
                     <h1 style={{ 
                         fontFamily: 'serif',   
                         textAlign: 'center',

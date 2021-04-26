@@ -5,7 +5,7 @@
     background-size: cover; 
     background-size: 105vw; 
     background-repeat: no-repeat;   
-    background-position-y: -110px;
+    background-position-y: -210px;
 }
 
 .rapidoH {
@@ -43,7 +43,7 @@
         font-family:serif !important;
     }
     #rapido {    
-        background-size: 115vh;   
+        background-size: 115vh;      
     }
     .rapidoM {
       padding-left: 20px;
