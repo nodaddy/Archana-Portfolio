@@ -45,7 +45,7 @@ export default function Rapido(){
             <Row style={{marginBottom:'110px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <img style={{width:'90%'}} src={rapidoImg}></img>
+                    <img style={{width:'80%'}} src={rapidoImg}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row> 
@@ -89,14 +89,17 @@ export default function Rapido(){
                 <Col align="left" lg={{span:2}} xs={{span:24}}></Col>
             </Row>
             <Row>
-                <Col span={24}>
-                    <img style={{width:'100vw', marginTop:'80px', marginBottom:'60px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
+                <Col span={24} align="center" style={{width:'100vw', overflowX:'hidden'}}>
+                    <img style={{width:'105vw', marginTop:'80px', marginBottom:'60px', marginLeft:'-50px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/AAD3E514-6FA2-4305-94A5-B2CD8BC042D6.svg"/>
                 </Col>
             </Row> 
             <Row className="rapidoM">
                 <Col align="left" lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3B5034A2-6191-4151-B4DD-112DBF0CCF50.svg"></img>
+                    <br/>
+                    <br/>
+                    <b style={{fontFamily:'Raleway', color:'#f6d70f'}}>GOALS</b>
                     <br/>
                     <br/>
                     <h2 className="rapidoH">What we wanted to achieve</h2>
@@ -125,6 +128,9 @@ export default function Rapido(){
                 <Col span={2}></Col>
                 <Col align="center" lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/A1671438-FEF7-40FB-842E-9FFB9DBD285D.svg"></img>
+                    <br/>
+                    <br/>
+                    <b style={{fontFamily:'Raleway', color:'#f6d70f'}}>DISCOVER/ INSIGHTS</b>
                     <br/>
                     <br/>
                     <h2 className="rapidoH">What we learned</h2> 
@@ -210,6 +216,9 @@ export default function Rapido(){
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2C8103D3-2B4F-49AF-AEC7-B212C0861A46.svg"></img>
                     <br/>
                     <br/>
+                    <b style={{fontFamily:'Raleway', color:'#f6d70f'}}>DEFINE/ SYNTHESIZE</b>
+                    <br/>
+                    <br/>
                     <h2 className="rapidoH">Our Philosophy</h2>
                     <p className="rapidoHp">
                     Based on our research and insights, we drew a plan where I took up the task of solving customer-facing issues, and my team-mate Guru took the task of solving the captain's problem using VUI and present it as part of the initial meeting. We started off by setting the principles right for the project.
@@ -260,10 +269,13 @@ export default function Rapido(){
             </Row>
             <br/>
             <br/>
-            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', padding:'7px', paddingBottom:'40px'}}>
+            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', padding:'7px', paddingBottom:'45px', paddingTop:'45px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/00C35001-8200-4CB9-9165-FEAC7D67C3CF.svg"></img>
+                    <br/>
+                    <br/>
+                    <b style={{fontFamily:'Raleway', color:'#f6d70f'}}>DEFINE/ SYNTHESIZE</b>
                     <br/>
                     <br/>
                     <h2 className="rapidoH">Our Approach</h2>
@@ -301,7 +313,7 @@ export default function Rapido(){
                         </Col>
                         <Col lg={{span:24}} xs={{span:12}}>
                             <br/>
-                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757'}}>
+                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
                             For first time users, there will be a Rapido Scooter pop up for Voice Assistance which will help the User in guiding/responding to commands that a first time Rider would typically make during Onboarding.  
                         </h3>
                         </Col>
@@ -339,7 +351,7 @@ export default function Rapido(){
                         </Col>
                         <Col lg={{span:24}} xs={{span:12}}>
                             <br/>
-                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757'}}>
+                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
                             First time users can save their address and set their preferences according to the suggested tags
                             <br/>
                             The Pro/Returning users can make commands to request their rides.
@@ -366,7 +378,7 @@ export default function Rapido(){
                     </h2>
                     <Row className="rapidoM">
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/720F518B-EF3D-438F-9FAB-D447CF025E44.png"></img>
+                            <img style={{width:'60%',  marginTop:'19px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/720F518B-EF3D-438F-9FAB-D447CF025E44.png"></img>
                         </Col>
                         <Col lg={{span:12}} xs={{span:12}}>
                             <img style={{width:'60%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B4FA74E6-1B20-4AC0-B747-F64ECDC9F05D.png"/>
@@ -379,12 +391,13 @@ export default function Rapido(){
                     <br/>
                     <Row className="rapidoM">
                         <Col lg={{span:12}} xs={{span:12}}>
-                            <img style={{width:'60%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A928C30-F094-459C-A0C1-C5D42BD36B8D.png"></img>
+                            <img style={{width:'60%',  marginTop:'19px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2A928C30-F094-459C-A0C1-C5D42BD36B8D.png"></img>
                         </Col>
                         <Col lg={{span:12}} xs={{span:12}}>
                             <img style={{width:'60%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/33723C99-6F7B-4F8E-87DC-436E93BD6ADF.png"/>
                         </Col>
                     </Row>
+                    <br/>
                     <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
                     Error State for Misheard Commands
                     </h3>
@@ -429,7 +442,7 @@ export default function Rapido(){
                             <img style={{width:'85%'}}  src={pu3}></img>
                         </Col>
                     </Row>
-                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757'}}>
+                    <h3 align="center" style={{fontFamily:'Nanum Pen Script', color:'#585757', fontSize:'25px'}}>
                     Trained Pro-user flow 
                     </h3>
                 </Col>
@@ -489,7 +502,7 @@ export default function Rapido(){
                     <br/>
                     Accept or Decline Ride
                     <br/>
-                    <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>Would you like to ACCEPT or DECLINE?</span>
+                    <span style={{fontFamily:'Nnum pen Script', fontSize:'24px'}}>Would you like to ACCEPT or DECLINE?</span>
                 </p>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 
@@ -504,7 +517,7 @@ export default function Rapido(){
             </Col>
             <Col lg={{span:12}} xs={{span:24}} style={{paddingTop:'50px'}}> 
                 <h2  align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Commands</h2>
-                <p align="left" className="rapidoHb" style={{fontSize:'17px'}}>
+                <p align="left" className="rapidoHp" style={{fontSize:'17px'}}>
                     Would you like to ACCEPT or DECLINE?
                     <br/>
                     <br/>
