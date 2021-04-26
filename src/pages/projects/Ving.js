@@ -16,6 +16,8 @@ import laptop from './../../assets/ving/laptop.png'
 import mobile1 from './../../assets/ving/mobile1.png'
 import mobile2 from './../../assets/ving/mobile2.png'
 import social from './../../assets/ving/social.png'
+import las from './../../assets/ving/las.png'
+import bg from './../../assets/ving/bg.png'
 
 export const lockIcon = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/373D7483-4A00-449A-96E4-6899204BBE2D.svg";
 
@@ -34,7 +36,7 @@ export default function Ving(){
     return (
         hasAccess ?   <div align="center" id="ving">
             <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
-            <div id="vingMainH" style={{width:'80%', fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'10px', fontSize:'48px'}}>
+            <div id="vingMainH" style={{width:'80%', fontFamily:'serif', color:'#796b6d', marginBottom:'10px', fontSize:'48px'}}>
             Creating a Software for 
             Booking rooms online
             </div>
@@ -44,21 +46,24 @@ export default function Ving(){
                     <img style={{width:'100%'}} src={ving1}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
-            </Row>
-            <br/> 
-            <Row className="vingM" id="row2" style={{ marginTop:'-200px', paddingTop:'290px', backgroundSize:'contain', background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/90976B30-E373-443D-A590-204AD34B8039.svg")',backgroundPosition:'right', backgroundRepeat:'no-repeat'}}>
+            </Row> 
+            <Row className="vingM" id="row2" style={{marginTop:'-500px', paddingTop:'560px', background:`url("${bg}")`, backgroundPositionY:'-10px', backgroundRepeatY:'no-repeat', backgroundSize:'cover', backgroundSize:'100%', backgroundPosition:'left top'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col align="left" lg={{span:8}} xs={{span:24}}> 
-                <img id="vingLogo" style={{width:'270px'}} src={VingLogo}/> 
+                <img id="vingLogo" style={{width:'270px'}} src={VingLogo}/>
+                <br/>
+                <br/>
+                <div className="showInDesktop">
                 <div className="vingH">
                 Online Meeting Room Booking System
                 </div>
-                <br/>
+                <br/> 
                 <div className="vingHp">
                 Ving is a web application that can be used by the end- users to book VING meeting rooms online as per their requirements. Ving provides a purpose built meeting room booking software that integrates seamlessly with your website.
                 </div>
                 <br/>
                 <br/>
+                </div> 
                 <h4 style={{fontFamily:'Raleway', color:'#7791ff'}}><b>AREA</b></h4>
                     <p style={{fontFamily:'Raleway', fontSize:'16px', color: '#585757'}}>
                     
@@ -71,7 +76,7 @@ export default function Ving(){
                     Lead the UI design, discovery, research, requirements and design through launch. 
                 </p> 
             </Col>
-            <Col lg={{span:9}} xs={{span:0}} align="right">
+            <Col lg={{span:9}} xs={{span:0}} align="right" style={{paddingTop:'40px'}}>
                 <img className="threeImgs" id="threeImgs0" style={{width:'65%', marginTop:'-100px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/E382511C-923B-489A-BDF2-83773FBBC4C0.png"/>
                 <br/>
                 <img className="threeImgs" id="threeImgs1" style={{width:'50%'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/886266C7-C19B-408E-864D-D8F818160FB1.png"/>
@@ -83,6 +88,19 @@ export default function Ving(){
             <img className="threeImgs" id="threeImgs0" style={{width:'55%', position:'relative'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/E382511C-923B-489A-BDF2-83773FBBC4C0.png"/>
             <img className="threeImgs" id="threeImgs1" style={{width:'30%', marginTop:'100px', zIndex:'9999', position:'relative'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/886266C7-C19B-408E-864D-D8F818160FB1.png"/>
             <img className="threeImgs" id="threeImgs2" style={{width:'65%', marginTop:'-320px', marginLeft:'200px', zIndex:'99', position:'relative'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/01902CE5-DFEB-4166-9198-32A861BF8E13.png"/>    
+            <br/>
+            <br/>
+            <div className="showInMobile" style={{display:'none'}}>
+                <div className="vingH">
+                Online Meeting Room Booking System
+                </div>
+                <br/>
+                <div className="vingHp">
+                Ving is a web application that can be used by the end- users to book VING meeting rooms online as per their requirements. Ving provides a purpose built meeting room booking software that integrates seamlessly with your website.
+                </div>
+                <br/>
+                <br/>
+                </div> 
             </Col>
             </Row>
             <br/>
@@ -104,7 +122,7 @@ export default function Ving(){
                 </Col>
                 <Col lg={{span:1}} xs={{span:24}}></Col>
                 <Col align="right" lg={{span:13}} xs={{span:24}}>
-                    <img style={{width:'100%'}} src={mybookings}/>
+                    <img style={{width:'100%', marginTop:'40px'}} src={mybookings}/>
                 </Col> 
             </Row>
             <br/>
@@ -113,8 +131,8 @@ export default function Ving(){
                 marginTop:'-300px',
                 paddingTop:'330px',
                 background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/9183A043-B1F9-49F1-B76B-8FA89B46745C.svg')",
-                backgroundPosition: 'top',
-                backgroundPositionX: '-60vw',
+                backgroundPosition: 'left top',
+                backgroundPositionX: '-40vw',
                 backgroundSize:'cover',
                 backgroundRepeat:'no-repeat'
             }}>
@@ -126,19 +144,19 @@ export default function Ving(){
                 display:'none', 
                 background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3FCC17DC-8D74-46D4-A147-7C09AFCE3484.svg')",
                 backgroundPosition: 'top',
-                backgroundPositionX: '-80px',
+                backgroundPositionX: '-10vw',
                 backgroundSize:'cover',
-                backgroundRepeat:'no-repeat'
+                backgroundSize:'95vw',
+                backgroundRepeat:'no-repeat', 
             }}>
                 <Col span={24}>
                     <img style={{width:'85%', marginTop:'120px', marginBottom:'100px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/CABA41D4-D377-4D91-A45F-9B02CCFC1341.png"/>
                 </Col>
-            </Row>
-            <br/>
+            </Row> 
             <Row className="vingM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <h2 style={{fontFamily:'Palatino-Roman', fontSize:'28px', color:'#585757'}}>     
+                    <h2 style={{fontFamily:'serif', fontSize:'28px', color:'#585757', marginTop:'30px'}}>     
                         During discovery we found out that Business Organisations had to to manage their booking data manually through excel sheet and for end-to-end customers there was 
                         not a single platform where they can book meetings as per their requirements.
                     </h2>
@@ -173,25 +191,29 @@ export default function Ving(){
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:1}} xs={{span:24}}></Col>
                 <Col lg={{span:8}} xs={{span:24}} align="center">
-                    <div className="vingH" style={{color:'#7791ff', fontSize:'24px', fontFamily:'Prompt'}}>
-                        01
-                    <br/>
-                    <div style={{color:'#585757', fontSize:'30px'}}>The Organiser</div>     
-                    <div className="vingHp" style={{fontSize:'13px', textAlign:'center'}}>
-                        <br/>
+                    <div className="vingH" style={{color:'#7791ff', fontSize:'24px', fontFamily:'Raleway'}}>
+                        <b style={{fontSize:'30px'}}>01</b>
+                    <br/> 
+                    <div style={{marginTop:'10px', color:'#585757', fontSize:'30px', fontFamily:'palatino serif'}}>The Organiser</div>     
+                    <div className="vingHp" style={{paddingTop:'15px',fontSize:'20px', textAlign:'center'}}>
+                       
                     The Organiser has access to manage the details of 
                     all the participants of an organisation on the platform, including all the business centers,they also have access to manage the pro features eg: granting access to the Organisation Admin for bookings.
+                    <br/>
+                    <br/>
+                    
                     </div>
                     </div> 
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:8}} xs={{span:24}} align="center">
-                <div className="vingH" style={{color:'#7791ff', fontSize:'24px', fontFamily:'Prompt'}}>
-                        02
-                    <br/>
-                    <div style={{color:'#585757', fontSize:'30px'}}>The Co-Organiser</div>     
-                    <div className="vingHp" style={{fontSize:'13px', textAlign:'center'}}>
-                        <br/>
+                <div className="vingH" style={{color:'#7791ff', fontSize:'24px', fontFamily:'Raleway'}}>
+                <b style={{fontSize:'30px'}}>02</b>
+
+                    <br/> 
+                    <div style={{marginTop:'10px',color:'#585757', fontSize:'30px', fontFamily:'palatino serif'}}>The Co-Organiser</div>     
+                    <div className="vingHp" style={{fontSize:'20px', textAlign:'center', paddingTop:'15px'}}>
+                       
                         The Co-Organiser is addded as a Second User 
                         by the Organsiation Admin and has access to 
                         manage the details of a single business center and 
@@ -204,7 +226,7 @@ export default function Ving(){
             </Row>
             <br/>
             <br/>
-            <Row className="vingM" style={{background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/08BF46D8-CDD4-4995-AB3F-F8D36B062307.svg")',
+            <Row className="vingM" style={{background:'url("https://cdn.zeplinio/6061ed0fe3392716f0cc504a/assets/08BF46D8-CDD4-4995-AB3F-F8D36B062307.svg")',
             backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
             <Col lg={{span:20}} xs={{span:24}}>
@@ -264,11 +286,7 @@ export default function Ving(){
             <Col lg={{span:3}} xs={{span:24}}></Col>
             </Row>
             <br/> 
-            <Row style={{
-                background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3F0962C2-BADB-48C3-B4CA-0D5448E77605.svg")',
-                backgroundPosition: 'top right',
-                backgroundSize: 'contain',
-                backgroundRepeat:'no-repeat',
+            <Row style={{ 
                 marginTop:'-350px',
                 paddingTop:'350px',
                 }}>
@@ -327,7 +345,7 @@ export default function Ving(){
             style={{
                 marginTop:'-150px', 
                 paddingTop:'130px',
-                paddingBottom:'150px',
+                paddingBottom:'50px',
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0378630F-477E-485F-B6FB-015F00131AA9.svg")',
                 backgroundSize:'contain',
                 backgroundRepeat:'no-repeat',
@@ -366,21 +384,25 @@ export default function Ving(){
                  </div>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
-                <Col lg={{span:10}} xs={{span:24}}>
+                <Col lg={{span:10}} xs={{span:0}}>
                     <img style={{width:'100%'}} src={reminderbooking}/>
                 </Col>
+                
                 <Col lg={{span:2}} xs={{span:24}}></Col>
+            </Row> 
+            <Row>
+            <Col lg={{span:0}} xs={{span:24}}>
+                    <img style={{width:'100%'}} src={las}/>
+                </Col>
             </Row>
-            <br/>
-            <br/>
             {/* <Row style={{backgroundColor:'#f3f4fc', paddingBottom:'100px'}}> 
                 <Col lg={{span:24}} xs={{span:24}}>
                     <img style={{width:'100%'}} src={vingBottom}/>
                 </Col> 
             </Row>  */}
-            <Row style={{marginBottom:'50px'}}>
+            <Row style={{marginBottom:'20px'}}>
                 <Col span={24} align="center">
-                    <img style={{width:'100%'}} src={social}/>
+                    <img style={{width:'100%', backgroundColor:'#f3f4fc'}} src={social}/>
                      
                 </Col>
             </Row>

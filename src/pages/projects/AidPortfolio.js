@@ -29,10 +29,10 @@ export default function Aid(){
             <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>
                 Project Duration  -  Sept 2019- Feb 2020
             </h3>
-            <div id="aidMainH" style={{fontFamily:'PalatinoETW01-Roman', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
+            <div id="aidMainH" style={{fontFamily:'serif', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
             University Website Redesign 
             </div>
-            <Row style={{marginBottom:'116px'}}>
+            <Row style={{marginBottom:'76px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
                     <video style={{width:'100%'}} loop="true" autoplay="autoplay" muted>
@@ -121,7 +121,7 @@ export default function Aid(){
                     </ul>
                     </p>
                     <br/>
-                    <p align="left" style={{fontFamily:'PalatinoETW01-Roman', fontSize:'30px', color:'#585757'}}>
+                    <p align="left" style={{fontFamily:'serif', fontSize:'30px', color:'#585757'}}>
                     " Make it easy to understand the company value and facilitate a positive user
                     experience through informative and relevant content to navigate potential  
                     clients in the right direction."
@@ -149,7 +149,7 @@ export default function Aid(){
                 }}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <div align="left" style={{marginBottom:'30px'}} className="aidH">What we designed</div>
+                    <div align="left" style={{marginBottom:'30px'}} className="aidH">What We Planned</div>
                     <p className="aidHp">
                     We needed to create a system that could logically represent a wide breadth of content they started producing, including e.g. student work, scholarships, blogs, placements, etc. Also, to this it was important to come up with a modern and appealing visual style that will shine a light on the brand personality.
                     <br/>
@@ -170,7 +170,7 @@ export default function Aid(){
             <Row style={{marginTop:'107px'}} className="aidM">
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <div style={{fontSize:'30px', fontFamily:'PalatinoETW01-Roman', color:'#585757'}}>
+                    <div style={{fontSize:'30px', fontFamily:'serif', color:'#585757'}}>
                     “Design shapes the environment, changing the way we perceive things and informing our choices” - <i>Barnbrook</i>
                     </div>
                     <br/>

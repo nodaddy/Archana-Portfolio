@@ -39,7 +39,7 @@ export default function Rapido(){
     return (
         <div align="center" id="rapido">
             <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
-            <div id="rapidoMainH" style={{fontFamily:'Palatino-Roman', fontSize:'36px', color:'#796b6d', marginBottom:'80px'}}>
+            <div id="rapidoMainH" style={{fontFamily:'serif', fontSize:'36px', color:'#796b6d', marginBottom:'80px'}}>
                 Perfecting the booking experience
             </div>
             <Row style={{marginBottom:'110px'}}>
@@ -142,7 +142,7 @@ export default function Rapido(){
                     <br/>
                     <br/>
                     <h1 style={{ 
-                        fontFamily: 'Palatino-Roman',   
+                        fontFamily: 'serif',   
                         textAlign: 'center',
                         color: '#585757'
                     }}>
@@ -152,7 +152,7 @@ export default function Rapido(){
                 </Col>
                 <Col span={2}></Col>
             </Row> 
-            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', paddingTop:'25px'}}>
+            <Row className="rapidoM" style={{backgroundColor:'#f6fbff', paddingTop:'23px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col align="left" lg={{span:20}} xs={{span:24}}>
                     <h3 style={{
@@ -223,7 +223,7 @@ export default function Rapido(){
                     <p className="rapidoHp">
                     Based on our research and insights, we drew a plan where I took up the task of solving customer-facing issues, and my team-mate Guru took the task of solving the captain's problem using VUI and present it as part of the initial meeting. We started off by setting the principles right for the project.
                     </p>
-                    <h1 align="center" style={{color:'#585757', fontFamily:'Palatino-Roman'}}>“How do we create a smoother booking flow for Riders and Drivers ?”</h1>
+                    <h1 align="center" style={{color:'#585757', fontFamily:'serif'}}>“How do we create a smoother booking flow for Riders and Drivers ?”</h1>
                     <br/> 
                     <h3 style={{ 
                         fontFamily: 'Raleway',
@@ -313,7 +313,7 @@ export default function Rapido(){
                         </Col>
                         <Col lg={{span:24}} xs={{span:12}}>
                             <br/>
-                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
+                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'23px'}}>
                             For first time users, there will be a Rapido Scooter pop up for Voice Assistance which will help the User in guiding/responding to commands that a first time Rider would typically make during Onboarding.  
                         </h3>
                         </Col>
@@ -351,7 +351,7 @@ export default function Rapido(){
                         </Col>
                         <Col lg={{span:24}} xs={{span:12}}>
                             <br/>
-                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
+                        <h3 align="left" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'23px'}}>
                             First time users can save their address and set their preferences according to the suggested tags
                             <br/>
                             The Pro/Returning users can make commands to request their rides.
@@ -384,7 +384,7 @@ export default function Rapido(){
                             <img style={{width:'60%', marginTop:'19px'}}  src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B4FA74E6-1B20-4AC0-B747-F64ECDC9F05D.png"/>
                         </Col>
                     </Row>
-                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
+                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'23px'}}>
                         <br/>
                         Error State for Internet Connectivity or Server Issues
                     </h3>
@@ -398,7 +398,7 @@ export default function Rapido(){
                         </Col>
                     </Row>
                     <br/>
-                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'25px'}}>
+                    <h3 align="center" style={{ fontFamily: 'Nanum Pen Script' ,color: '#585757', fontSize:'23px'}}>
                     Error State for Misheard Commands
                     </h3>
                     <br/>
@@ -442,7 +442,9 @@ export default function Rapido(){
                             <img style={{width:'85%'}}  src={pu3}></img>
                         </Col>
                     </Row>
-                    <h3 align="center" style={{fontFamily:'Nanum Pen Script', color:'#585757', fontSize:'25px'}}>
+                    <br/>
+                    <br/>
+                    <h3 align="center" style={{fontFamily:'Nanum Pen Script', color:'#585757', fontSize:'23px'}}>
                     Trained Pro-user flow 
                     </h3>
                 </Col>

@@ -16,6 +16,7 @@ import p1 from './../../assets/selfi/p1.png';
 import p2 from './../../assets/selfi/p2.png';
 import circleAtBack from './../../assets/selfi/circleAtBack.png';
 import Alli from './../../assets/selfi/alli.png';
+import AlliM from './../../assets/selfi/AlliM.png';
 
 import ss from './../../animation_screens/ss.mp4';
 
@@ -36,11 +37,11 @@ export default function Selfi(props){
     return (
         hasAccess ?  <div align="center" id="selfi">
                     <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
-                    <div className="showInDesktop" style={{fontSize:'48px',fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px', width:'70%'}}>
+                    <div className="showInDesktop" style={{fontSize:'48px',fontFamily:'serif', color:'#796b6d', marginBottom:'80px', width:'70%'}}>
                         The Development of a Mobile Health App 
                         for Breast Cancer Self-Management 
                     </div>
-                    <div className="showInMobile" style={{fontSize:'20px', display:'none', fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'20px', width:'80%'}}>
+                    <div className="showInMobile" style={{fontSize:'20px', display:'none', fontFamily:'serif', color:'#796b6d', marginBottom:'20px', width:'80%'}}>
                         The Development of a Mobile Health App 
                         for Breast Cancer Self-Management 
                     </div>
@@ -58,12 +59,11 @@ export default function Selfi(props){
                     <br/>
                     <br/>
                     <br/>
-                    <br/>
-                    <br/>
+                    <br/> 
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
                         <Col align="left" lg={{span:7}} xs={{span:24}}>
-                        <div align="left" className="selfiH" style={{textAlign:'left'}}>
+                        <div align="left" className="selfiH showInDesktop" style={{textAlign:'left'}}>
                             Making Breast Health more accessible and empowering 
                             people around the world with breast health care and support.
                             </div>
@@ -84,10 +84,15 @@ export default function Selfi(props){
                             <br/>
                             <br/>
                             </p>
+                            <div align="left" className="selfiH showInMobile" style={{textAlign:'left', display:'none'}}>
+                            Making Breast Health more accessible and empowering 
+                            people around the world with breast health care and support.
+                            </div>
+                            <br/>
                         </Col>
                         <Col align="left" lg={{span:2}} xs={{span:24}}></Col>
                         <Col align="left" lg={{span:11}} xs={{span:24}}>
-                            <div className="selfiHp">
+                            <div className="selfiHp"> 
                             <b>Selfi</b> is the world’s first telehealth platform designed 
                             to enable women to monitor their own breast health conveniently, from the privacy of their homes. Selfi 
                             enables women to obtain consultations with appropriate medical specialists, facilitating access to further diagnostics and specialized treatments and by no 
@@ -108,7 +113,7 @@ export default function Selfi(props){
                         <Col lg={{span:20}} xs={{span:24}} align="left">
                             <h1 align="left" style={{fontFamily:'Shorelines Script Bold', color:'#6a6868'}}>agenda</h1>
                             
-                            <div style={{fontSize:'23px', fontFamily:'Palatino-Roman'}} className="selfiHp">
+                            <div style={{fontSize:'23px', fontFamily:'serif'}} className="selfiHp">
                             Our Goal was to make breast health the new normal and design the Selfi app for women to monitor their own breast health by using the Selfi device conveniently, from the privacy of their homes, without pain or radiation.
                             </div>
                             <br/>
@@ -219,7 +224,7 @@ export default function Selfi(props){
                         <Row>
                             <Col lg={{span:12}} xs={{span:24}} align="left">
                                 <img src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/6C1C9051-C170-4771-852B-E017C7A2D2A8.svg"/>
-                                <div style={{marginTop:'10px', marginBottom:'10px', color:'#ff6b63'}}><b>DEFINE/ SYNTHESIZE</b></div>
+                                <div style={{marginTop:'10px', marginBottom:'10px', color:'#ff6b63'}}>DEFINE/ SYNTHESIZE</div>
                                 <div style={{textAlign:'left'}} className="selfiH">What we gathered</div>
                                 <br/>
                             </Col>
@@ -238,7 +243,7 @@ export default function Selfi(props){
 
                                 </div>
                                 <br/>
-                                <div className="selfiHp" style={{fontSize:'23px', fontFamily:'Palatino-Roman'}}>
+                                <div className="selfiHp" style={{fontSize:'23px', fontFamily:'serif'}}>
                                 How do we create a trustworthy experience for women, keeping privacy
                                 <br/>
                                 concerns in mind to do a BSE through the app?
@@ -293,14 +298,14 @@ export default function Selfi(props){
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
 
                             <h1 style={{fontFamily:'Prompt-SemiBold', color:'#ff6b63'}}>01</h1>
-                            <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Primary User</h3>
+                            <h3 style={{fontFamily:'serif', fontSize:'30px', color:'#585757'}}>The Primary User</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                              Elle has dense breasts and while during her mammograms checkups she endures pain and is looking for other painfree alterantives
                              </div>
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
                             <h1 style={{fontFamily:'Prompt-SemiBold', color:'#ff6b63'}}>02</h1>
-                            <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Survivor</h3>
+                            <h3 style={{fontFamily:'serif', fontSize:'30px', color:'#585757'}}>The Survivor</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                Miranda is a Survivor and has a family history of breast cancer, hence she is looking for other convenient methods for regulary checking her 
                                 breast health
@@ -308,7 +313,7 @@ export default function Selfi(props){
                         </Col> 
                         <Col lg={{span:7}} xs={{span:24}} align="center" style={{padding:'6px'}}>
                             <h1 style={{fontFamily:'Prompt-SemiBold', color:'#ff6b63'}}>03</h1>
-                            <h3 style={{fontFamily:'Palatino-Roman', fontSize:'30px', color:'#585757'}}>The Well- Wisher</h3>
+                            <h3 style={{fontFamily:'serif', fontSize:'30px', color:'#585757'}}>The Well- Wisher</h3>
                             <div className="selfiHp" style={{textAlign:'center'}}>
                                 John is a dotting husband who after hearing about the importance of breast health from his colleagues and to help her maintain breast wellness.
                                 He plans to gift her the fussfree
@@ -358,7 +363,8 @@ export default function Selfi(props){
                             <Row className="selfiM"> 
                                 <Col xs={{span:24}} lg={{span:2}} align="left"></Col> 
                                 <Col xs={{span:24}} lg={{span:20}} align="left">
-                                    <img style={{width:'90%'}} src={Alli}/>
+                                    <img className="showInDesktop" style={{width:'100%'}} src={Alli}/>
+                                    <img className="showInMobile" style={{width:'100%',display:'none'}} src={AlliM}/>
                                 </Col> 
                             </Row>
                         </Col>
@@ -428,7 +434,8 @@ export default function Selfi(props){
                                                 <div className='selfiHp'>
                                                     We worked around this method which involves a very loose mathematical formula based on how band size and cup size are calculated. In the image on the right, the underbust circumference is represented by <b>B</b> and the bust circumference is represented by <b>A</b>. The underbust circumference <b>(B)</b> represents the band size, while difference between the bust and underbust circumferences <b>(A-B)</b> is converted into a cup size. If we assume that the diameter of the sensor is S , then,
                                                     <br/>
-                                                   <img className="showInMobile" style={{width:'80%', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
+                                                    <br/>
+                                                   <img className="showInMobile" style={{width:'60%', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7CCBD315-A240-4341-9317-A2674E2974D7.svg"/>
                                                     <br/>
                                                     <br/>
                                                     <b>No. of columns: A/4S</b>
@@ -527,7 +534,7 @@ export default function Selfi(props){
                         </Row>
                         <br/>
                         <br/>
-                        <Row>
+                        <Row className="selfiM">
                         <Col lg={{span:4}} xs={{span:24}}></Col>
                         <Col lg={{span:7}} xs={{span:24}} style={{paddingTop:'10%'}}>
                             <div style={{textAlign:'left'}} className="selfiH">Easy to follow Scanning Steps</div>
@@ -551,17 +558,16 @@ export default function Selfi(props){
                         <video style={{width:'40%', backgroundColor:"white", borderRadius:'35px'}} loop="true" autoplay="autoplay" muted>
                                 <source src={ss} type="video/mp4"/>
                         video tag is not supported
-                    </video>
-                        
-                    <br/> 
+                    </video> 
                         <br/>
                         </Col> 
                         </Row>
                         <Row
                         style={{
-                            background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/2B5A4B28-CF1A-40B4-A846-92ACD65A1825.svg')",
+                            background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B69E311B-8065-4FC7-AD30-999CA2EA23F6.svg')",
                             backgroundRepeat:'no-repeat',
                             backgroundSize: 'cover', 
+                            backgroundSize: '130%', 
                             backgroundPosition: 'center top',
                             paddingTop:'150px',
                             marginBottom:'-100px',
@@ -584,8 +590,16 @@ export default function Selfi(props){
                                 <br/>
                                 <div style={{textAlign:'left', color:'#15204e'}}>
                                 <b>How to adapt to changing requirements</b>
-                                <br/>
-                                <br/>
+                                 
+
+                            </div>
+                            </div>
+                            </Col>
+                            <Col span={2}></Col>
+                        </Row>
+                        <Row className="selfiHp" style={{backgroundColor:'#faf7f4', textAlign:"left", paddingBottom:'50px'}}>
+                            <Col span={2}></Col>
+                            <Col span={20}>
                                 New timelines, resourcing issues, and reprioritization meant the scope of the project was constantly changing. I had to adapt to those changes and still deliver the best design in time within the given timeframe.
                                 <br/>
                                 <br/>
@@ -599,11 +613,9 @@ export default function Selfi(props){
                                 <br/>
                                 <br/>
                                 I learned how to define a true MVP vs. something that is simply not usable and therefore not shippable.
-                            </div>
-                            </div>
                             </Col>
                             <Col span={2}></Col>
-                        </Row>
+                            </Row>
                         <br/>
                         <br/>
 

@@ -9,7 +9,7 @@
 }
 
 .vingH {
-    font-family: Palatino-Roman;
+    font-family: serif;
     font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
@@ -32,6 +32,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+    #row2{
+        background:url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/84F0AC60-6CDE-4C00-890D-8394A37D8FE9.svg") !important;
+        background-size: 100vw !important;
+        background-repeat:no-repeat !important;
+        margin-top:30px !important;
+        padding-top:0px !important;
+    }
     #ving {
         background-size: 135vh;  
     }
@@ -54,10 +61,7 @@
     .noBackgroundInMobile {
         background: transparent !important; 
     }
-    #row2 {
-        background: none !important;
-        background-position: right !important;
-    } 
+     
     .showInDesktop {
         display: none !important;
     }

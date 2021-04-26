@@ -203,7 +203,7 @@ export default App;
  * rapido me end me 2 images make them high resolution : DONE
  * highlight font in the paras : DONE
  * icon title bold : DONE
- * yellow bullets
+ * yellow bullets ::::::::::::::::::::::::::::::::::::::::::::::::::
  * breast diagrams picture high resolution
  * project duration font increase h2->h3 for all projets : DONE
  * aid background image no-reapeat : DONE
