@@ -636,7 +636,7 @@ export default function Selfi(props){
                 <p style={{marginBottom:'50px', color:'#5e5a5a', fontFamily:'Raleway'}}>To view please enter password.</p>
                 <Input type="password"
                 onChange={(e)=>{
-                    if(e.target.value == "password"){
+                    if(e.target.value == "acrassicauda96"){
                         setHasAccess(true);
                     }
                 }}
