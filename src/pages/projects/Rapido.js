@@ -7,6 +7,8 @@ import rapido3 from './../../assets/rapido/rapido3.png'
 import rapido4 from './../../assets/rapido/rapido4.png'
 import rapido5 from './../../assets/rapido/rapido5.png'
 
+import rapidoHero from './../../assets/rapido/rapidoHero.jpg'
+
 import pUser from './../../animation_screens/pUser.mp4';
 import pu2 from './../../assets/rapido/pu2.png';
 import pu3 from './../../assets/rapido/pu3.png'; 
@@ -45,7 +47,7 @@ export default function Rapido(){
             <Row style={{marginBottom:'110px'}}>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
                 <Col lg={{span:20}} xs={{span:24}}>
-                    <img style={{width:'80%'}} src={rapidoImg}></img>
+                    <img style={{width:'80%'}} src={rapidoHero}></img>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row> 
