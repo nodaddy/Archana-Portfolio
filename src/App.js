@@ -28,7 +28,7 @@ function Footer(props){
   {props.nextLink ? <Row>
     <Col span={24} align="center">
       <NavLink to={`${props.nextLink}`} style={{color:'#585757', fontSize:'13px', fontFamily:'Raleway'}}>
-      <span style={{marginRight:'6px'}}>NEXT PROJECT</span> <span style={{fontSize:'20px'}}>»</span> 
+        <span style={{marginRight:'6px'}}>NEXT PROJECT</span> <span style={{fontSize:'20px'}}>»</span> 
       </NavLink>
       <br/>
       <NavLink to={`${props.nextLink}`}>

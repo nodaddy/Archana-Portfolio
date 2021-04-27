@@ -503,7 +503,8 @@ export default function Rapido(){
                     <br/>
                     Accept or Decline Ride
                     <br/>
-                    <span style={{fontFamily:'Nnum pen Script', fontSize:'24px'}}>Would you like to ACCEPT or DECLINE?</span>
+                    <br/>
+                    <span style={{fontFamily:'Nanum pen Script', fontSize:'24px'}}>Would you like to ACCEPT or DECLINE?</span>
                 </p>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 
