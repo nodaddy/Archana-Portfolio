@@ -326,22 +326,6 @@ export default function Rapido(){
                     <br/>
                     <br/>
                     <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
-                        <b>Confirming your booking</b>
-                    </h2>
-                    <Row className="rapidoM">
-                        <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src={cb1}/>
-                        </Col>
-                        <Col lg={{span:8}} xs={{span:12}}>
-                            <img style={{width:'85%'}} src={cb2}/>
-                        </Col>
-                        <Col lg={{span:8}} xs={{span:12}}>
-                           
-                        </Col>
-                    </Row>
-                    <br/>
-                    <br/>
-                    <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
                         <b>Saving your Preferences</b>
                     </h2>
                     <Row className="rapidoM">
@@ -361,6 +345,22 @@ export default function Rapido(){
                             <br/>
                             The Pro/Returning users can make commands to request their rides.
                         </h3>
+                        </Col>
+                    </Row>
+                    <br/>
+                    <br/>
+                    <h2 align="left" style={{color: '#15204e', fontFamily: 'Raleway'}}>
+                        <b>Confirming your booking</b>
+                    </h2>
+                    <Row className="rapidoM">
+                        <Col lg={{span:8}} xs={{span:12}}>
+                            <img style={{width:'85%'}} src={cb2}/>
+                        </Col>
+                        <Col lg={{span:8}} xs={{span:12}}>
+                            <img style={{width:'85%'}} src={cb1}/>
+                        </Col>
+                        <Col lg={{span:8}} xs={{span:12}}>
+                           
                         </Col>
                     </Row>
                     <br/>
