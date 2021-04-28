@@ -4,8 +4,13 @@ import {NavLink} from 'react-router-dom';
 import pp from './../../assets/pp/pp.jpg';
 import { behance, linkedIn } from '../../links';
 import resume from "./../../assets/resume/resume.pdf";
+import { useEffect } from 'react';
 
 export default function About(props){
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    }, [])
+
     return(
         <Row id="about" style={{paddingBottom:'100px', marginBottom:'-30px'}}>
             <Col lg={{span:2}} xs={{span:24}}></Col>
@@ -24,7 +29,7 @@ export default function About(props){
             <br/>
             <br/>
             <p align="left" style={{fontFamily:'Raleway', fontSize: '18px', color:'#796b6d'}}>
-            Finally we meet :p thanks for stopping by. I’m a Visual Experience Designer who enjoys creating memorable online experiences. I strive to create simple, original, and impactful user experiences for brands and services. I take on projects of all sizes; from web design, to branding and product design. I’ve led the visual design and creative direction of products, teams, and design systems at <b>Redd Experience Design, Bengaluru</b>. Currently I am working as freelance designer based in Guwahati, Assam.
+            Finally we meet :p thanks for stopping by. I’m a Visual &amp; Experience Designer who enjoys creating memorable online experiences. I strive to create simple, original, and impactful user experiences for brands and services. I take on projects of all sizes; from web design, to branding and product design. I’ve led the visual design and creative direction of products, teams, and design systems at <b>Redd Experience Design, Bengaluru</b>. Currently I am working as freelance designer based in Guwahati, Assam.
             <br/>
             <br/>
             I graduated from <b>UnitedWorld Institute of Design, Ahmedabad</b> with a <span style={{color:'#c96b74'}}><b>B.Des in Visual Communication and Graphic Design</b></span>. I loved the human-centered design approach and processes I learned in school and applied them to my thesis project with <b>Please See, Mumbai</b>. I also got a chance to pick up some serious Research skills and work on System Design for Asian Paints during my long summer internship at <b>The Designship, Ahmedabad</b>.

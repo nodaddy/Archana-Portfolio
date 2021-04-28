@@ -21,7 +21,19 @@
 
 .vingHp {
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #585757;
+    text-align: left;
+}
+
+.vingHp20 {
+    font-family: Raleway;
+    font-size: 19px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

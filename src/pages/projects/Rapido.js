@@ -110,7 +110,7 @@ export default function Rapido(){
                     <br/>
                     <br/>
                     Our high-level goals were to:
-                    <ul>
+                    <ul className="ulRapido">
                         <li> Follow APK and functionalities set by Slang Labs </li>
 
                         <li> Design a smoother UI for the Next billion users </li>
@@ -226,18 +226,20 @@ export default function Rapido(){
                     </p>
                     <h1 align="center" style={{color:'#585757', fontFamily:'serif'}}>“How do we create a smoother booking flow for Riders and Drivers ?”</h1>
                     <br/> 
+                    <ul className="ulRapido">
                     <h3 style={{ 
                         fontFamily: 'Raleway',
                         color:'#15204e'
                     }}>
                         <b>The best interface is no interface</b>
                     </h3>
-                    <p style={{
+                    <li style={{
                         color: '#585757',
                         fontFamily: 'Raleway',
-                        fontSize:'17px'
-                    }}>•	To achieve our goal, the rider needs to spend less time looking at the app interface and focus on other tasks at hand.
-                    </p>
+                        fontSize:'17px',
+                        paddingLeft:'20px'
+                    }}> To achieve our goal, the rider needs to spend less time looking at the app interface and focus on other tasks at hand.
+                    </li>
                     <br/> 
                     <h3 style={{ 
                         fontFamily: 'Raleway',
@@ -245,12 +247,13 @@ export default function Rapido(){
                     }}>
                         <b>Commands are screen-specific</b>
                     </h3>
-                    <p style={{
+                    <li style={{
                         color: '#585757',
                         fontFamily: 'Raleway',
-                        fontSize:'17px'
-                    }}>•	We need to take baby steps with the actions the rider would make which would be more specific to what the users see on their screen. Example: You cannot make a command like “Add Payment Method" while you’re on the Home screen.
-                    </p>
+                        fontSize:'17px',
+                        paddingLeft:'20px'
+                    }}>	We need to take baby steps with the actions the rider would make which would be more specific to what the users see on their screen. Example: You cannot make a command like “Add Payment Method" while you’re on the Home screen.
+                    </li>
                     <br/> 
                     <h3 style={{ 
                         fontFamily: 'Raleway',
@@ -258,13 +261,14 @@ export default function Rapido(){
                     }}>
                         <b>Empathise with driver’s problem</b>
                     </h3>
-                    <p style={{
+                    <li style={{
                         color: '#585757',
                         fontFamily: 'Raleway',
-                        fontSize:'17px'
-                    }}>
-                        •	Understand the scenarios captains will face while riding a bike and prioritise them throughout the app. 
-                    </p>
+                        fontSize:'17px',
+                        paddingLeft:'20px'
+                    }}> Understand the scenarios captains will face while riding a bike and prioritise them throughout the app. 
+                    </li>
+                    </ul>
                 </Col>
                 <Col lg={{span:2}} xs={{span:24}}></Col>
             </Row>
@@ -484,30 +488,26 @@ export default function Rapido(){
             <br/>
             <br/>
                 <h2 className="rapidoM" align="left" className="rapidoH showOnDesktop" style={{fontFamily:'Raleway'}}>Voice Indicators for Driver</h2>
-                <p align="left" className="rapidoHp">
-                    Pick up Location and Drop off Location 
-                    <br/>
-                    <br/>
+                <ul align="left" className="rapidoHp ulRapido">
+                    <li style={{paddingLeft:'5px'}}> Pick up Location and Drop off Location </li>
+                    <br/> 
                     <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>Your ride is from KFC Signal, HSR Layout to Grand Hotel, HSR Layout.</span>
                     <br/>
                     <br/>
-                    Minutes to Reach
-                    <br/>
+                    <li style={{paddingLeft:'5px'}}> Minutes to Reach </li> 
                     <br/>
                     <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>Pick up is 10 mins away.</span>
                     <br/>
                     <br/>
-                    Total Distance Covered
-                    <br/>
+                    <li style={{paddingLeft:'5px'}}> Total Distance Covered </li>  
                     <br/>
                     <span style={{fontFamily:'Nanum Pen Script', fontSize:'24px'}}>3 km will be the distance from your pickup to drop location.</span>
                     <br/>
                     <br/>
-                    Accept or Decline Ride
-                    <br/>
+                    <li style={{paddingLeft:'5px'}}> Accept or Decline Ride</li> 
                     <br/>
                     <span style={{fontFamily:'Nanum pen Script', fontSize:'24px'}}>Would you like to ACCEPT or DECLINE?</span>
-                </p>
+                </ul>
             </Col> 
             <Col lg={{span:2}} xs={{span:24}}></Col> 
             </Row>

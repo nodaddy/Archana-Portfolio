@@ -2,7 +2,7 @@ import './Branding.css'
 import { Row, Col } from 'antd'
 import ReactCardFlip from 'react-card-flip'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import onei from './../../assets/branding/1.png'
@@ -19,7 +19,6 @@ import fourf from './../../assets/branding/flipi/4.svg'
 import fivef from './../../assets/branding/flipi/5.svg'
 import sixf from './../../assets/branding/flipi/6.svg'
 
-
 export default function Branding(props){
 
     const [one, setOne] = useState(false);
@@ -28,6 +27,10 @@ export default function Branding(props){
     const [four, setFour] = useState(false);
     const [five, setFive] = useState(false);
     const [six, setSix] = useState(false);
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <div style={{backgroundColor:'#e2efe7', paddingBottom:'30px', marginBottom:'-30px'}}> 

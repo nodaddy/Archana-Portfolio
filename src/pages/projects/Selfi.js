@@ -31,7 +31,7 @@ export default function Selfi(props){
     const [hasAccess, setHasAccess] = useState(false);
 
     useEffect(()=>{
-        //window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -137,7 +137,7 @@ export default function Selfi(props){
                         </div>
                         <br/>
                         <div className="selfiHp">
-                        <ul>
+                        <ul className="ulSelfi">
                         <li>Over 300,000 people in the US is diagnosed with breast cancer, with an estimated 12,000 of those
                             <span style={{color:'#15204e', fontWeight:'700'}}> diagnosed expected to be under the age 
                         of 40.</span> Early detection is pivotal to ensuring a high likelihood of survival, which 
@@ -183,7 +183,7 @@ export default function Selfi(props){
                     </Row> 
                     <Row className="selfiM">
                         <Col lg={{span:2}} xs={{span:24}}></Col>
-                        <Col lg={{span:13}} xs={{span:24}} align="left"> 
+                        <Col lg={{span:13}} xs={{span:24}} align="left" style={{paddingBottom:'65px'}}> 
                         <div style={{textAlign:'left'}} className="selfiH">Key Learnings</div>
                         <br/> 
                         <div className="selfiHp">
@@ -212,13 +212,13 @@ export default function Selfi(props){
                         </div>
                         
                         </Col>
-                        <Col lg={{span:7}} xs={{span:24}} align="center"> 
+                        <Col lg={{span:7}} xs={{span:24}} align="center" > 
                         <img className="showInDesktop" style={{width:'85%', marginTop:'50px', position:'absolute', bottom:'0px', right:'20px'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BA49E97B-0D0A-4F6F-B7E9-9DF87FB6B209.svg"/>
                         <img className="showInMobile" style={{width:'85%', marginTop:'50px', display:'none'}} src="https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/BA49E97B-0D0A-4F6F-B7E9-9DF87FB6B209.svg"/>
                         </Col>
                         <Col lg={{span:2}} xs={{span:24}}> </Col>
                     </Row> 
-                    <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'35px'}}>
+                    <Row className="selfiM" style={{backgroundColor:'#faf7f4', paddingTop:'80px'}}>
                     <Col lg={{span:2}} xs={{span:24}}></Col>
                     <Col lg={{span:20}} xs={{span:24}}>
                         <Row>
@@ -549,13 +549,13 @@ export default function Selfi(props){
                             background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B0FB0763-0D8B-4B63-8CDF-9A7E6B64DF58.svg')",
                             backgroundRepeat:'no-repeat',
                             backgroundSize: 'contain',
-                            backgroundSize: '85%',
+                            backgroundSize: '90%',
                             backgroundPosition: 'right top'
                         }}
                         >
                      <br/>
                         <br/>
-                        <video style={{width:'40%', backgroundColor:"white", borderRadius:'35px'}} loop="true" autoplay="autoplay" muted>
+                        <video style={{width:'45%', backgroundColor:"white", borderRadius:'50px', border:'0px outset silver'}} loop="true" autoplay="autoplay" muted>
                                 <source src={ss} type="video/mp4"/>
                         video tag is not supported
                     </video> 

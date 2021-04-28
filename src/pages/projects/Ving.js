@@ -332,7 +332,7 @@ export default function Ving(){
                         and payment methods.
                     </div>
                     <br/>
-                    <div className="vingHp">
+                    <div className="vingHp vingHp20">
                     Choose from several payment options. As a VING member, you are charged once a month on the date you have signed up. You have the freedom to change your plan or cancel online at any time.
                     </div>
                 </Col>
@@ -341,9 +341,9 @@ export default function Ving(){
             <Row
             className="vingM noBackgroundInMobile"
             style={{
-                marginTop:'-150px', 
-                paddingTop:'130px',
-                paddingBottom:'50px',
+                marginTop:'-350px', 
+                paddingTop:'310px',
+                paddingBottom:'100px',
                 background:'url("https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/0378630F-477E-485F-B6FB-015F00131AA9.svg")',
                 backgroundSize:'contain',
                 backgroundRepeat:'no-repeat',
