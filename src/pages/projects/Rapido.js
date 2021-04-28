@@ -373,7 +373,7 @@ export default function Rapido(){
                             <img style={{width:'80%'}} src={rapido2}></img>
                         </Col>
                         <Col lg={{span:8}} xs={{span:24}}>
-                            <img id="bnwimg" style={{marginLeft:'-170px', marginTop:'100px', width:'100%'}} src={rapido3}/>
+                            <img id="bnwimg" style={{marginLeft:'-170px', marginTop:'50px', width:'145%'}} src={rapido3}/>
                         </Col>
                     </Row>
                     <br/>
