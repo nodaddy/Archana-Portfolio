@@ -31,7 +31,7 @@ export default function Selfi(props){
     const [hasAccess, setHasAccess] = useState(false);
 
     useEffect(()=>{
-        window.scrollTo(0, 0);
+        //window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -567,11 +567,11 @@ export default function Selfi(props){
                             background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B69E311B-8065-4FC7-AD30-999CA2EA23F6.svg')",
                             backgroundRepeat:'no-repeat',
                             backgroundSize: 'cover', 
-                            backgroundSize: '130%', 
+                            backgroundSize: '100%', 
                             backgroundPosition: 'center top',
-                            paddingTop:'150px',
+                            paddingTop:'200px',
                             marginBottom:'-100px',
-                            paddingBottom:'150px'
+                            paddingBottom:'100px'
                         }}
                         >
                             <Col span={2}></Col>
@@ -582,16 +582,16 @@ export default function Selfi(props){
                             <div style={{fontFamily:'Raleway', color:'#ff6b63'}}><b>OUTCOME</b></div>
                             <br/>
                             <br/>
-                            <div className="selfiHp" style={{textAlign:'center'}}>                                
+                            <div className="selfiHp" style={{textAlign:'left'}}>                                
                                 Selfi was a really exciting and fun project for me to work on as it provided real value for me as a women and being able to work and create something for breast wellness, it involved a ton of research, detailed interactions and planning which
                                 helped me understand a Users perspective and ultimately aim for better solutions . However, shifting priorities and changing roadmaps have delayed the launch of this App. Still, I learned some important takeaways from this project related to product and business processes.
                                 <br/>
-                                <br/>
-                                <br/>
+                                <br/> 
+                                <br/> 
                                 <div style={{textAlign:'left', color:'#15204e'}}>
-                                <b>How to adapt to changing requirements</b>
-                                 
-
+                                <b>How to adapt to changing requirements</b> 
+                                <br/>
+                            <br/>
                             </div>
                             </div>
                             </Col>
