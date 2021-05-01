@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5a26c020.chunk.css",
-    "main.js": "/static/js/main.9f86c2b9.chunk.js",
-    "main.js.map": "/static/js/main.9f86c2b9.chunk.js.map",
+    "main.js": "/static/js/main.7c80c8e1.chunk.js",
+    "main.js.map": "/static/js/main.7c80c8e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ff30c056.js",
     "runtime-main.js.map": "/static/js/runtime-main.ff30c056.js.map",
     "static/css/2.a5497ee8.chunk.css": "/static/css/2.a5497ee8.chunk.css",
@@ -95,7 +95,7 @@
     "static/media/rapidoHero.53cbee43.jpg": "/static/media/rapidoHero.53cbee43.jpg",
     "static/media/red.33420129.png": "/static/media/red.33420129.png",
     "static/media/reminderbooking.5f11aa8d.png": "/static/media/reminderbooking.5f11aa8d.png",
-    "static/media/resume.d7e1d652.pdf": "/static/media/resume.d7e1d652.pdf",
+    "static/media/resume.2fb90473.pdf": "/static/media/resume.2fb90473.pdf",
     "static/media/selfiBack.cc9ed8a6.svg": "/static/media/selfiBack.cc9ed8a6.svg",
     "static/media/selfiForm.2f4d4cdf.png": "/static/media/selfiForm.2f4d4cdf.png",
     "static/media/selfiMockup.f16662c7.png": "/static/media/selfiMockup.f16662c7.png",
@@ -121,6 +121,6 @@
     "static/css/2.a5497ee8.chunk.css",
     "static/js/2.5dd48b8d.chunk.js",
     "static/css/main.5a26c020.chunk.css",
-    "static/js/main.9f86c2b9.chunk.js"
+    "static/js/main.7c80c8e1.chunk.js"
   ]
 }

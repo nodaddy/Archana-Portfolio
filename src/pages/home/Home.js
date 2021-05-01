@@ -13,8 +13,7 @@ export default function Home(){
               to bring sane ideas to the light.
          </div>
          <div id="home-about" style={{fontFamily:'Raleway', fontSize:'20px'}}>Hello there! I am Archana and I love creating memorable visual design experiences 
-         <br className="showInDesktop"/> 
-            for products and brands that help people make a difference. </div>
+         <br className="showInDesktop"/> for products and brands that help people make a difference. </div>
   </div>
     )
 }
