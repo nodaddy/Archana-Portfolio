@@ -546,11 +546,12 @@ export default function Selfi(props){
                         <Col lg={{span:13}} xs={{span:24}}
                          align="center"
                          style={{
-                            background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/B0FB0763-0D8B-4B63-8CDF-9A7E6B64DF58.svg')",
+                            background:"url('https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/7C68C7D5-3C81-4EFC-885C-55C9B08C4581.svg')",
                             backgroundRepeat:'no-repeat',
                             backgroundSize: 'contain',
                             backgroundSize: '90%',
-                            backgroundPosition: 'right top'
+                            backgroundPosition: 'right top',
+                            paddingBottom:'50px'
                         }}
                         >
                      <br/>
@@ -603,13 +604,13 @@ export default function Selfi(props){
                                 New timelines, resourcing issues, and reprioritization meant the scope of the project was constantly changing. I had to adapt to those changes and still deliver the best design in time within the given timeframe.
                                 <br/>
                                 <br/>
-                                <b>Always fight for good UX</b>
+                                <b style={{color:'#15204e'}}>Always fight for good UX</b>
                                 <br/>
                                 <br/>
                                 We as a team had to work under very strict technical constraints, but still fought for what we believed is essential to having a good user experience.
                                 <br/>
                                 <br/>
-                                <b>Don’t overpromise and underdeliver</b>
+                                <b style={{color:'#15204e'}}>Don’t overpromise and underdeliver</b>
                                 <br/>
                                 <br/>
                                 I learned how to define a true MVP vs. something that is simply not usable and therefore not shippable.
@@ -617,9 +618,7 @@ export default function Selfi(props){
                             <Col span={2}></Col>
                             </Row>
                         <br/>
-                        <br/>
-
-
+                        <br/> 
                 </div>
                 :
                 <>

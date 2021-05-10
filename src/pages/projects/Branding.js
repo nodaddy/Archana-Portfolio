@@ -37,7 +37,7 @@ export default function Branding(props){
         <Row style={{ textAlign:'center', paddingTop:'25vh'}}>
             <Col xs={{span:24}} md={{span:24}} lg={{span:24}}>
             <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration  - 2018-2020</h3>
-            <h1 style={{fontFamily:'Palatino-Roman', color:'#796b6d', marginBottom:'80px'}}>
+            <h1 style={{fontFamily:'serif', color:'#796b6d', marginBottom:'80px'}}>
             A compilation of all my creative explorations
             </h1>
             </Col>
