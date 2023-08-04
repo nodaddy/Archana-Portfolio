@@ -35,7 +35,7 @@ export default function Selfi(props){
     }, [])
 
     return (
-        hasAccess ?  <div align="center" id="selfi">
+        !hasAccess ?  <div align="center" id="selfi">
                     <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study &nbsp; - &nbsp; 2019 - 2020</h3>
                     <div className="showInDesktop" style={{fontSize:'48px',fontFamily:'serif', color:'#796b6d', marginBottom:'80px', width:'70%'}}>
                         The Development of a Mobile Health App 
