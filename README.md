@@ -1,3 +1,12 @@
+create a new branch
+npm run build
+copy contents to docs folder
+raise a PR
+merge into main
+pull main in local
+npm run deploy
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
