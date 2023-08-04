@@ -1,3 +1,4 @@
+import React from 'react';
 import {useEffect, useState} from 'react';
 import './Ving.css';
 import {Row, Col, Input} from 'antd'; 
@@ -27,7 +28,7 @@ const VingLogo = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/C4A85488
 export default function Ving(){
 
 
-    const [hasAccess, setHasAccess] = useState(false);
+    const [hasAccess, setHasAccess] = useState(true);
 
     useEffect(()=>{
         window.scrollTo(0, 0);

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {useEffect} from 'react';
 import './Innaz.css';
 import {Row, Col} from 'antd'; 
