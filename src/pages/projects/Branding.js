@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './Branding.css'
 import { Row, Col } from 'antd'
 import ReactCardFlip from 'react-card-flip'

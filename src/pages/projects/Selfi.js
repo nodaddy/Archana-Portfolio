@@ -1,3 +1,4 @@
+import React from 'react';
 import './Selfi.css'
 import {useEffect, useState} from 'react'; 
 import {Row, Col, Input} from 'antd'; 
@@ -28,14 +29,14 @@ export const lockIcon = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/3
 
 export default function Selfi(props){
 
-    const [hasAccess, setHasAccess] = useState(false);
+    const [hasAccess, setHasAccess] = useState(true);
 
     useEffect(()=>{
         //window.scrollTo(0, 0);
     }, [])
 
     return (
-        !hasAccess ?  <div align="center" id="selfi">
+        hasAccess ?  <div align="center" id="selfi">
                     <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study &nbsp; - &nbsp; 2019 - 2020</h3>
                     <div className="showInDesktop" style={{fontSize:'48px',fontFamily:'serif', color:'#796b6d', marginBottom:'80px', width:'70%'}}>
                         The Development of a Mobile Health App 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {Input} from 'antd';
 import { useEffect } from 'react';
 export const lockIcon = "https://cdn.zeplin.io/6061ed0fe3392716f0cc504a/assets/373D7483-4A00-449A-96E4-6899204BBE2D.svg";

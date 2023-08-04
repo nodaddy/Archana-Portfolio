@@ -1,3 +1,4 @@
+import React from 'react';
 import {useEffect} from 'react';
 import './Rapido.css';
 import {Row, Col} from 'antd'; 
