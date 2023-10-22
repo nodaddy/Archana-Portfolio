@@ -26,8 +26,8 @@ export default function Innaz(){
 
     return (
         <div align="center" id="innaz">
-            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration  - <span style={{fontFamily:'Prompt'}}><b>Jan 2018- May 2018</b></span>
-</h3>
+            {/*<h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration  - <span style={{fontFamily:'Prompt'}}><b>Jan 2018- May 2018</b></span>
+</h3>*/}
             <div id="innazMainH" style={{fontFamily:'serif', color:'#796b6d', marginBottom:'30px', fontSize:'36px'}}>
             Rebranding for an Event Website
             </div>
