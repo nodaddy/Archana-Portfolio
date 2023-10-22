@@ -41,7 +41,7 @@ export default function Rapido(){
 
     return (
         <div align="center" id="rapido">
-            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>
+            {/*<h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Case Study  -  2019</h3>*/}
             <div id="rapidoMainH" style={{fontFamily:'serif', fontSize:'36px', color:'#796b6d', marginBottom:'80px'}}>
                 Perfecting the booking experience
             </div>
