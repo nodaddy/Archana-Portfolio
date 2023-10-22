@@ -28,9 +28,10 @@ export default function Aid(){
 
     return (
         <div align="center" id="aid">
-            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>
+        {/*<h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>
                 Project Duration  -  Sept 2019- Feb 2020
             </h3>
+            */}
             <div id="aidMainH" style={{fontFamily:'serif', color:'#796b6d', marginBottom:'80px', fontSize:'48px'}}>
             University Website Redesign 
             </div>
