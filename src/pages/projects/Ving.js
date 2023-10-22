@@ -36,7 +36,7 @@ export default function Ving(){
 
     return (
         hasAccess ?   <div align="center" id="ving">
-            <h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration - 2020</h3>
+            {/*<h3 style={{fontFamily:'Raleway', color:'#796b6d'}}>Project Duration - 2020</h3>*/}
             <div id="vingMainH" style={{width:'80%', fontFamily:'serif', color:'#796b6d', marginBottom:'10px', fontSize:'48px'}}>
             Creating a Software for 
             Booking rooms online
